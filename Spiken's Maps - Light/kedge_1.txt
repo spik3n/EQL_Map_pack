@@ -1,0 +1,12 @@
+P 166, 233, 0, 255, 255, 0, 2, Cauldronboil
+P 69, -5, 0, 255, 255, 0, 2, Cauldronbubble
+P 329, -127, 0, 255, 255, 0, 2, Coralyn_Kelpmaiden
+P 308, -5, 0, 255, 255, 0, 2, Estrella_of_Gloomwater
+P -112, -37, 0, 255, 0, 0, 2, Phinigel_Autropos
+P 290, 63, 0, 255, 255, 0, 2, Priestess_Auraia
+P 248, -8, 0, 255, 255, 0, 2, Shellara_Ebbhunter
+P 288, -259, 0, 255, 128, 0, 2, Undertow
+P 190, 340, 0, 255, 255, 0, 2, aqua_goblin_prisoner
+P 456, -179, 0, 255, 255, 0, 2, tainted_seahorse
+P 285, 19, 0, 255, 255, 0, 2, Auraline
+P 334, 6, 0, 255, 255, 0, 2, Nyrein_the_Beguiled

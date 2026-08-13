@@ -1382,26 +1382,4 @@ L -184.6942, -924.6925, -51.5001,  -128.2852, -916.6217, -49.3222,  0, 127, 127
 L -166.8795, -624.4066, 1.9543,  -177.9943, -627.9877, 2.1900,  127, 127, 127
 P -70.1280, 124.3987, 1.6767, 204, 0, 204, 3, to_South_Karana
 P -60.1041, 113.8024, 0.2000, 255, 255, 255, 2, Succor
-P -246, -357, 0, 255, 255, 0, 2, Brother_Gruff
-P -329, -382, 0, 255, 255, 0, 2, Brother_Hayle
-P -91.0, -1177.5, 0, 255, 255, 0, 2, Kurrpok_Splitpaw
-P 150, -1063, 0, 255, 255, 0, 2, Nisch_Val_Torash_Mashk
-P 22, -1303, 0, 255, 255, 0, 2, Rosch_Val_L`Vlor
-P -92, -1445, 0, 255, 255, 0, 2, Tesch_Val_Deval`Nmak
-P 153, -405, 0, 255, 255, 0, 2, Tesch_Val_Kadvem
-P -135.0, -1177.5, 0, 255, 255, 0, 2, Verishe_Mal_Executioner
-P -76, -1196, 0, 255, 255, 0, 2, Verishe_Mal_Judge
 P 63, 187, 0, 0, 200, 255, 1, Spiken's_Maps_-_github.com/spik3n/EQL_Map_pack
-P 40, -1080, 0, 255, 255, 0, 2, Air_Elemental_Breeze_Master
-P 109, -589, 0, 255, 255, 0, 2, Fire_Elemental_Brigand
-P -7, 2, 0, 255, 255, 0, 2, Gillamina_Garstobidokis
-P 151, -486, 0, 255, 255, 0, 2, Overlord_Flargor
-P -284, -406, 0, 255, 255, 0, 2, Retharg
-P -10, -1243, 0, 255, 255, 0, 2, Rockbeast_Kloorg
-P 12, -604, 0, 255, 255, 0, 2, Scorch
-P 229, -686, 0, 255, 255, 0, 2, Sertiki_the_Master_of_Tides
-P 343, -599, 0, 255, 255, 0, 2, Stormrider_Hilooa
-P 308, -538, 0, 255, 255, 0, 2, Vrek_Hillsmasher
-P -127, -1148, 0, 255, 255, 0, 2, Water_Elemental_Officer
-P 167, -443, 0, 255, 255, 0, 2, Water_Elemental_Overseer
-P -237, -767, 0, 255, 255, 0, 2, Windspirit_Glorn

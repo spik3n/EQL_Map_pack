@@ -1,0 +1,17 @@
+P -100.632, -672.3125, -1.998, 0, 0, 0, 2, Priest_of_Discord(to_Dranik_Scar)
+P -271, -977, 0, 255, 255, 0, 2, Annabelle
+P 58, -450, 0, 255, 255, 0, 2, FSP-General-NoEffect
+P 22.5, -70.5, 0, 255, 255, 0, 2, Guardian_Jasmina
+P -16, -262, 0, 255, 255, 0, 2, Guardian_Krogone
+P -21.5, -70.5, 0, 255, 255, 0, 2, Guardian_Mandavar
+P 16, -198, 0, 255, 255, 0, 2, Guardian_Omanaru
+P -16, -198, 0, 255, 255, 0, 2, Guardian_Rooksis
+P 16, -262, 0, 255, 255, 0, 2, Guardian_Velldro
+P 307, -412, 0, 255, 255, 0, 2, High_Priest_of_Luclin
+P -307, -413, 0, 255, 255, 0, 2, High_Priestess_of_Luclin
+P -46, -620, 0, 255, 255, 0, 2, Neighborhood_Guild_Hall
+P 1, -12, 0, 255, 255, 0, 2, Sage_Vonglor
+P 46, -620, 0, 255, 255, 0, 2, Standard_Guild_Hall
+P 92, -596, 0, 255, 255, 0, 2, Tavid_Dennant
+P 197, -621, 0, 255, 255, 0, 2, augment_aura
+P -26, -174, 0, 255, 255, 0, 2, Kesiri_Dawnlark

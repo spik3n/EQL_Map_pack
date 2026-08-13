@@ -1,0 +1,8 @@
+P -40, 1570, 0, 0, 0, 0, 2, HF:_L_20_H_20_(Inside_Amy_Temple)
+P 163, -549, 0, 255, 0, 0, 2, Cazic_Thule
+P 1201, 635, 0, 255, 0, 0, 2, Dread
+P 358, 636, 0, 255, 0, 0, 2, Fright
+P 714, -412, 0, 255, 0, 0, 2, Irak_Altil
+P 365, -199, 0, 255, 0, 0, 2, Terror
+P -413, -804, 0, 255, 0, 0, 2, Wraith_of_a_Shissar
+P 583, 437, 0, 255, 0, 0, 2, The_Tempest_Reaver

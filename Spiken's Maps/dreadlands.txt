@@ -4592,16 +4592,4 @@ P 831.4568, -3360.6487, 196.3446, 204, 0, 204, 3, to_Burning_Woods
 P 3512.1331, -2291.8628, 135.7821, 204, 0, 204, 3, to_Frontier_Mountains
 P 5817.6392, -375.7530, 122.6950, 204, 0, 204, 3, to_Firiona_Vie
 P 1970.7638, -501.5595, 23.6885, 204, 0, 204, 3, to_Karnor's_Castle
-P -9657, -780, 0, 255, 128, 0, 2, Baldric_Slezaf
-P -3876, -485, 0, 255, 0, 0, 2, Gorenaire
-P -9645, -3066, 0, 255, 255, 0, 2, Kunark_Spires
-P -8729, -777, 0, 255, 255, 0, 2, Nexus_Scion
-P -10099, -1839, 0, 255, 255, 0, 2, Remnant_Spirit
-P 4384, -394, 0, 255, 255, 0, 2, Veltar
-P -9368, -580, 0, 255, 255, 0, 2, gem_cutter_skeleton
-P 5487, -1380, 0, 255, 255, 0, 2, greater_plaguebone
-P -2525, -191, 0, 255, 255, 0, 2, mountain_giant_craig
-P 5144, -2252, 0, 255, 255, 0, 2, rotting_skeleton
 P -2061, 2984, 0, 0, 200, 255, 1, Spiken's_Maps_-_github.com/spik3n/EQL_Map_pack
-P -10099, -1839, 0, 255, 255, 0, 2, Time_Torn_Acolyte
-P -8922, -635, 0, 255, 255, 0, 2, mage_trap

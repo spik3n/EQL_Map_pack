@@ -1,0 +1,8 @@
+P 867, -367, 0, 255, 255, 0, 2, Elishia_Leafrunner
+P 846, -375, 0, 255, 128, 0, 2, Farios_Elianos
+P 658, -736, 0, 255, 128, 0, 2, Joren_Nobleheart
+P 839, -556, 0, 255, 255, 0, 2, Kinool_Goldsinger
+P 599, -795, 0, 255, 128, 0, 2, Niola_Impholder
+P 409, -507, 0, 255, 255, 0, 2, Tarker_Blazetoss
+P 814, -360, 0, 255, 255, 0, 2, Thwinose_Vilgarn
+P 601, -462, 0, 255, 255, 0, 2, Yuin_Starchaser

@@ -8933,28 +8933,3 @@ L -470.2874, -0.4645, -2.8973,  -470.7640, 2.0973, -3.3947, 160, 160, 160
 L -470.7640, 2.0973, -3.3947,  -471.1190, 4.0061, -3.8013, 160, 160, 160
 L -471.1190, 4.0061, -3.8013,  -471.7099, 8.9917, -4.4708, 160, 160, 160
 P -121, 960, 0, 0, 200, 255, 1, Spiken's_Maps_-_github.com/spik3n/EQL_Map_pack
-P -217, 468, 0, 255, 0, 0, 2, Abomination_of_Ro
-P 165, -515, 0, 0, 255, 255, 2, Warrior_GM
-P 119, -619, 0, 0, 255, 255, 2, Shaman_GM
-P 125, -511, 0, 0, 255, 255, 2, ShadowKnight_GM
-P 118, -571, 0, 0, 255, 255, 2, Monk_GM
-P 168, -616, 0, 0, 255, 255, 2, Necromancer_GM
-P 169, -575, 0, 0, 255, 255, 2, Beastlord_GM
-P 162, -100, 0, 0, 0, 0, 2, Cleric_Spells
-P 198, -86, 0, 0, 0, 0, 2, Magician_Spells
-P 69, -240, 0, 0, 0, 0, 2, ShadowKnight_Spells
-P 91, -146, 0, 0, 0, 0, 2, Wizard_Spells
-P 128, -240, 0, 0, 0, 0, 2, Beastlord_Spells
-P 219, -143, 0, 0, 0, 0, 2, Necromancer_Spells
-P 139, -118, 0, 0, 0, 0, 2, Shaman_Spells
-P 86, -172, 0, 0, 0, 0, 2, Adventuring_Supplies
-P 115, -280, 0, 0, 0, 0, 2, Smithing
-P 70, -297, 0, 0, 0, 0, 2, Tailoring
-P 100, -297, 0, 0, 0, 0, 2, Smithing
-P 52, -280, 0, 0, 0, 0, 2, Tailoring
-P 117, -86, 0, 0, 0, 0, 2, Enchanter_Spells
-P 145, -207, 0, 0, 0, 0, 2, Bard_Songs
-P 84, -204, 0, 0, 0, 0, 2, Ranger_Spells
-P 140, -182, 0, 0, 0, 0, 2, Banker
-P 164, -132, 0, 0, 0, 0, 2, Druid_Spells
-P 133, -278, 0, 0, 0, 0, 2, Paladin_Spells

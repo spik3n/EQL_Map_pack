@@ -1,0 +1,3 @@
+P 387, -944, 0, 255, 128, 0, 2, Raster_of_Guk
+P 224, -755, 0, 255, 255, 0, 2, Slaythe_the_Slayer
+P 749, -1067, 0, 255, 255, 0, 2, Zol_Ghoul_Knight

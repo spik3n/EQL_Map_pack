@@ -1,0 +1,2 @@
+P -408, 70, 0, 255, 255, 0, 2, Knight_of_Ni
+P -545, 0, 0, 255, 255, 0, 2, Skaramatra_the_Risen

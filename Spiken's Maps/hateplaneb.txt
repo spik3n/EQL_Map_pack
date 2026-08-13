@@ -5872,37 +5872,4 @@ L 468.4687, 1309.6433, 30.1067, 468.4556, 1294.3541, 30.1062, 127, 127, 127
 L 466.3442, 1294.3539, 28.1062, 466.514, 1309.6433, 28.1066, 127, 127, 127
 L 464.4671, 1309.6432, 26.1082, 464.4596, 1294.3534, 26.1062, 127, 127, 127
 L 462.4599, 1294.3531, 24.1063, 462.4612, 1309.6431, 24.1062, 127, 127, 127
-P 427, 350, 0, 255, 0, 0, 2, Corrupter_of_Life
-P 214, 615, 0, 255, 0, 0, 2, thought_destroyer
 P 150, 1695, 0, 0, 200, 255, 1, Spiken's_Maps_-_github.com/spik3n/EQL_Map_pack
-P 79, 856, 0, 255, 0, 0, 2, Arcanist_V`Gimis
-P -129, 667, 0, 255, 0, 0, 2, Arch_Lich_T`Vaxok
-P -177, 795, 0, 255, 0, 0, 2, Archon_G`Uvin
-P -71, 381, 0, 255, 0, 0, 2, Assassin_Z`Jrix
-P -13, -571, 0, 255, 0, 0, 2, Avatar_of_Abhorrence
-P -9, -769, 0, 255, 0, 0, 2, Coercer_T`vala
-P -379, 621, 0, 255, 0, 0, 2, Dread_Knight_T`Kamax
-P -540, 874, 0, 255, 0, 0, 2, Dreadlord_M`Noxin
-P -532, 520, 0, 255, 0, 0, 2, Evangelist_W`Rixxus
-P 507, 495, 0, 255, 0, 0, 2, Grandmaster_H`Qilm
-P 737, 201, 0, 255, 0, 0, 2, Grim_Abhorrent_Kaltik
-P 185, 120, 0, 255, 0, 0, 2, Hand_of_the_Maestro
-P -406, 95, 0, 255, 0, 0, 2, Lord_of_Fury
-P 598, -503, 0, 255, 0, 0, 2, Lord_of_Ire
-P 19, -477, 0, 255, 0, 0, 2, Lord_of_Loathing
-P 362, -365, 0, 255, 0, 0, 2, Magi_P`Tasa
-P -457, 318, 0, 255, 0, 0, 2, Master_D`Samni
-P 536, -218, 0, 255, 0, 0, 2, Master_R`Tal
-P 585, -61, 0, 255, 0, 0, 2, Master_of_Spite
-P -114, 53, 0, 255, 0, 0, 2, Master_of_Vengence
-P 814, 549, 0, 255, 0, 0, 2, Mistress_A`Zara
-P -562, 409, 0, 255, 0, 0, 2, Mistress_of_Malevolence
-P 439, -138, 0, 255, 0, 0, 2, Mistress_of_Scorn
-P -407, 732, 0, 255, 0, 0, 2, Overlord_R`Gahbsa
-P -138, 225, 0, 255, 0, 0, 2, Sorcerer_C`Gazin
-P -276, 717, 0, 255, 0, 0, 2, Spy_Master_I`Kavin
-P 736, 858, 0, 255, 0, 0, 2, Templar_J`Rosix
-P 762, -187, 0, 255, 0, 0, 2, The_Deathrot_Knight
-P -32, -409, 0, 255, 0, 0, 2, Vicar_M`Kari
-P -389, 263, 0, 255, 0, 0, 2, Warlock_J`Rath
-P -353, 497, 0, 255, 0, 0, 2, Warlord_E`Prosio

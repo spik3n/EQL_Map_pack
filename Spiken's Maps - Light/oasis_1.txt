@@ -1,0 +1,13 @@
+P 875, -886, 0, 255, 255, 0, 2, Barrel_Barge
+P -783, -1553, 0, 255, 128, 0, 2, Cazel
+P -1414, -2288, 0, 255, 255, 0, 2, Hatar
+P 417, 532, 0, 255, 255, 0, 2, Hurgo_Felcind
+P 746, -943, 0, 255, 255, 0, 2, Lockjaw
+P 375, 554, 0, 255, 255, 0, 2, Mantrek_Needlebender
+P -1456, -310, 0, 255, 255, 0, 2, Rack_Stonebelly
+P 434, 594, 0, 255, 255, 0, 2, Ranzall_Netcaster
+P -1347, 1788, 0, 255, 255, 0, 2, Taldrik_Stumpystout
+P -1352, -690, 0, 255, 255, 0, 2, dry_bones_skeleton
+P 1180, -1557, 0, 255, 255, 0, 2, #_2
+P -6, -2388, 0, 255, 255, 0, 2, Arthikus
+P -1312, -1489, 0, 255, 255, 0, 2, Keelee_Rayin

@@ -653,26 +653,9 @@ L -11.4075, -402.3577, 4.2609, -11.4063, -425.2142, 4.2609, 64, 64, 64
 L -11.4063, -425.2142, 4.2617, 11.395, -425.1625, 4.2617, 64, 64, 64
 L 11.395, -425.1625, 4.2607, 11.3963, -402.3616, 4.2607, 64, 64, 64
 P 0.818, -616.73, 1.1277, 255, 255, 255, 2, Magus
-P -100.632, -672.3125, -1.998, 0, 0, 0, 2, Priest_of_Discord(to_Dranik_Scar)
 P 48.7421, -623.412, -0.1414, 204, 0, 204, 2, to_Guild_Hall
 P -48.4525, -623.421, -0.1318, 204, 0, 204, 2, to_Guild_Hall
 P -20.2072, 61.2899, 1.7551, 204, 0, 204, 3, to_Plane_of_Knowledge
 P -293.201, -981.6037, -1.4077, 204, 0, 204, 3, to_Neighborhoods
 P 191, -50, -1.8938, 255, 255, 255, 1, www.tinyurl.com/eqmappack
-P -271, -977, 0, 255, 255, 0, 2, Annabelle
-P 58, -450, 0, 255, 255, 0, 2, FSP-General-NoEffect
-P 22.5, -70.5, 0, 255, 255, 0, 2, Guardian_Jasmina
-P -16, -262, 0, 255, 255, 0, 2, Guardian_Krogone
-P -21.5, -70.5, 0, 255, 255, 0, 2, Guardian_Mandavar
-P 16, -198, 0, 255, 255, 0, 2, Guardian_Omanaru
-P -16, -198, 0, 255, 255, 0, 2, Guardian_Rooksis
-P 16, -262, 0, 255, 255, 0, 2, Guardian_Velldro
-P 307, -412, 0, 255, 255, 0, 2, High_Priest_of_Luclin
-P -307, -413, 0, 255, 255, 0, 2, High_Priestess_of_Luclin
-P -46, -620, 0, 255, 255, 0, 2, Neighborhood_Guild_Hall
-P 1, -12, 0, 255, 255, 0, 2, Sage_Vonglor
-P 46, -620, 0, 255, 255, 0, 2, Standard_Guild_Hall
-P 92, -596, 0, 255, 255, 0, 2, Tavid_Dennant
-P 197, -621, 0, 255, 255, 0, 2, augment_aura
 P -23, 121, 0, 0, 200, 255, 1, Spiken's_Maps_-_github.com/spik3n/EQL_Map_pack
-P -26, -174, 0, 255, 255, 0, 2, Kesiri_Dawnlark

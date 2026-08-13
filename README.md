@@ -61,6 +61,16 @@ and for **GuildMaster / class-trainer** locations, POIs are sourced from the com
 
 *New Sebilis Expedition: GuildMasters (cyan), the boss (red) and class spell/tradeskill merchants (black), placed from the EQL Wiki.*
 
+### 🔀 Toggle the labels on/off
+
+All the spawn labels (named / rare / boss / GuildMaster / NPC markers) live on **map layer 1**,
+so you can hide them with a single click when a zone gets busy — the geometry, zone lines and
+landmarks stay put.
+
+In the map window, under **Layers: Visible**, click **`1`** to hide the labels (click it again to
+bring them back). Perfect for camps like **Rathe Mountains**, where the froglok names otherwise
+cover the whole map.
+
 ### Spiken's Maps - Light
 
 Identical to Spiken's Maps but with **light-gray lines** instead of dark, so they show up

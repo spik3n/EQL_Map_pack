@@ -1179,16 +1179,4 @@ L -66.9101, 28.8999, -328.3779,  -110.6068, 42.5337, -311.7941, 160, 160, 160
 P -14.0000, -100.0000, 300.1250, 255, 255, 255, 1, Succor
 P -30.2156, -124.9445, 300.0000, 204, 0, 204, 3, to_Dagnor's_Cauldron
 P -50.0000, -190.0000, 300.0000, 255, 255, 255, 2, HF:Low_50_High_50
-P 166, 233, 0, 255, 255, 0, 2, Cauldronboil
-P 69, -5, 0, 255, 255, 0, 2, Cauldronbubble
-P 329, -127, 0, 255, 255, 0, 2, Coralyn_Kelpmaiden
-P 308, -5, 0, 255, 255, 0, 2, Estrella_of_Gloomwater
-P -112, -37, 0, 255, 0, 0, 2, Phinigel_Autropos
-P 290, 63, 0, 255, 255, 0, 2, Priestess_Auraia
-P 248, -8, 0, 255, 255, 0, 2, Shellara_Ebbhunter
-P 288, -259, 0, 255, 128, 0, 2, Undertow
-P 190, 340, 0, 255, 255, 0, 2, aqua_goblin_prisoner
-P 456, -179, 0, 255, 255, 0, 2, tainted_seahorse
 P 126, 423, 0, 0, 200, 255, 1, Spiken's_Maps_-_github.com/spik3n/EQL_Map_pack
-P 285, 19, 0, 255, 255, 0, 2, Auraline
-P 334, 6, 0, 255, 255, 0, 2, Nyrein_the_Beguiled

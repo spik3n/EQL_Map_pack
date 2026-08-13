@@ -1,0 +1,13 @@
+P 164, -89, 0, 255, 128, 0, 2, Black_Dire
+P 110, 318, 0, 255, 255, 0, 2, Butler_Syncall
+P -310, 150, 0, 255, 255, 0, 2, Eirod_Haerod
+P 112, -80, 0, 255, 255, 0, 2, Enynti
+P -352, 205, 0, 255, 255, 0, 2, Garton_Viswin
+P -90, 173, 0, 255, 255, 0, 2, Lasna_Cheroon
+P 90, 340, 0, 255, 255, 0, 2, Maid_Issis
+P 13, 152, 0, 255, 255, 0, 2, Mynthi_Davissi
+P -337, 55, 0, 255, 255, 0, 2, Nate
+P -23, 131, 0, 255, 255, 0, 2, Princess_Cherista
+P -373, 60, 0, 255, 255, 0, 2, Ssynthi
+P -92, 191, 0, 255, 255, 0, 2, Xicotl
+P -139, 5, 0, 255, 255, 0, 2, Sir_Bronthas

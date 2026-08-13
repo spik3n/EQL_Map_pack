@@ -1144,13 +1144,4 @@ L 73.2400, -768.7187, 0.1582,  80.9338, -768.7179, 0.1582,  240, 240, 240
 P -52.0000, 38.0000, 0.0000, 255, 255, 255, 1, Succor
 P -329.2889, -71.4180, 0.1000, 204, 0, 204, 3, To_Dagnar's_Cauldron
 P -80.0000, 125.0000, 0.1582, 255, 255, 255, 2, HF:Low_12_High_13
-P -123, -385, 0, 255, 255, 0, 2, Crabby_the_Rotten
-P -147, -485, 0, 255, 255, 0, 2, Garanel_Rucksif
-P -0, -0, 0, 255, 255, 0, 2, Halloween_Trigger
-P -61, -595, 0, 255, 255, 0, 2, Khrix_Fritchoff
-P 283, -688, 0, 255, 128, 0, 2, Serra
-P 62, -612, 0, 255, 255, 0, 2, Torklar_Battlemaster
-P -90, -699, 0, 255, 255, 0, 2, lesser_blade_fiend
-P -27, -700, 0, 255, 255, 0, 2, reclusive_ghoul_magus
-P 71, -704, 0, 255, 255, 0, 2, zombie_of_an_Unrest_noble
 P -20, 109, 0, 0, 200, 255, 1, Spiken's_Maps_-_github.com/spik3n/EQL_Map_pack

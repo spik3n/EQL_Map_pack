@@ -1,0 +1,7 @@
+P 206, 814, 0, 255, 255, 0, 2, Boondin_Babbinsbort
+P -25, 77, 0, 255, 255, 0, 2, Gynok_Moltor
+P -95, 494, 0, 255, 255, 0, 2, Priest_Amiaz
+P 115, 335, 0, 255, 255, 0, 2, Wraps_McGee
+P -22, 201, 0, 255, 255, 0, 2, Zeek
+P 39, 246, 0, 255, 255, 0, 2, ariam_depoper
+P -104, 365, 0, 255, 255, 0, 2, skeleton_Lrodd

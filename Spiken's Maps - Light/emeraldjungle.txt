@@ -3226,15 +3226,4 @@ P -4648.0000, 1223.0000, 0.0000, 255, 255, 255, 1, Succor
 P -5212.6812, 1918.2660, -9.6240, 204, 0, 204, 3, to_Field_of_Bone
 P -1510.3761, 3382.8428, -344.4676, 204, 0, 204, 3, to_Trakanon's_Teeth
 P 1912.2233, -301.1009, -334.9676, 204, 0, 204, 3, to_The_City_of_Mist
-P 80, 1519, 0, 255, 255, 0, 2, Disease-Ridden_Gorilla
-P -4049, 681, 0, 255, 128, 0, 2, Lativ
-P -4214, -240, 0, 255, 128, 0, 2, Scout_Vyrak
-P -3999, -2902, 0, 255, 255, 0, 2, Several_large
-P -2377, -3398, 0, 255, 0, 0, 2, Severilous
-P -283, -1235, 0, 255, 128, 0, 2, Spirit_Sentinel
-P 640, -3680, 0, 255, 128, 0, 2, Spirit_Sentinel
-P -2787, -1901, 0, 255, 255, 0, 2, engorged_soulsipper
-P -2881, -1474, 0, 255, 255, 0, 2, greater_charbone
-P -2836, -3930, 0, 255, 255, 0, 2, spurbone_skeleton
-P -2959, -1952, 0, 255, 255, 0, 2, tainted_gorilla
 P -1074, 3469, 0, 0, 200, 255, 1, Spiken's_Maps_-_github.com/spik3n/EQL_Map_pack

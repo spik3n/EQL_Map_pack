@@ -2467,14 +2467,4 @@ L 576.4243, -147.2909, 15.1069,  576.4256, -156.5810, 15.1061,  64, 64, 64
 L 576.4256, -156.5810, 14.1061,  573.1230, -156.5836, 14.1061,  64, 64, 64
 P -401.2176, -132.2915, 0.1062, 204, 0, 204, 3, to_Dreadlands
 P 181.2931, -266.7198, 0.1062, 255, 255, 255, 2, HF:L15_H15
-P 634, -181, 0, 255, 255, 0, 2, Construct_of_Sathir
-P 691, -126, 0, 255, 255, 0, 2, Hangnail
-P 553, 77, 0, 255, 255, 0, 2, Venril_Sathirs_remains
-P 653.0, -114.0, 0, 255, 255, 0, 2, Verix_Kyloxs_remains
-P 315, -116, 0, 255, 255, 0, 2, caller_of_Sathir
-P 609.0, -114.0, 0, 255, 255, 0, 2, decayed_kylong_Iksar
-P 420, 110, 0, 255, 255, 0, 2, skeletal_scryer
 P 193, 318, 0, 0, 200, 255, 1, Spiken's_Maps_-_github.com/spik3n/EQL_Map_pack
-P 110, -146, 0, 255, 0, 0, 2, The_Fabled_Drolvarg_Captain
-P 526, -18, 0, 255, 255, 0, 2, The_Fabled_Skeletal_Berserker
-P 778, 91, 0, 255, 0, 0, 2, Venril_Sathir

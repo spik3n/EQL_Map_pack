@@ -1,0 +1,10 @@
+P -560, 112, 0, 255, 128, 0, 2, Xalgoz
+P 98, -341, 0, 255, 255, 0, 2, enraged_ravener
+P -282, 223, 0, 255, 255, 0, 2, famished_ravener
+P 83, -126, 0, 255, 255, 0, 2, frenzied_strathbone
+P 668.0, -172.5, 0, 255, 255, 0, 2, gorged_ravener
+P 624.0, -172.5, 0, 255, 255, 0, 2, hungered_ravener
+P -703, 79, 0, 255, 255, 0, 2, reaver_of_Xalgoz
+P 414, -116, 0, 255, 255, 0, 2, spectral_librarian
+P -71, -175, 0, 255, 255, 0, 2, strathbone_runelord
+P 394, -116, 0, 255, 255, 0, 2, tortured_librarian

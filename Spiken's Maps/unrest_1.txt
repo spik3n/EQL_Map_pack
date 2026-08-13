@@ -1,0 +1,9 @@
+P -123, -385, 0, 255, 255, 0, 2, Crabby_the_Rotten
+P -147, -485, 0, 255, 255, 0, 2, Garanel_Rucksif
+P -0, -0, 0, 255, 255, 0, 2, Halloween_Trigger
+P -61, -595, 0, 255, 255, 0, 2, Khrix_Fritchoff
+P 283, -688, 0, 255, 128, 0, 2, Serra
+P 62, -612, 0, 255, 255, 0, 2, Torklar_Battlemaster
+P -90, -699, 0, 255, 255, 0, 2, lesser_blade_fiend
+P -27, -700, 0, 255, 255, 0, 2, reclusive_ghoul_magus
+P 71, -704, 0, 255, 255, 0, 2, zombie_of_an_Unrest_noble

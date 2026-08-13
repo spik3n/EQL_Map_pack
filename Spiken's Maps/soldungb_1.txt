@@ -1,0 +1,16 @@
+P -321, 482, 0, 255, 255, 0, 2, Efreeti_Lord_Djarn
+P 385, 1552, 0, 255, 255, 0, 2, King_Tranix
+P 871, 1395, 0, 255, 0, 0, 2, Lord_Nagafen
+P 824, 1448, 0, 255, 255, 0, 2, Magus_Rokyl
+P 666, 1132, 0, 255, 255, 0, 2, Neiroth
+P 362, 549, 0, 255, 255, 0, 2, Solusek_kobold_king
+P 345, 533, 0, 255, 128, 0, 2, Targin_the_Rock
+P 359, 1451, 0, 255, 255, 0, 2, Warlord_Skarlon
+P 399, 892, 0, 255, 255, 0, 2, death_beetle
+P 286, 1459, 0, 255, 255, 0, 2, fire_giant_wizard
+P 61, 652, 0, 255, 255, 0, 2, guano_harvester
+P 345, 652, 0, 255, 255, 0, 2, kobold_champion
+P 108, 557, 0, 255, 255, 0, 2, kobold_noble
+P 322, 590, 0, 255, 255, 0, 2, kobold_priest
+P 236, 761, 0, 255, 255, 0, 2, noxious_spider
+P 346, 1002, 0, 255, 255, 0, 2, stone_spider

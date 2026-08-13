@@ -1,0 +1,8 @@
+P 90, -260, 0, 255, 0, 0, 2, Kilidna
+P -85, -1, 0, 255, 0, 0, 2, Lhranc
+P -172, -190, 0, 255, 128, 0, 2, Wraith_of_Jaxion
+P 117, 60, 0, 255, 255, 0, 2, Dread_Wraith
+P 350, 175, 0, 255, 255, 0, 2, Gyrating_Green_Slime
+P 139, 60, 0, 255, 255, 0, 2, Plaguebone_Warlord
+P 355, 114, 0, 255, 255, 0, 2, Ravenous_War_Bone_Skeleton
+P -387, 0, 0, 255, 255, 0, 2, Tzirathk

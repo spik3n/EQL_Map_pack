@@ -1500,13 +1500,4 @@ P 345.8842, -88.8208, 0.1582, 204, 0, 204, 3, to_Everfrost
 P -50.0000, 164.0000, 0.0000, 204, 0, 204, 3, to_Qeynos_Hills
 P -39.0000, 159.0000, 0.0000, 255, 255, 255, 1, Succor
 P -150.5430, -165.2618, -158.7792, 204, 0, 204, 3, to_Jaggedpine
-P -4, 4, 0, 255, 255, 0, 2, Courier_Spawner
-P -146, -196, 0, 255, 255, 0, 2, Lord_Elgnub
-P 342.0, -52.0, 0, 255, 255, 0, 2, Mannan_of_the_Sabertooth
-P -42, -33, 0, 255, 255, 0, 2, Master_Brewer
-P 115, -292, 0, 255, 255, 0, 2, Refugee_Splitpaw
-P 52, 102, 0, 255, 255, 0, 2, Scout_Malityn
-P 298.0, -52.0, 0, 255, 255, 0, 2, Socho_Darkpaw
-P -344.0, -254.0, 0, 255, 255, 0, 2, Splitpaw_Commander
-P -388.0, -254.0, 0, 255, 255, 0, 2, Tranixx_Darkpaw
 P -46, 313, 0, 0, 200, 255, 1, Spiken's_Maps_-_github.com/spik3n/EQL_Map_pack

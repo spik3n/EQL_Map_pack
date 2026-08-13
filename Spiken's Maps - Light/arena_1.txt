@@ -1,0 +1,2 @@
+P 78, 974, 0, 255, 255, 0, 2, DPS_Machine
+P -168, 1021, 0, 255, 255, 0, 2, Soulbinder_Gendal

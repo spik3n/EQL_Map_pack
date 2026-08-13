@@ -4181,20 +4181,4 @@ L -231.6088, 247.1648, 0.1062,  -237.5416, 253.9270, 0.1062,  0, 0, 0
 L -237.5416, 253.9270, 0.1062,  -231.6277, 259.1020, 0.1062,  0, 0, 0
 P 352.1250, 421.0000, 0.1072, 255, 255, 255, 1, succor
 P 353.3760, 700.0000, 2.4729, 255, 255, 255, 3, HF:_L13_H13
-P -273, 72, 0, 255, 0, 0, 2, Avatar_of_Abhorrence
-P 306, 527, 0, 255, 0, 0, 2, Corrupter_of_Life
-P -295.0, 72.0, 0, 255, 0, 0, 2, Grandmaster_R`Tal
-P -279, -402, 0, 255, 0, 0, 2, Hand_of_the_Maestro
-P -339.0, 72.0, 0, 255, 0, 0, 2, High_Priest_M`kari
-P -13, -231, 0, 255, 0, 0, 2, Innoruuk
-P -227, -344, 0, 255, 0, 0, 2, Lord_of_Loathing
-P -295, 82, 0, 255, 0, 0, 2, Maestro_of_Rancor
-P 66, 115, 0, 255, 255, 0, 2, Magi_P`Tasa
-P 441, -206, 0, 255, 0, 0, 2, Master_of_Spite
-P 62, 163, 0, 255, 0, 0, 2, Mistress_of_Scorn
 P 6, 721, 0, 0, 200, 255, 1, Spiken's_Maps_-_github.com/spik3n/EQL_Map_pack
-P 263, 1, 0, 255, 0, 0, 2, Ashenbone_Broodmaster
-P 328, 36, 0, 255, 0, 0, 2, Coercer_T`vala
-P 102, -19, 0, 255, 255, 0, 2, The_Deathrot_Knight
-P 507, 495, 0, 255, 0, 0, 2, Grandmaster_H`Qilm
-P 598, -502, 0, 255, 0, 0, 2, Lord_of_Ire

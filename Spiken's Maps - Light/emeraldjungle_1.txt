@@ -1,0 +1,11 @@
+P 80, 1519, 0, 255, 255, 0, 2, Disease-Ridden_Gorilla
+P -4049, 681, 0, 255, 128, 0, 2, Lativ
+P -4214, -240, 0, 255, 128, 0, 2, Scout_Vyrak
+P -3999, -2902, 0, 255, 255, 0, 2, Several_large
+P -2377, -3398, 0, 255, 0, 0, 2, Severilous
+P -283, -1235, 0, 255, 128, 0, 2, Spirit_Sentinel
+P 640, -3680, 0, 255, 128, 0, 2, Spirit_Sentinel
+P -2787, -1901, 0, 255, 255, 0, 2, engorged_soulsipper
+P -2881, -1474, 0, 255, 255, 0, 2, greater_charbone
+P -2836, -3930, 0, 255, 255, 0, 2, spurbone_skeleton
+P -2959, -1952, 0, 255, 255, 0, 2, tainted_gorilla
