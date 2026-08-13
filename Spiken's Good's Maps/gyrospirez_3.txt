@@ -1,0 +1,12 @@
+P -2.1790, 298.2273, 601.7585,  240, 0, 0,  2,  Zeka_Repairer_III
+P -5.2451, 214.4194, 457.3188,  240, 0, 0,  2,  Engineer_LXII*
+P 53.8354, 160.4071, 457.3188,  127, 0, 0,  2,  Technician_Masterwork
+P -12.3473, 301.4696, 621.3174,  240, 0, 0,  2,  Shocktroop_Commander_XIX
+P -83.4552, 197.8338, 1.9369,  240, 0, 0,  2,  Repair_Steamwork_XIV
+P 37.8160, 190.8641, 348.7404,  240, 0, 0,  2,  Shocktroop_Commander_XIX*
+P -19.3345, 221.9220, 295.3623,  240, 0, 0,  2,  Fuelmaster_XI*
+P 9.7787, 135.5520, 457.5432,  240, 0, 0,  2,  Commander_Gearwell*
+P 6.8874, 120.7865, 602.6135,  240, 0, 0,  2,  Commander_Gearwell
+P -114.3645, 287.1480, 34.7840,  240, 0, 0,  2,  Chamberlain_VI*(exterminator)
+P 87.1068, 257.3190, 601.5420,  240, 0, 0,  2,  Catapult_Engineer_XIX
+P -111.7400, 226.6633, -36.1214,  240, 0, 0,  2,  Zeka_Repairer_III*

@@ -1,0 +1,6 @@
+P 158.4029, -388.23, 57.753, 240, 0, 0, 2, Dragorn_Annihilator
+P 160.257, -164.3, 55.25, 240, 0, 0, 2, Dragorn_Flamecaster
+P 319.5539, -319.1669, 56.9729, 240, 0, 0, 2, Dragorn_Incinerator
+P 321.7119, -228.579, 56.661, 240, 0, 0, 2, Dragorn_Adept
+P 252.36, -165.1579, 56.512, 240, 0, 0, 2, Dragorn_Spellscribe
+P 253.199, -386.7839, 56.2869, 240, 0, 0, 2, Dragorn_Acolyte

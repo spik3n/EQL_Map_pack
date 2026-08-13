@@ -1,0 +1,12 @@
+P 224.985, 392.5471, 41.3053, 127, 0, 0, 3, 1.Sfisithik_the_Light_Devourer
+P -178.2435, 825.7001, 42.3723, 127, 0, 0, 3, 1.Halusant_the_Nightblood_
+P -180.9661, -1.2461, -2.8938, 127, 0, 0, 2, Elite_Scion_Guardian
+P -108.875, 346.4461, 16.7558, 127, 0, 0, 2, Elite_Scion_Guardian
+P 351.5036, 179.6557, 0.1062, 127, 0, 0, 2, Elite_Scion_Guardian
+P 107.5178, 392.2053, 45.106, 127, 64, 0, 2, Scion_Shadow_Summoner
+P -428.324, 506.2821, 33.106, 127, 64, 0, 2, Scion_Shadow_Summoner
+P -615.481, 517.8011, 32.606, 127, 0, 0, 3, 2.Grortrakien_the_Mutilator
+P -253.9715, 709.1662, 49.7558, 127, 64, 0, 2, Scion_Werewolf_Summoner
+P -289.7812, 697.6308, 49.606, 0, 0, 0, 1, The_Chest_of_the_Scions
+P -289.9658, 715.9039, 49.606, 0, 0, 0, 1, Halusent's_Clawed_Chest
+P -218.6188, 718.3183, 49.606, 0, 0, 0, 1, Grortrakien's_Preserved_Chest

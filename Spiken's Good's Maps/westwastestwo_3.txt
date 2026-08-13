@@ -1,0 +1,8 @@
+P -680.2401, -437.1553, -199.1921,  240, 0, 0,  2,  Miscreation_(frosted_dracholiche(s)
+P -2061.7908, 1369.3516, -37.5146,  240, 0, 0,  2,  Shrapnel_(velious_hound(s)
+P 4802.2520, -991.6188, -291.5662,  240, 0, 0,  2,  Feltinth_the_Caring*
+P -2584.0347, 2476.2122, -254.2451,  240, 0, 0,  2,  Bliddlethliclaus*_(exiled_kedge(s)
+P 1006.4202, -1793.8958, -66.0768,  240, 0, 0,  2,  a_restless_behemoth*_(restless_wurm(s)
+P -1844.5459, -2289.8743, -70.6885,  240, 0, 0,  2,  Blasphemous_Steel*_(exiled_efreeti(s)
+P 2621.0552, 3966.4341, -51.8284,  240, 0, 0,  2,  Rildar_Blackstone*_(forgotten_vanguard(s)
+P 4197.2725, -3144.0203, -303.5270,  240, 0, 0,  2,  Pastletlith_the_Temperate*

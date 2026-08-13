@@ -1,0 +1,6 @@
+P 204.3057, -214.242, -0.3024, 127, 64, 0, 2, Guild_Message_Center
+P 244.5858, -415.1655, -1.998, 127, 64, 0, 2, East_Corpse_Summoning
+P 199.1546, -601.5701, -1.998, 127, 64, 0, 2, Guild_Message_Center
+P -196.6073, -609.5279, -1.998, 127, 64, 0, 2, Guild_Message_Center
+P -251.5627, -417.9689, -1.998, 127, 64, 0, 2, West_Corpse_Summoning
+P -194.3701, -205.4747, -1.998, 127, 64, 0, 2, Guild_Message_Center

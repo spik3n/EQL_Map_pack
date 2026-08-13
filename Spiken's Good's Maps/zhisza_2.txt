@@ -1,0 +1,16 @@
+P -1302.0000, -188.0000, 222.0000,  127, 0, 0,  2,  Coralitus_'Pit_Viper_Venom
+P 533.0000, -1326.0000, 299.0000,  127, 0, 0,  2,  King_Brownscale_'Cobra_Venom
+P 932.0000, -229.0000, 204.0000,  127, 0, 0,  2,  Copperfang_'Copperhead_Venom
+P -611.0000, 529.0000, 156.0000,  0, 0, 0,  2,  a_crack_in_the_dome
+P 506.0000, -1382.0000, 300.0000,  0, 0, 0,  2,  a_crack_in_the_dome
+P -404.0000, -178.0000, 210.0000,  0, 0, 0,  2,  a_crack_in_the_dome
+P -62.6394, 603.6598, 11.2714,  100, 0, 240,  2,  Spy_Activities
+P -676.7806, -441.3299, 256.2866,  127, 64, 0,  2,  Golems_Quarry
+P -60.2575, 372.8023, 14.8678,  100, 0, 240,  2,  Person_in_charge
+P -898.8702, -508.6276, 269.3768,  100, 0, 240,  2,  Quarrymaster_Aszhe-Loot_Poison_Sac
+P 532.3127, -1051.8191, 299.3768,  100, 0, 240,  2,  Commander_Klim-Loot_Poison_Sac
+P 65.1501, -1251.7958, 357.7880,  100, 0, 240,  2,  Rhag'Zorin-Loot_Poison_sac
+P 40.6207, -1248.0215, 456.8816,  100, 0, 240,  2,  Emperor_Vaakiszh
+P -2.3006, -1169.9319, 447.7538,  100, 0, 240,  2,  wave_spawn
+P 86.5569, -1438.0254, 308.2047,  0, 0, 0,  2,  Treatise_on_Teleportation_(GS)
+P -9.8419, -1383.2240, 358.2047,  0, 0, 0,  2,  History_of_the_Combine_(GS)

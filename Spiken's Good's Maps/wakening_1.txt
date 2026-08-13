@@ -1,0 +1,2 @@
+P 4788.4629, 632.8452, -199.2354,  240, 240, 240,  2,  Agent_(zone_out)
+P -4507.6694, -1579.8699, -47.3748,  240, 240, 240,  2,  Agent_of_Change_(R)_Plane_of_Growth_and_Skyshrine

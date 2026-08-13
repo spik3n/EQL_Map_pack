@@ -1,0 +1,13 @@
+P -1687.4290, 198.7800, 9.9529,  0, 0, 240,  2,  Lady_Usher_(Mi)
+P -1468.5686, 292.7529, 6.2149,  0, 0, 240,  2,  Vahna_(B)
+P -1646.9169, 360.6510, 2.8950,  0, 0, 240,  2,  Quartermaster_Andoro
+P -1697.4500, 329.3399, 5.9619,  0, 0, 240,  2,  Scribe_Luritem
+P -1685.8788, 274.6490, 4.3639,  0, 0, 240,  2,  Spirit_Hunter_Elijo_(Mi)
+P -1669.4290, 281.7359, 3.1829,  0, 0, 240,  2,  Spirit_Hunter_Azmaro_(Mi)
+P -1465.4646, 325.5040, 3.3870,  0, 0, 240,  2,  Soulbinder_Cyndyll
+P 962.7729, -196.2139, 408.6859,  0, 0, 240,  2,  Ao_the_Fourth_Born_(Mi)
+P 1036.8888, -138.5610, 398.6460,  0, 0, 240,  2,  Apprentice_Mage_Sarcrynn_(T)
+P 976.1429, -204.8000, 409.3059,  0, 0, 240,  2,  Or'Sarro_the_Youngest_(Raid
+P 962.4048, -196.2150, 408.7570,  0, 0, 240,  2,  Spirit_of_Ao_the_Fourth_Born_(Mi)
+P -1606.1099, 242.1049, 1.9620,  0, 0, 240,  2,  Frinkle_Geerlok
+P -1387.0201, 147.9823, 18.4832,  240, 240, 240,  2,  Agent_of_Change_(R)_Theater_of_Blood_and_Relic

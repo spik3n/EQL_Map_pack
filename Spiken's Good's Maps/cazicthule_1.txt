@@ -1,0 +1,1 @@
+P -3.4826, -63.8666, 0.1062,  240, 240, 240,  2,  Agent_of_Change_(R)_Accursed_Temple

@@ -1,0 +1,10 @@
+P -172.9217, -814.8301, 63.1368,  240, 0, 0,  2,  General_Dotal_(10)_adjudicator
+P -1231.7732, -612.4763, 11.1956,  240, 0, 0,  2,  Fernstalker_(2)_clever
+P 1206.4003, -1015.8931, 58.2023,  240, 0, 0,  2,  Queen_Hotaria_(8)_queensguard
+P -670.3926, 657.2110, -35.3350,  240, 0, 0,  2,  Crusher_the_Rusher_(5)_destroyer
+P 841.1059, -23.3174, -24.8173,  240, 0, 0,  2,  Bonestripper_(7)_hungry
+P -969.8690, 327.8070, -34.5897,  240, 0, 0,  2,  Tonnar_Blevak_(9)_archivist
+P -488.9209, -151.8223, -34.6174,  240, 0, 0,  2,  Violet_Violence_(6)_cabalist
+P -806.1122, -606.8099, -36.5974,  240, 0, 0,  2,  Cind_the_Kind_(6)_destroyer
+P -1079.2671, -858.1556, 17.5238,  240, 0, 0,  2,  Fernstalker_(5)_clever
+P -832.7535, 24.9450, -34.9611,  240, 0, 0,  2,  Charka_(7)_champion

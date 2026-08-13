@@ -1,0 +1,4 @@
+P 2, 446, -91, 240, 0, 0, 2, Guardian_of_the_Pit
+P 2, 9, -19, 0, 240, 0, 2, Zone_in
+P 230, 89, -136, 0, 0, 127, 2, an_Ornate_Chest(Key)
+P -5, 122, -72, 240, 0, 0, 2, Pit_Trap

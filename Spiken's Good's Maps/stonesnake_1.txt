@@ -1,0 +1,5 @@
+P 165.0000, 132.0000, -53.0000,  0, 0, 240,  2,  Gihbra_Artinguard_(Q)
+P 563.0000, 501.0000, -126.0000,  0, 0, 240,  2,  Omnus_Vigilcap_(Q)
+P -222.6809, 889.6825, -39.8840,  0, 0, 240,  2,  Bitelock_the_Quartermaster_(Q)
+P -148.9690, 904.3546, -35.2232,  0, 0, 240,  2,  Stoutanvil_the_Crafter(Q)
+P -46.0000, 7.0000, -4.0000,  0, 0, 240,  2,  Transport_Unit

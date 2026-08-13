@@ -1,0 +1,7 @@
+P -106.3295, 263.6793, 34.3763,  0, 0, 0,  1,  Scout_Gyriospire_Beza_(Mission_spot)
+P 23.1910, 256.2140, 457.3188,  0, 0, 0,  1,  SAFE_ROOM
+P -56.1415, 148.8143, 341.4289,  0, 0, 0,  2,  GRD_The_Trainng_Mat
+P -12.2624, 111.2562, 459.1150,  0, 0, 0,  2,  GRD_Valve_in_infirmary
+P -34.1197, 121.6658, 601.4377,  0, 0, 0,  2,  GRD_ramp_and_control_room
+P -74.1722, 212.7330, 348.7925,  127, 0, 0,  2,  Engineer_Gyrzim
+P 291.4313, 169.1454, -0.2063,  0, 0, 127,  2,  a_steamwork_spy_mk-IV

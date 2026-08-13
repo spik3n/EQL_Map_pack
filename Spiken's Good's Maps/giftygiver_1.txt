@@ -1,0 +1,7 @@
+P 623.0215, 181.7775, -29.0032,  0, 0, 240,  2,  Gaklin_Gigglegibber_(Q)
+P 708.4918, 65.1381, -31.4260,  0, 0, 240,  2,  Groktu_Gigglegibber_(Mi_&_R)
+P 635.9189, 119.3401, -29.8804,  0, 0, 240,  2,  Marketplace_Merchant
+P 637.5020, 113.2973, -26.3385,  0, 0, 240,  2,  Marketplace_Furniture
+P 13.3507, -71.7762, -36.1799,  0, 0, 127,  2,  Helper_Gromp
+P 748.5247, 245.8295, -24.7697,  0, 0, 127,  2,  Helper_Gresk
+P 834.0535, 144.0862, -27.4092,  0, 0, 127,  2,  Yeklin_Gigglegibber

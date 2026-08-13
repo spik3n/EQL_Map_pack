@@ -1,0 +1,9 @@
+P 24.9265, 127.6908, -4.4366,  127, 0, 0,  2,  1A.Priest_of_Righteousness
+P -10.3405, 275.2480, -4.4356,  127, 0, 0,  2,  1B.Priest_of_Righteousness
+P -454.4635, 139.2299, 4.5553,  127, 0, 0,  2,  1C.Priest_of_Righteousness
+P -446.7714, 347.3190, -3.6380,  127, 0, 0,  2,  2A.Defenders_of_Righteousnes
+P 155.0552, 403.3647, -4.4351,  127, 0, 0,  2,  2B.Defenders_of_Righteousnes
+P -238.4821, 478.3536, -4.4433,  127, 0, 0,  2,  3.Custodian_of_Righteousness
+P -255.0561, 678.6418, -29.6106,  127, 0, 0,  2,  4.Guardian_of_Righteousness
+P -254.8481, 776.8718, -5.4523,  127, 0, 0,  2,  4B.Crumbling_Monuments
+P 134.8096, 888.2985, -0.4536,  127, 0, 0,  2,  5.Spirit_of_Tunik_Tamuik

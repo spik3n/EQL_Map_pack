@@ -1,0 +1,10 @@
+P -126.3790, -1103.2020, -79.9979,  240, 0, 0,  2,  Xthid_the_Undying
+P -353.6068, -661.6576, -146.9978,  240, 0, 0,  2,  Xthid_the_Undying
+P 824.7204, -965.7663, -75.9979,  240, 0, 0,  2,  Festering_Sewer_Gnat
+P 648.8762, -1211.4794, -69.9979,  240, 0, 0,  2,  Distraught_Slimesnipper
+P 831.5878, -1045.1765, -75.9979,  240, 0, 0,  2,  Distraught_Slimesnipper
+P 985.6363, -99.3947, -71.1420,  240, 0, 0,  2,  Distraught_Slimesnipper
+P -308.9021, -654.2042, -143.9978,  240, 0, 0,  2,  Festering_Sewer_Gnat
+P -301.8593, -446.9300, -151.9978,  240, 0, 0,  2,  Distraught_Slimesnipper
+P -566.0837, -656.1707, -149.0422,  240, 0, 0,  2,  Distraught_Slimesnipper
+P -1297.0664, -179.4760, -119.9979,  240, 0, 0,  2,  Xthid

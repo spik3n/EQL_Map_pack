@@ -1,0 +1,2 @@
+P 36.3766, 36.5895, -1.8939,  0, 0, 240,  2,  Darkened_Victorious_Scholar(Q)
+P -133.7087, -885.6218, -1.8939,  0, 0, 240,  2,  Emerald_Hope_of_the_Stars(Q)

@@ -1,0 +1,13 @@
+P 893.5580, -108.9064, -0.5611,  0, 0, 240,  2,  a_thelasa_ereth_of_Lunanyn
+P 1284.5735, -261.8684, 3.8374,  0, 0, 240,  2,  a_thelasa_ereth_of_Illdaera
+P 737.8446, -1569.3687, 4.3089,  0, 0, 240,  2,  a_thelasa_ereth_of_Illdaera
+P 1014.8055, -784.1110, 4.4054,  0, 0, 240,  2,  a_thelasa_ereth_of_Lunanyn
+P 184.1913, -1897.9595, 349.7047,  0, 0, 0,  2,  The_Relic_of_Ryken
+P 1166.3090, 489.9768, -42.1764,  127, 64, 0,  2,  The_Relic_of_Lunanyn
+P 873.2003, 19.5820, -0.7054,  127, 64, 0,  2,  Sentry_Stone_of_Lunanyn
+P 1211.6179, -366.5638, 4.1258,  127, 64, 0,  2,  Sentry_Stone_of_Kolos
+P 646.1300, -1535.5227, 4.7416,  127, 64, 0,  2,  Sentry_Stone_of_Ryken
+P 1090.3677, -892.7468, 4.8380,  127, 64, 0,  2,  Sentry_Stone_of_Alra
+P 1592.1830, -459.5849, -69.3098,  0, 0, 240,  2,  Rayneth
+P 1766.5905, -227.1512, -8.5795,  127, 64, 0,  2,  The_Relic_of_Kolos
+P 2032.4213, -885.8840, -18.7706,  127, 64, 0,  2,  The_Relic_of_Alra

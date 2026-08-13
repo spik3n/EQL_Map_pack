@@ -1,0 +1,9 @@
+P -20.3308, 185.1940, 171.6968,  240, 0, 0,  2,  Principal_Indagatrix_Lucia
+P 284.6107, -87.6089, 80.1293,  240, 0, 0,  2,  Caldarius
+P 7.6539, -85.1527, 171.9055,  240, 0, 0,  2,  Principal_Vicarum_Nonia
+P -136.4089, -142.7978, 115.5070,  240, 0, 0,  2,  Mother_Virgia(frayed_virga)
+P -324.8745, -170.9961, 111.5176,  240, 0, 0,  2,  Bonemaw
+P 155.1493, -9.9791, 173.4415,  240, 0, 0,  2,  Mayor_Praetor_Livio
+P -27.5279, -27.5853, -484.4893,  240, 0, 0,  2,  Principal_Qastori_Numica(Roam)
+P -181.8103, -114.5088, -0.6000,  240, 0, 0,  2,  Principal_Indagator_Gordinaus
+P -6.6868, -48.2025, 80.5480,  240, 0, 0,  2,  The_Codex_Libre

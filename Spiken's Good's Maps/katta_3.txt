@@ -1,0 +1,7 @@
+P 40.1313, 149.5517, 0.1582,  0, 127, 127,  2,  Shara_Aristo(Bard_GM)
+P 1973.1355, 150.8665, 71.1581,  0, 127, 127,  2,  Tilbok_Furrunner(Rogue_GM)
+P 2027.5226, 148.2255, 71.1581,  0, 127, 127,  2,  Maralicis_Dilism(Monk_GM)
+P 2108.3665, 161.8439, 71.1581,  0, 127, 127,  2,  Arialestra_Dionicas(Cleric_GM)
+P 2084.6917, -153.5886, 71.1581,  0, 127, 127,  2,  Kroldar_Strongarm(Warrior_GM)
+P 2011.2008, -148.3405, 71.1581,  0, 127, 127,  2,  Saumeem_Unja(Paladin_GM)
+P 1957.2787, -149.2709, 71.1581,  0, 127, 127,  2,  Erikal_Wolfeye(Ranger_GM)

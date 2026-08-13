@@ -1,0 +1,8 @@
+P -1210.1469, 396.6530, -11.9710,  0, 0, 0,  2,  Deeper_down_the_downward_spiral
+P -482.4300, 418.8700, 47.4600,  127, 64, 0,  2,  (SG)The_East_Obelisk
+P -541.3700, 543.2798, 54.8999,  127, 64, 0,  2,  (SG)The_Reanimation_Chamber
+P -1160.0000, 70.0000, 255.0000,  127, 64, 0,  2,  (SG)Queen_Sendai's_Shrine
+P -744.1860, -208.4099, 352.2800,  127, 64, 0,  2,  (SG)The_Living_Bridges
+P -478.6890, 1266.4240, 41.4819,  127, 64, 0,  2,  (SG)Recluse_Canyon
+P -1416.9889, 225.5399, 1.1510,  127, 64, 0,  2,  (SG)Warren_of_the_Conscripts
+P -1150.2228, -363.9750, 219.5664,  127, 0, 0,  2,  Drithnak_the_Exiled

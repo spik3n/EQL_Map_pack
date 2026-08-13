@@ -1,0 +1,8 @@
+P 61.9817, -667.1059, 21.3158,  0, 0, 240,  2,  Leadbetter(Mi,R)
+P 433.1336, -901.1517, 203.0142,  0, 0, 127,  2,  Gimbeeago_Castgauge(?)
+P 62.9905, -797.2438, 21.3158,  0, 0, 127,  2,  Assistant_Curator_Brighttin_(?)
+P 130.6975, -1068.5613, 30.3788,  0, 0, 240,  2,  Belira_Blastil_(Q,Mi)
+P 55.7804, -788.6709, 21.3158,  0, 0, 240,  2,  Greeter_Seltink_(Q)
+P 18.0491, -907.7736, 336.7623,  0, 0, 240,  2,  Tinzenwen_Geargoggler_(Q)
+P -602.4369, 613.3090, -0.0540,  0, 0, 240,  2,  A_Bloodmoon_Exile*_(Q)
+P -724.7856, -786.6841, 21.7158,  0, 127, 0,  2,  Ambassador_Cogswold(to_DSH)

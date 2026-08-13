@@ -1,0 +1,17 @@
+P -582.7530, -1233.6880, -41.4538,  240, 0, 0,  2,  Jrascza_the_Feral
+P -15.3507, -146.6966, -47.7860,  240, 0, 0,  2,  Blackblade_Lorkis*(herald_of)
+P -2741.8738, 2040.6315, -50.1321,  240, 0, 0,  2,  Slact_the_Frozen_hand*(herald_of)
+P -792.3799, 791.3242, -53.8635,  240, 0, 0,  2,  Naskado_The_Demented*(herald_of)
+P -2379.1377, 2263.7725, -44.2715,  240, 0, 0,  2,  Battleguard_Gauntas(herald_of)
+P -539.9681, -1031.8578, -26.8124,  240, 0, 0,  2,  Fluttershade*+(crow)
+P -1027.7190, -1383.3722, -36.8034,  240, 0, 0,  2,  an_ancient_bonegrinder*
+P -704.1769, -2083.2085, -47.1698,  240, 0, 0,  2,  Oracle_Vro'_Zok
+P -1507.4600, -1641.7903, -51.8348,  240, 0, 0,  2,  Jrascza_the_Feral*
+P -191.8241, -1116.5071, -52.8813,  240, 0, 0,  2,  Darkcoil_the_Constrictor*+(snake)
+P -2163.1211, -1211.6626, -33.9740,  240, 0, 0,  2,  an_ancient_bonegrinder*
+P 204.6390, -460.4100, -48.6726,  240, 0, 0,  2,  Fluttershade*
+P -1724.4452, 2296.6199, -40.5945,  240, 0, 0,  2,  Oracle_Vro'Zok
+P -642.2145, 2062.2820, -46.3055,  240, 0, 0,  2,  Naskado_the_Demented
+P -646.3769, -1790.5480, -42.4686,  240, 0, 0,  2,  Festersting_the_Diminutive+(scorpion)
+P -81.7402, -932.2618, -47.4947,  240, 0, 0,  2,  an_ancient_bonegrinder*
+P -97.5533, 516.9079, -40.6946,  240, 0, 0,  2,  Oracle_Vro'Zok

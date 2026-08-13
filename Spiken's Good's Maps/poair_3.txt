@@ -1,0 +1,15 @@
+P -455.4259, 773.8867, 435.2371,  240, 0, 0,  2,  Calagrothiel
+P 666.4161, 1255.7582, 314.8142,  240, 0, 0,  2,  Swirling_Elemental_Force+
+P -345.2200, -783.1335, -97.7783,  240, 0, 0,  2,  Inlokher_the_Warlord+(split_from__A_Castellan_of_Air)
+P 374.9501, -722.7577, 433.5797,  240, 0, 0,  2,  Lossenmachar+
+P -584.7610, 772.6165, 435.2080,  240, 0, 0,  2,  a_phoenix_breezewing+
+P -392.3779, 438.4660, 440.8666,  240, 0, 0,  2,  a_phoenix_searedwing+
+P -1395.5215, 704.9595, 12.2081,  127, 0, 0,  2,  Avatar_of_Smoke
+P 1581.9286, -483.7855, 12.2081,  127, 0, 0,  2,  Avatar_of_Wind
+P 1580.1898, 569.6554, 340.7080,  127, 0, 0,  2,  Avatar_of_Mist
+P -1673.1389, -528.2349, 340.7081,  127, 0, 0,  2,  Avatar_of_Dust
+P -1400.5950, 524.5114, 42.2081,  127, 0, 0,  2,  Queen_Silandria
+P 1685.1176, -719.6816, 42.2081,  127, 0, 0,  2,  Gakamenial_Fir`Disralsi
+P 1594.6332, 431.9418, 370.7080,  127, 0, 0,  2,  Arch_Mage_Alchtonion
+P -1320.7891, -392.9708, 350.7080,  127, 0, 0,  2,  Rinturion_Windblade
+P 1.1161, -0.2764, 2.3145,  127, 0, 0,  2,  Baltador_the_Cursed

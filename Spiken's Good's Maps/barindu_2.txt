@@ -1,0 +1,13 @@
+P -265.0000, 114.0000, 0.0000,  0, 0, 0,  2,  elongated_silvery_key_(GS)
+P 49.1191, 305.4628, -115.8817,  127, 0, 0,  2,  Viarglug(Ncr1.5)
+P -861.9587, -214.6410, -90.9397,  127, 0, 0,  2,  a_ra`tuk_screambringer(Pal1.5)
+P 124.1397, -497.2314, -115.3614,  127, 0, 0,  2,  a_controlled_earth_churner(Druid_Pre-Q)
+P 31.2952, -44.9712, -115.4873,  127, 0, 0,  2,  a_controlled_earth_churner(Druid_Pre-Q)
+P -140.4987, -172.3967, -115.4844,  127, 0, 0,  2,  a_controlled_earth_churner(Druid_Pre-Q)
+P 645.4515, -69.4709, -124.7035,  127, 0, 0,  2,  a_controlled_earth_churner(Druid_Pre-Q)
+P 326.7534, 104.1573, -92.1854,  127, 0, 0,  2,  Aneuk_Overseer*
+P 577.9231, -160.5121, -125.9354,  127, 0, 0,  2,  A_Kyv_Runner*(Cle1.5)
+P 119.6175, -360.2955, -117.8185,  0, 0, 127,  2,  Taiandao(Ncr1.5)
+P 663.7159, -130.9085, -123.3152,  0, 0, 127,  2,  Jomaj_Kaiijin(Cle1.5)
+P 583.2084, -604.2579, -100.9823,  0, 0, 0,  2,  Clay_Golem_Parts__(GS)
+P 488.1088, -375.8987, -125.0028,  0, 127, 127,  2,  Kaelen_Muris_(27th)

@@ -1,0 +1,15 @@
+P -917.4080, 726.7131, -2.8260,  240, 0, 0,  2,  Vileplume*
+P 883.2906, 1811.8087, -69.5139,  240, 0, 0,  2,  Jelvalak_The_Tomblord(putrid)
+P -412.8138, 1857.8793, 15.3072,  240, 0, 0,  2,  The_Crimson_Bat*
+P 124.4064, 2138.1357, 1.1817,  240, 0, 0,  2,  Blightfang*(snake)
+P -225.3753, 1369.9620, 5.4847,  240, 0, 0,  2,  Master_Putremancer_Fellid*+
+P -684.6219, 1188.7969, 1.7067,  240, 0, 0,  2,  Master_Putremancer_Fellid*(cultist)
+P -338.2900, 556.8984, -3.5533,  240, 0, 0,  2,  Vileplume*(squeleton)
+P 479.8969, 2330.2598, -11.5571,  240, 0, 0,  2,  The_Blight_Wisp*
+P -399.9730, 1732.5746, 3.5571,  240, 0, 0,  2,  Malign*(pustulant_cadavaer)
+P -640.0000, 2185.0000, 5.0000,  240, 0, 0,  2,  Malign*+
+P 681.9446, 544.9952, 34.7518,  240, 0, 0,  2,  Twisted_Limb*
+P -570.8100, 2243.1394, 6.8560,  240, 0, 0,  2,  a_gravid_fire_beetle*
+P 110.6243, 2975.8074, -18.8766,  240, 0, 0,  2,  The_Claybeast*
+P 61.3534, 2073.1333, 1.3535,  240, 0, 0,  2,  Megrima_the_Plaguecaller*+
+P 486.4841, 1539.2239, 3.6739,  240, 0, 0,  2,  Megrima_the_Plaguecaller*+

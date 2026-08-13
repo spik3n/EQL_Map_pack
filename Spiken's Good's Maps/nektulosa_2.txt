@@ -1,0 +1,8 @@
+P -87.626, 0.611, -17.344, 127, 0, 0, 2, A_Fairy_Shrine_#3_(Fairy_mission)
+P -30.9649, -169.186, -17.344, 127, 0, 0, 2, A_Fairy_Shrine_#2_(Fairy_mission)
+P 156.685, -78.2549, -17.344, 127, 0, 0, 2, A_Fairy_Shrine_#1_(Fairy_mission)
+P 419.9359, 222.7249, -61.8689, 127, 0, 0, 2, Chest_-_(Fairy_mission)
+P 417.538, 209.989, -63.9329, 127, 0, 0, 2, Queen_Nok_Nok's_Remains
+P -89.2909, 179.7909, -17.839, 0, 0, 127, 2, Chest_(Orc_mission)
+P 411.67, 208.9749, -62.884, 0, 0, 127, 2, Vodrak_(Orc_mission)
+P 77.8259, 146.8729, -17.839, 0, 240, 0, 2, Zone_Out

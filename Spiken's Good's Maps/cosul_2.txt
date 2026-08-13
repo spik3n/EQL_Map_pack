@@ -1,0 +1,7 @@
+P -150.5249, 133.2788, -15.4190,  0, 0, 0,  1,  Vial_of_Caustic_Elixir_(GS)
+P 224.2695, -472.8201, -6.7191,  0, 127, 127,  2,  Pavel_Raglan
+P -120.4800, 149.4057, -18.1728,  127, 0, 0,  2,  Bokon_Nedzeras
+P 0.5540, -537.8211, 41.6011,  127, 0, 0,  2,  a_planar_conduit
+P 166.2607, -269.1673, -12.2779,  0, 0, 0,  1,  Extract_of_Mort(a_high_bokon)
+P 158.2950, 90.2266, -19.4307,  0, 0, 0,  1,  Vial_of_Thickened_Liquid
+P -126.9976, -416.4152, -6.4306,  0, 0, 0,  1,  Blessing_of_anashti(bokon)

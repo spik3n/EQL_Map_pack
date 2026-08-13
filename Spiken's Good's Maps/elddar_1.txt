@@ -1,0 +1,5 @@
+P 47.7239, -112.123, 87.385, 0, 0, 127, 2, Maryn_Tak`Yaliz
+P 343.982, -899.667, -0.503, 0, 0, 240, 2, Arch_Druid_Lilthill`yan_(Mi)
+P -5.158, -127.203, 84.5739, 0, 0, 240, 2, Shalowen_the_Pure_(Q)
+P 338.668, -912.9959, 1.2569, 0, 0, 240, 2, Speaker_Grayleaf(Mi)
+P 347.9189, 1248.7913, -100.2062, 0, 127, 127, 2, Saako_Gigglegibber(Frostfell)

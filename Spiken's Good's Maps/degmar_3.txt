@@ -1,0 +1,6 @@
+P -200.8414, 451.1970, 41.1099,  240, 0, 0,  2,  Enraged_Spectral_Reveler
+P 138.7372, 448.3555, 2.4321,  240, 0, 0,  2,  Commander_Alast_Degmar
+P -174.3241, 408.9349, -12.6367,  240, 0, 0,  2,  Psychotic_Prisoner
+P 135.3683, 219.3534, -12.9580,  240, 0, 0,  2,  Horthin_Blackbook
+P 100.3909, 278.5939, 42.6360,  240, 0, 0,  2,  Frantic_Smith
+P 193.5255, 234.1184, 45.2742,  240, 0, 0,  2,  Frantic_Smith(confused_smith)

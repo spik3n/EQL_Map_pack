@@ -1,0 +1,12 @@
+P 2630.726, 182.735, 410.8224, 127, 0, 0, 2, King_Vigdos
+P 3780, 162, 358, 0, 0, 0, 2, fire_goblin_cave
+P 2353, 1073, 335, 0, 0, 0, 2, drakes
+P 2818, 1060, 364, 0, 0, 0, 2, water_goblin_cave
+P 2687, -197, 314, 0, 0, 0, 2, fire_goblins
+P 3878, 467, 474, 0, 0, 0, 1, drakes
+P 4075, 67, 316, 0, 0, 0, 1, animals
+P 3460, 20, 403, 127, 0, 0, 2, Sunstone_High_Priest
+P 2806, 1318, 326, 0, 0, 0, 2, animals
+P 3303, 1332, 316, 0, 0, 0, 1, water_goblins
+P 2768.7082, 114.6538, 407.5172, 127, 0, 0, 2, Sunstone_Flame_Reaver
+P 2702.1269, 203.2845, 404.9105, 127, 0, 0, 2, Sunstone_Ash_Priest

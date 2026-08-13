@@ -1,0 +1,9 @@
+P 75.7736, 838.5344, -14.9979,  0, 0, 240,  2,  Faction_Mobs
+P -46.3922, 753.4528, -14.9979,  0, 0, 240,  2,  Rk._III_spell_merchants
+P -0.4621, -21.9825, -9.9979,  0, 127, 0,  3,  Portal_Wizard(PoK)
+P 0.5650, -0.8555, -10.8724,  0, 0, 240,  3,  Group/Raid_Item_Vendors
+P 50.2308, 472.7559, 0.2000,  0, 0, 240,  2,  Kratch_Ale_Ender_(Tradeskill_Quest)
+P -184.6752, 355.1480, -15.3623,  0, 0, 240,  2,  Cultural_Merchants_and_Racial_Forges
+P -53.5274, 598.2137, 0.2000,  0, 0, 240,  2,  Tradeskill_Merchants
+P -169.4364, 598.2137, -1.9980,  0, 0, 240,  2,  Tradeskill_Containers
+P 50.5497, 616.8143, 0.2000,  0, 0, 240,  2,  Trophies

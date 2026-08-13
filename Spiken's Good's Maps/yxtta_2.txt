@@ -1,0 +1,15 @@
+P 1304.0000, -955.0000, -420.0000,  127, 64, 0,  3,  1_Beginnings_new_-_As_far_-_With_the_sun
+P 1304.0000, -904.0000, -420.0000,  127, 64, 0,  3,  2_Of_thrushar_-_The_lodestone_-_I_am_second
+P 1368.0000, -698.0000, -420.0000,  127, 64, 0,  3,  3_Read_your_-_I_am_6_-_Trushar's_servants
+P 1369.0000, -647.0000, -420.0000,  127, 64, 0,  3,  4_If_time_-_Peril_-_Where_your_magnet
+P 1306.0000, -454.0000, -420.0000,  127, 64, 0,  3,  5_As_each_-_If_my_clock_-_I_can_bear
+P 1301.0000, -403.0000, -420.0000,  127, 64, 0,  3,  6_You_may_-_You_lay_-_Seeking_news
+P 829.0000, -955.0000, -420.0000,  127, 64, 0,  3,  12_If_you_are_disarmed_-_I_come_last_-_When_brightest
+P 829.0000, -904.0000, -420.0000,  127, 64, 0,  3,  11_When_the_needle_-_It_is_your_-_I_am_the_month_that_brings
+P 768.0000, -698.0000, -420.0000,  127, 64, 0,  3,  10_I_am_the_hour_-_My_aged_-_I_am_eight
+P 761.9787, -668.2323, -421.6331,  127, 64, 0,  3,  9_Creatures_-_The_river_-_Face_the
+P 828.0000, -455.0000, -420.0000,  127, 64, 0,  3,  8_My_time_-_If_our_schedules_-_Be_certain
+P 826.0000, -403.0000, -420.0000,  127, 64, 0,  3,  7_Spin_-_Half_past_-_I_am_the_month_of_a_pair
+P 330.8647, -366.5147, -427.6356,  0, 0, 0,  1,  taelosian_fern_sample
+P 453.1687, 449.2733, -405.6215,  0, 0, 0,  1,  taelosian_fern_sample
+P 1085.8296, -631.3787, -416.4664,  0, 0, 0,  1,  taelosian_fern_sample

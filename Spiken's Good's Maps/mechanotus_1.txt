@@ -1,0 +1,12 @@
+P 1454.1547, -879.5925, 411.1232,  0, 0, 127,  2,  Inizen_Nogglezop_(78_Spells)
+P 1680.3910, -238.3699, 400.6551,  0, 0, 240,  2,  Engineer_Springfap_(Q)
+P 1565.1342, -228.2264, 400.2850,  0, 0, 240,  2,  Tavik_Gearpaq_(Q)
+P 1510.8737, -212.7002, 399.3842,  0, 0, 240,  2,  Pyrotechnician_Flizcoq_(Quests)
+P 1407.6106, -159.3875, 394.1918,  0, 0, 240,  2,  Clockwork_Warmashal_(Q
+P 1313.6487, -12.9957, 351.2920,  0, 0, 240,  2,  Tinmyn_Cogsloose
+P 1480.6575, -95.4599, 373.1349,  0, 0, 240,  2,  Tabazon_Gearflinger
+P 1626.4524, 142.2607, 390.4562,  0, 0, 240,  2,  Launch_Engineer
+P 1218.9672, 234.4984, 539.1390,  0, 0, 240,  2,  Engineer_Brinik
+P 1645.9269, -192.9831, 403.5498,  0, 0, 240,  2,  Lamperious_Cogwittle
+P 1567.4563, -206.1339, 404.9140,  0, 0, 240,  2,  Gurtrude_the_Spymaster(Q)
+P 1539.8871, -427.7989, 402.5865,  0, 0, 240,  2,  Sparks_Diggleknob

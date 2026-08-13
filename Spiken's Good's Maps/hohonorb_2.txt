@@ -1,0 +1,4 @@
+P -1704, 384, 0, 0, 0, 0, 2, Druhar_Gandoc
+P -1356, 384, 0, 0, 0, 0, 2, Dogan_Merlok
+P -1705, -394, 0, 0, 0, 0, 2, Bromal_Rythat
+P -1356, -410, 0, 0, 0, 0, 2, Rhodoc_Sorenby

@@ -1,0 +1,8 @@
+P -572.1915, 907.4589, 138.6460,  127, 0, 0,  2,  1-Violent_Research_Subject
+P -18.1411, 127.7747, 141.4070,  127, 0, 0,  2,  1-Violent_Research_Subject
+P -947.2925, -76.1804, 140.3480,  127, 0, 0,  2,  1-Violent_Research_Subject
+P 37.6653, -323.3933, 139.5554,  127, 0, 0,  2,  2-Steelslave_Researchers
+P -1315.6426, 70.9659, 137.6530,  127, 0, 0,  2,  3-Flawless_Experimental_Brutes
+P -1536.3792, 59.6017, 142.2204,  127, 0, 0,  2,  4-Flawless_Experimental_Battlelord
+P 536.3079, 949.8627, 129.8158,  127, 0, 0,  2,  1.Violent_Research_Subject
+P -1504.9308, 184.2860, 140.2519,  0, 0, 0,  1,  Chests

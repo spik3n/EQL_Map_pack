@@ -1,0 +1,10 @@
+P 8.8190, 1520.1089, -37.1290,  127, 64, 0,  2,  (SG)Gallowglass_Arena
+P -295.4900, 1933.1498, 67.7199,  127, 64, 0,  2,  (SG)Battlemaster's_Conclave
+P 464.1700, 2267.1897, 111.8100,  127, 64, 0,  2,  (SG)Imperial_Audience_Chamber
+P 639.7599, 199.8000, 89.1099,  127, 64, 0,  2,  (SG)Wallwatcher's_Citadel
+P 538.5099, 923.7599, 110.6800,  127, 64, 0,  2,  (SG)Statue_of_the_Deep_Ray
+P -542.3310, 366.4750, 52.7000,  0, 0, 0,  2,  Safe_areas.._Top/Bottom
+P -295.3980, 387.9649, -136.4939,  127, 64, 0,  2,  (SG)Infested_Water_Caves
+P 505.6200, 2276.7371, 106.4170,  0, 0, 0,  1,  Fake_wall
+P -50.1499, 2014.9176, 63.4969,  0, 0, 0,  1,  Fake_wall
+P 771.1609, 159.6740, 85.4090,  0, 0, 0,  1,  A_tightly_wound_cocoon

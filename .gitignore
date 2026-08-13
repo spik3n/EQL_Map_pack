@@ -1,0 +1,9 @@
+# built release bundles (attached to GitHub Releases, not committed)
+_dist/
+*.zip
+
+# local dev helper (personal paths - not for the public repo)
+_test_pack.ps1
+
+# local POI-fix backup (safety net, not for the repo)
+_pre_hashfix_backup/

@@ -1,0 +1,4 @@
+P -1674.6637, 1513.5901, -7.2518,  240, 0, 0,  2,  Froglok_Impaler*
+P 584.6984, -1207.4347, 8.8572,  240, 0, 0,  2,  Froglok_berserker*
+P 0.0000, 7000.0000, -149.1908,  0, 0, 0,  2,  Beserker_Cycle:_Blackbone,_Bloodgorge,_Bloodvein,_Ebon_Bloodrose,_Deadeye,_Dreesix_Ghoultongue,_Fakraa_the_Forsaken,_Fangor,_Farik_the_Vile,_Frayk,_Froszik_the_Impaler,_Grimewurm,_Grizshnok,_Heartblood_Fern,_Soblohg,_Two_Tails,_Venomwing,_Weeping_Mantrap
+P 0.0000, -7000.0000, -140.2656,  0, 0, 0,  2,  Impaler_Cycle:Blackwing,_Bleeder,_Bloodskull,_Bulsgor,_Crackclaw,_Crookspine,_Dred,_Fisherman_Grik,_Galeech,_Gluttik,_Gorge,_Horkak_the_Dead,_Ichorspike,_Old_Hangman,_Scalek,_Thirgus,_Torgis,_Vissix,_Woggir

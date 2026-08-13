@@ -1,0 +1,9 @@
+P -145.9963, 479.6232, 180.2242,  127, 0, 0,  2,  Grayleaf_the_Fallen
+P 409.6297, -332.6020, 33.3781,  127, 0, 0,  2,  Lifestone_Guardian_of_Winter
+P 403.7364, 505.8715, 72.7767,  127, 0, 0,  2,  Lifestone_Guardian_of_Autumn
+P 566.9900, 234.6077, 42.6509,  127, 0, 0,  2,  Lifestone_Guardian_of_Summer
+P 817.9276, 167.6443, 58.4913,  127, 0, 0,  2,  Lifestone_Guardian_of_Spring
+P -180.3995, 336.9492, 65.4521,  0, 0, 0,  1,  Psilocybe(GS)
+P -358.6469, -23.9119, 125.9680,  127, 0, 0,  2,  Compact_Prefect_Thosen
+P -358.4689, -3.2660, 125.9680,  127, 0, 0,  2,  Compact_Prefect_Tweyne
+P -358.9660, 16.7210, 125.9680,  127, 0, 0,  2,  Compact_Prefect_Unala

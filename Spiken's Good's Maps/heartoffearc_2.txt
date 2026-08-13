@@ -1,0 +1,6 @@
+P -522.1070, -621.8071, -1027.2864,  127, 0, 0,  2,  a_powerful_apparition(Roams)
+P -546.5842, 452.7375, -1025.3008,  127, 0, 0,  2,  a_powerful_apparition(Roams)
+P 324.3195, -323.2455, -1029.0046,  0, 127, 127,  2,  4B-Try_to_enter_the_heart
+P 360.4913, -362.9565, -1027.8538,  0, 127, 127,  2,  4C-Kill_the_phantasms*
+P 90.7101, -487.3400, -1027.7795,  0, 127, 127,  2,  4D-Revert_the_powerful_apparitions*
+P 332.1263, -331.1263, -1029.0447,  0, 127, 127,  2,  4E-Try_to_Enter_the_heart

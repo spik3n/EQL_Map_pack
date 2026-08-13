@@ -1,0 +1,17 @@
+P 340.3765, 845.7504, 59.5692,  0, 0, 240,  2,  Captain_Russell_Cooper_(HA)
+P 910.7151, 1113.3058, 23.9822,  0, 0, 240,  2,  Denrik_Serbold*_(Q)
+P 723.7700, 1099.1653, -0.4307,  0, 0, 240,  2,  Gribble_Grobblenobber_(HA)
+P 707.3560, 1106.3007, -0.4307,  0, 0, 240,  2,  a_shady_chandler_(M)
+P 669.6863, 1128.5055, -0.4307,  0, 0, 240,  2,  Templar_Gemma_(Mi
+P 883.5893, -664.9502, 51.8301,  0, 0, 127,  2,  Moobab
+P 678.5599, -1439.4301, 219.9799,  0, 0, 127,  2,  Mirachooz
+P 1333.6801, -669.2899, 49.3999,  0, 0, 127,  2,  Frolunck
+P 564.4008, 1229.2234, 0.3200,  0, 0, 240,  2,  Skulk_the_Madaxe_(HA)
+P 374.7990, 862.8799, 61.4399,  0, 0, 240,  2,  Supplier_Derek_Taylor_(M)
+P 538.3990, 791.2599, 61.4399,  0, 0, 240,  2,  Postmaster_Dok_Barroquillo_(M
+P 510.6899, 572.5699, 61.4399,  0, 0, 240,  2,  Supplier_Zach_Steiger_(M)
+P 436.8600, 543.5900, 61.4399,  0, 0, 240,  2,  Archivist_Dominic_Moore(Q)
+P 402.3700, 540.3300, 61.4399,  0, 0, 240,  2,  Officer_Jeremy_Pinckard
+P 242.8600, 608.4990, 61.4399,  0, 0, 240,  2,  Armorer_Dach_Aldridge_(Elite??)
+P 228.9399, 709.1699, 61.4399,  0, 0, 240,  2,  Banker_Richard_Vercelli_(B)
+P 55.2299, 95.7600, 63.5900,  0, 0, 127,  2,  Scout_Gatius_Lienweathar

@@ -1,0 +1,10 @@
+P 366.0000, -1365.0000, 0.0000,  127, 64, 0,  2,  Coterie_outpost
+P 1126.0000, -345.0000, 0.0000,  127, 64, 0,  2,  Coterie_Castle
+P 1463.0000, 627.0000, 0.0000,  127, 64, 0,  2,  Coterie_outpost
+P -853.0000, 1637.0000, 0.0000,  127, 64, 0,  2,  Grimling_caves
+P -1521.0000, -1361.0000, 0.0000,  127, 64, 0,  2,  Coterie_outpost
+P -646.0000, -1454.0000, 0.0000,  127, 64, 0,  2,  Coterie_outpost
+P -892.2767, 231.9677, 213.6812,  127, 0, 0,  2,  Disciple_of_Focus(Mnk2.0)
+P 1371.5160, -571.5981, 314.1859,  127, 0, 0,  2,  a_Coterie_insatiate(Ench2.0)
+P 875.9835, -476.6151, -22.0337,  127, 0, 0,  2,  Kerzar_Clawtore_(final_destination:warning_depop_soon)
+P 1182.2931, 1511.2339, -8.4162,  127, 0, 0,  2,  Kerzar_Clawtore*_Spawn_some_where_around_here_and_underworld

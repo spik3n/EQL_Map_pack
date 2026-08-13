@@ -1,0 +1,8 @@
+P 1475.2748, 699.7294, 98.9864,  240, 0, 0,  2,  Tribal_Hunter
+P 1474.2870, 730.6625, 98.9739,  240, 0, 0,  2,  Tribal_Shaman
+P 1812.4163, -1452.7725, -48.9123,  240, 0, 0,  2,  Sambata_Tribal_Advisor
+P 2342.4099, -1405.8346, -19.8322,  240, 0, 0,  2,  Sambata_Tribal_Leader_Garn/Age_Old_Rock
+P 1443.2570, -652.2736, 88.6392,  240, 0, 0,  2,  Fungus_Covered_Shroom
+P 1485.5684, 719.9882, 97.4405,  240, 0, 0,  2,  Tribal_Leader
+P 1490.6675, 731.1875, 97.4405,  240, 0, 0,  2,  Tribal_Advisor
+P 1112.3446, 122.4125, 106.3204,  240, 0, 0,  2,  Fungus_Covered_Shroom

@@ -1,0 +1,8 @@
+P 264.9123, 122.2000, -65.9000,  240, 0, 0,  2,  an_Enraged_Bixie_Drone_(Espionage)
+P 197.9796, 114.2787, -45.2976,  240, 0, 0,  2,  Monarch_Deathwing_(Working_Overtime)
+P 1632.2094, 44.4872, -183.7435,  240, 0, 0,  2,  Dreadmole_(Always_Follow_the_Money)
+P 2295.6172, -129.1930, -49.3643,  240, 0, 0,  2,  Arachnox(The_Great_Hunt)
+P 2367.2195, 93.9744, -59.3599,  240, 0, 0,  2,  Tleroth(Too_Far_This_Time)
+P 2498.0000, 710.0000, 105.0000,  240, 0, 0,  2,  Pollenix_(They're_Everywhere)
+P 978.4092, 943.4442, -260.8394,  240, 0, 0,  2,  a_Bixie_Guardian_(Assault_the_Main_Hive)
+P 867.2079, 1256.5884, -198.7253,  240, 0, 0,  2,  Princess_Honeywing_(Jacyll's_Jailbreak)

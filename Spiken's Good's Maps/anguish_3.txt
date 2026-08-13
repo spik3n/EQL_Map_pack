@@ -1,0 +1,13 @@
+P -505.0000, -4950.0000, 293.0000,  240, 0, 0,  3,  Overlord_Mata_Muram
+P 298.0000, -702.0000, -205.0000,  240, 0, 0,  3,  Keldovan_the_Harrier
+P -421.0000, -4387.0000, 218.0000,  240, 0, 0,  3,  Warden_Hanvar
+P -343.0000, -4883.0000, 275.0000,  240, 0, 0,  3,  Arch_Magus_Vangl
+P -205.0000, -702.0000, -205.0000,  127, 0, 0,  2,  Commander_1_(Vilria_the_Keeper)
+P -1.0000, -1635.0000, -207.0000,  127, 0, 0,  2,  Commander_2_(Grenlok_the_Converter)
+P -498.0000, -4528.0000, 206.0000,  127, 0, 0,  2,  Commander_5_(First_Lieutenant_Minas)
+P -30.0000, -3819.0000, 141.0000,  127, 0, 0,  2,  Commander_4_(Administrator_Charial)
+P -368.0000, -3799.0000, 137.0000,  127, 0, 0,  2,  Commander_3_(Damlin_Lingering_Charge)
+P -610.0000, -3385.0000, -16.0000,  240, 0, 0,  3,  Ture
+P 255.0000, -2005.0000, -153.0000,  240, 0, 0,  2,  Tanthu_the_Tormentor_(Gaze)
+P 170.0000, -2152.0000, -153.0000,  240, 0, 0,  2,  Tanthi_the_Tormentor_(Wail)
+P 335.0000, -2152.0000, -153.0000,  240, 0, 0,  2,  Tantho_the_Tormentor_(Touch)

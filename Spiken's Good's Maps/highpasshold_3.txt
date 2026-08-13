@@ -1,0 +1,8 @@
+P -268.5133, 95.5297, 24.4491,  127, 0, 0,  2,  Dyllin_Starsine(Q)Roam)
+P 571.9863, -457.9873, 40.4097,  127, 0, 0,  2,  Malik_Zaren(Q)
+P 543.4800, -423.7069, 40.2819,  127, 0, 0,  2,  Vranol_Blackguard(Q)
+P 567.5160, -428.7216, 40.4097,  0, 0, 127,  2,  Marlin_Shirtov(Merchant(Q)
+P -104.2656, -808.7314, -101.8727,  240, 0, 0,  2,  Grenix/Vexven_Mucktail
+P -103.5206, 955.2580, -31.1535,  240, 0, 0,  2,  Hagnis_Shralok(not_accurate)
+P -49.5531, 1018.4659, -30.4719,  240, 0, 0,  2,  Recfek_Shralok(not_accurate)
+P -116.3947, 988.6547, -30.5658,  240, 0, 0,  2,  Vopuk_Shralok(not_accurate)

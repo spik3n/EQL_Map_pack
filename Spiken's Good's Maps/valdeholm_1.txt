@@ -1,0 +1,9 @@
+P 685.4589, 1577.1698, 79.6970,  0, 0, 240,  2,  Commander_Haesgrin_(Q
+P 1072.2660, 1509.2300, 81.2189,  0, 0, 240,  2,  Wraithguard_Thentil_Strongarm_(Q)
+P -1226.6720, 1500.2129, 79.7019,  0, 0, 240,  2,  Wraithguard_Warden_Hrosigar
+P -1432.5669, 1536.9889, 79.7019,  0, 0, 240,  2,  Wraithguard_Lorekeeper_Fenegar_(Q)
+P -1247.9939, 1929.7627, 0.5380,  0, 0, 240,  2,  Wraithguard_Sergeant_Aerik_(Q)
+P 1638.0000, 2104.0000, 0.0000,  0, 0, 240,  2,  Wraithguard_Lodigar_(Q)
+P -659.7300, 2531.3892, -497.4821,  0, 127, 0,  3,  Wraithguard_Sergeant_Thavin(R:Fergarin_or_Haesgrin)
+P 1071.7100, 1355.9849, 81.2189,  0, 0, 240,  2,  Wraithguard_Heimgul(Q)
+P 993.8893, 885.3575, -14.6837,  0, 0, 240,  2,  Fergarin_Bardon_I(Q

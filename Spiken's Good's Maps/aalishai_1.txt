@@ -1,0 +1,4 @@
+P -972.4194, 605.1797, 226.6220,  0, 0, 240,  2,  Everna_Delestrod(T)
+P 432.2837, -493.9281, 122.6776,  0, 0, 240,  2,  Spear_Sundering_Ivory(Q)
+P 4.4919, -183.6945, 4.1103,  0, 0, 240,  2,  Blazing_Sorrow's_Darkness(Q)
+P -544.8632, 35.9306, 5.1245,  0, 0, 240,  2,  Verimillion_Refuge_in_Symmetry(R)

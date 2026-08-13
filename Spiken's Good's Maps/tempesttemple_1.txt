@@ -1,0 +1,8 @@
+P 279.1170, 339.5690, 155.7275,  0, 0, 240,  2,  Jessup_Stormwind(Q)
+P 436.7515, 55.5698, 1.1472,  0, 0, 240,  2,  Petran_Searake(HA)
+P 273.2832, 583.1191, 153.7433,  0, 0, 240,  2,  Yllethil_Starsun(G_Merchant)
+P 346.7309, -109.1340, 6.1006,  0, 0, 240,  2,  Gregor_Olmstead(Quest)
+P 508.3829, -112.4047, 6.6734,  0, 0, 240,  2,  Mate_Rominald(Q)
+P 378.3754, -16.4970, 10.7723,  0, 0, 240,  2,  Ognit_Eznertob(Q)
+P 329.6913, 644.9615, 163.7623,  0, 0, 240,  2,  Marcas_Hanrahan(Druid_Spells)
+P 222.4500, 602.2545, 158.4201,  0, 0, 240,  2,  Krinoch_Jal(Q)

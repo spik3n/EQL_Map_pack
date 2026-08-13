@@ -1,0 +1,8 @@
+P -126.4737, 89.5846, 184.8307,  240, 0, 0,  2,  Kezhda_the_Frenzied(a_spirit_sapper)*
+P -714.6230, 177.4798, 69.5969,  240, 0, 0,  2,  Rabid_Rhizanthella_(a_prickly_perennial)
+P 428.9883, -8.2436, 182.7897,  240, 0, 0,  2,  Variegated_Monstera_(an_aberrant_blossom)
+P 328.2518, -133.9644, 177.5240,  240, 0, 0,  2,  Eelworm_(overgrown_nemotoad)
+P 585.5942, -634.1666, 203.3195,  240, 0, 0,  2,  Chromatic_Widow_Queen_(an_ethereal_widow)
+P -333.8254, 616.6422, 58.2224,  240, 0, 0,  2,  Mycorrhizal*_(a_sporre_stalker)
+P -551.3286, 268.3874, 38.5739,  240, 0, 0,  2,  Eelworm
+P -680.3397, -345.4568, 53.1835,  240, 0, 0,  2,  Geoxyle_(root_reaper)

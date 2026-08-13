@@ -1,0 +1,3 @@
+P 5781.7217, -2434.4446, -248.5555,  240, 0, 0,  2,  a_goblin_headmaster_'goblin_headhunter
+P 3086.3948, -1728.4092, -294.6089,  240, 0, 0,  2,  an_ancient_cyclops(ALL_PH)
+P 7024.5850, -352.7984, -293.2748,  240, 0, 0,  2,  Mojo_the_Tainted*

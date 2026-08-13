@@ -1,0 +1,10 @@
+P -597.9611, -843.8217, 348.3817,  240, 0, 0,  2,  Head_Scientist_Twiner
+P -823.6266, -537.5535, 240.2073,  240, 0, 0,  2,  Head_Scientist_Spodwork(NA)
+P -32.6137, -765.2083, 208.3064,  240, 0, 0,  2,  Head_Scientist_Lotrip(NA)
+P -639.8736, -15.2691, 347.2085,  240, 0, 0,  2,  Head_Scientist_Gripwir(NA)
+P -745.3310, -221.4950, 345.7379,  240, 0, 0,  2,  Head_Scientist_Fizzil(NA)
+P -831.3351, -348.6880, 230.6463,  240, 0, 0,  2,  Head_Scientist_Belnot(NA)
+P -240.8960, -471.1010, 664.6599,  240, 0, 0,  2,  Malfunctioning_Steamwork_Borri
+P -36.2680, -121.8243, 298.5083,  240, 0, 0,  2,  Head_Scientist_Wripple
+P -358.2291, -472.5579, 154.8031,  240, 0, 0,  2,  Former_Head_Scientist_Bozle*
+P -377.8881, -449.5421, 410.8743,  240, 0, 0,  2,  Head_Administrator_Grigano

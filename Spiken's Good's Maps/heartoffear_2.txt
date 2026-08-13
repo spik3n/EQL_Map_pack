@@ -1,0 +1,11 @@
+P 727.8790, 2264.1174, 9.5304,  127, 64, 0,  2,  Glarelord_Cluster
+P -1623.0599, -2154.6060, -3.3362,  0, 0, 0,  2,  1A-Missing_Harbingers
+P -1618.0048, -2216.8091, -3.3362,  0, 0, 0,  2,  1B,D,G,H-Speak_to_Risok
+P -1639.2690, -2264.0466, -2.6855,  0, 0, 0,  2,  1C-Defend_the_party
+P -1665.6626, 2187.7012, -3.1409,  0, 0, 0,  2,  1E,F-Search_for_the_second_party
+P 2640.0588, 873.0106, 3.5974,  0, 0, 0,  2,  1I-Recover_the_stolen_shards
+P 2513.9875, 852.8417, -1.5903,  0, 0, 0,  1,  a_dead_scout
+P 2805.4619, 1054.8236, 10.5344,  0, 0, 0,  2,  1J-Find_a_survivor
+P 898.2281, 2144.8757, -0.5292,  0, 0, 0,  2,  1K-Find_the_source
+P 961.8606, 2134.4221, -0.7193,  0, 0, 0,  2,  1L-Kill_the_fear_apparitions
+P 6.1512, 84.6682, 68.1616,  0, 0, 0,  2,  1-Lost_Harbingers_start-end

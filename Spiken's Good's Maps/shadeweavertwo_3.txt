@@ -1,0 +1,7 @@
+P -1019.6153, -2534.4336, -197.3546,  240, 0, 0,  2,  Scorched_Cackling_Bones_(scorched)
+P -264.4247, -3330.4097, -225.1372,  240, 0, 0,  2,  Stoneclaw_Broodmother_(stoneclaw)
+P -563.6271, -3067.1895, -118.9164,  240, 0, 0,  2,  Molten_Wildfire_(painted)
+P -460.6880, 386.8485, -202.4643,  240, 0, 0,  2,  Sharp_Claw_(mature)*
+P 1555.3053, -3132.2444, -207.7388,  240, 0, 0,  2,  Thorn_Petal(thistle)
+P -557.1122, -1682.0132, -351.9910,  240, 0, 0,  2,  Shak_Dathor_Overlord(swayer)
+P -2094.3240, -145.3734, -100.0300,  240, 0, 0,  2,  Commander_Esline_(Commander)

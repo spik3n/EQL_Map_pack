@@ -1,0 +1,12 @@
+P -1813.8589, -1252.5220, 3.9399,  0, 0, 240,  2,  Noble_Mikuv_the_Rational_(Q)
+P -1555.1459, -1745.5879, 3.9399,  0, 0, 240,  2,  Commander_Prezul_(Q)
+P -1259.2244, -1568.9203, 3.6208,  0, 0, 240,  2,  Noble_Yemall_the_Arcane_(Q)
+P -1836.4048, -1580.9004, 3.8317,  0, 0, 240,  2,  General_Vuig_the_Imposing(Mi)
+P 1823.7106, -1407.2699, -3.1490,  0, 0, 240,  2,  Acolyte_Maarnek_(Q)
+P -1794.3251, -1064.4607, 9.1129,  0, 0, 240,  2,  Nobel_Ramel_the_Strategist_(Q)
+P 1924.6946, -2066.3699, -2.9380,  0, 0, 240,  2,  Assistant_Josoth_(spells)
+P 192.1065, -1592.7522, 58.3462,  0, 0, 240,  2,  Nahsulen_the_Tactician_(Q)
+P 1925.2522, -2071.4158, -2.9380,  0, 0, 240,  2,  Herald_Argoth(M)
+P 1560.6338, -2133.5945, 2.2917,  0, 0, 240,  2,  Commander_Fethul
+P 235.4108, -1602.3102, 60.7736,  0, 0, 127,  2,  Karsor_the_Mad
+

@@ -1,0 +1,2 @@
+P 10.6481, 80.4311, 55.7935, 0, 127, 0, 2, First_Mate_Fortuna_Gelukk
+P 9.5207, 102.2533, 55.7935, 0, 0, 127, 2, Captain_Horatio_Ongel

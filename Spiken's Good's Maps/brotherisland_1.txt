@@ -1,0 +1,4 @@
+P 3233.1089, 4724.4785, 535.4243,  0, 0, 240,  2,  Jameswell_Dagmire(Q)
+P 3233.5930, 4778.6709, 535.3523,  0, 0, 240,  2,  Dabner_Drednever(Q)
+P 3325.2781, 4750.3936, 535.4230,  0, 0, 240,  2,  Quigley_Barnables(Q)
+P 4102.8174, 3159.6553, 323.6558,  0, 0, 240,  2,  Commissioner_Paltros(Kill_Quests)

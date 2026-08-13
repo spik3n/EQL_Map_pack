@@ -1,0 +1,6 @@
+P 1177.9644, 1111.8296, -26.3458,  127, 0, 0,  2,  Netherbian_Swarmfiend(Shm)
+P 1225.1648, 825.2657, -21.8432,  0, 0, 0,  1,  disturbed_elysian_remains
+P -480.1854, -2260.8108, 298.2140,  127, 0, 0,  2,  Netherbian_Swarmcaller
+P -58.6133, -2897.7825, 348.1668,  127, 0, 0,  2,  Tawro_Icequake
+P 2035.4336, 776.8845, -21.5057,  127, 0, 0,  2,  Radir_Fireshower
+P -480.8107, -2249.9148, 300.6397,  127, 0, 0,  2,  Netherbian_Swarmlord

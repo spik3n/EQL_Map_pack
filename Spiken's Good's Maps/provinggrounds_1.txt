@@ -1,0 +1,7 @@
+P 2100.0000, 4348.0000, -310.0000,  0, 0, 240,  3,  Projection_of_Realms_(adaption/ingenuity)
+P 1579.0000, 5559.0000, -310.0000,  0, 0, 240,  3,  Projection_of_Tactics_(foresight/subversion)
+P -1065.0000, 4742.0000, -309.0000,  0, 0, 240,  3,  Projection_of_Body_(endurance/weaponry)
+P -1731.0000, 1086.0000, -309.0000,  0, 0, 240,  3,  Projection_of_Arcana_(specialization/efficiency)
+P 2991.0000, 1084.0000, -309.0000,  0, 0, 240,  3,  Projection_of_Power_(corruption/destruction)
+P 932.0000, -388.0000, -309.0000,  0, 0, 240,  3,  Projection_of_Mind_(hate/fear)
+P 1887.0000, 939.0000, -310.0000,  0, 0, 240,  2,  Pashia_Clouddancer_(Pal_2.0)

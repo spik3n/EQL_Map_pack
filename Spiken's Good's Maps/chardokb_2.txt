@@ -1,0 +1,4 @@
+P -606.7793, 803.51, 35.6236, 0, 0, 0, 1, resurrectionist
+P -189.2103, 374.6818, 28.6676, 0, 0, 0, 1, Cage_of_Transmutation(GS)
+P -364.1967, 92.2092, 32.5275, 0, 0, 0, 1, resurrectionist
+P 177.6399, 48.3699, -12.39, 127, 0, 0, 2, a_leprous_chokidai(Rng1.5)
