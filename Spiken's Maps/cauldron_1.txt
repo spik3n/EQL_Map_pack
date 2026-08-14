@@ -15,3 +15,5 @@ P 2031, -38, 0, 255, 255, 0, 2, Squallslither
 P 190, -1350, 0, 255, 255, 0, 2, Symperbell_Moor
 P -209, 1596, 0, 255, 255, 0, 2, Treanik_Ireblade
 P 940, 1750, 0, 255, 255, 0, 2, Llara
+
+P -266.9967, -2861.9607, 469.9697, 150, 0, 200, 3, to_The_Butcherblock_Mountains

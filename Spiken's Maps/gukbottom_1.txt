@@ -1,3 +1,6 @@
 P 387, -944, 0, 255, 128, 0, 2, Raster_of_Guk
 P 224, -755, 0, 255, 255, 0, 2, Slaythe_the_Slayer
 P 749, -1067, 0, 255, 255, 0, 2, Zol_Ghoul_Knight
+
+P 32.9258, -1510.4930, -99.7718,  150, 0, 200,  3,  to_The_City_of_Guk
+P -77.3012, 124.6633, -238.7075,  150, 0, 200,  3,  portal_to_Innothule_Swamp

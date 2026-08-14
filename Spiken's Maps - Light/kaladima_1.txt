@@ -15,3 +15,5 @@ P 360, 117, 0, 255, 255, 0, 2, King_Kazon_Stormhammer
 P 9, 47, 0, 255, 255, 0, 2, Priest_of_Discord
 P -0, -36, 0, 255, 255, 0, 2, Santug_Claugg
 P -215, -210, 0, 255, 255, 0, 2, Soulbinder_Torvald
+
+P -39.7893, 57.2702, -0.8014, 150, 0, 200, 3, to_Butcherblock_Mountains

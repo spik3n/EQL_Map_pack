@@ -51,3 +51,5 @@ P 6696, -167, 0, 255, 128, 0, 2, Vilnius_the_Small
 P 15076, -1341, 0, 255, 255, 0, 2, Yiz_Pon
 P 4270, 690, 0, 255, 255, 0, 2, Sir_Arlindo_Goldheart
 P 12568, -1262, 0, 255, 255, 0, 2, Yuanda
+
+P 15882.8672, 1392.0168, 10.4735,  150, 0, 200,  3,  to_The_Northern_Plains_of_Karana

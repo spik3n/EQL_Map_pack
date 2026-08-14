@@ -30,3 +30,5 @@ P -79, -885, 0, 255, 255, 0, 2, epicurean_halfling
 P -386, -1012, 0, 255, 255, 0, 2, orc_legionnaire
 P 2182, -948, 0, 255, 255, 0, 2, Old_Gourdhead
 P 2404, -816, 0, 255, 255, 0, 2, orc_corpse
+
+P -1402.7693, 807.6368, -11.6148, 150, 0, 200, 3, to_The_Liberated_Citadel_of_Runnyeye

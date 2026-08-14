@@ -19,3 +19,7 @@ P 148, 1028, 0, 255, 255, 0, 2, Tae_Ew_Diviner
 P -139, 1073, 0, 255, 255, 0, 2, Tae_Ew_Templar
 P 243, 359, 0, 255, 255, 0, 2, Emissary_Shinsere
 P 93, 442, 0, 255, 255, 0, 2, druid_epic_trap
+
+P -3427.5413, -359.0959, -0.8014,  150, 0, 200,  3,  to_The_Rathe_Mountains
+P -2607.0820, 2335.5667, 5.2297,  150, 0, 200,  3,  portal_to_The_Plane_of_Fear
+P 108.4673, 1451.3647, 47.1361,  150, 0, 200,  3,  to_Temple_of_Cazic-Thule

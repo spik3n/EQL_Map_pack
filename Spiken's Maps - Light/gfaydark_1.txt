@@ -47,3 +47,8 @@ P 228, 515, 0, 255, 255, 0, 2, Tylfon
 P -1524, 1347, 0, 255, 255, 0, 2, orc_hatchetman
 P -39, -2008, 0, 255, 255, 0, 2, Feyana_Lightwing
 P 551, 1731, 0, 255, 255, 0, 2, Second_Fragment_of_Igok
+
+P -2642.0693, 1627.6870, -0.8014,  150, 0, 200,  3,  to_Butcherblock_Mountains
+P 50.9714, -2585.1650, 15.0424,  150, 0, 200,  3,  to_Clan_Crushbone
+P 1077.1858, 2588.6487, -0.8014,  150, 0, 200,  3,  to_The_Lesser_Faydark
+P 2595.5552, 1938.7766, 19.6049,  150, 0, 200,  3,  to_Northern_Felwithe

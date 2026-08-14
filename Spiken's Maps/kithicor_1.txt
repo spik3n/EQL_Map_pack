@@ -56,3 +56,5 @@ P 752, -1330, 0, 255, 0, 0, 2, Jack_Lanturn
 P -2321, -809, 0, 255, 0, 0, 2, Tasi_V`ghera
 P 795, -1298, 0, 255, 0, 0, 2, Tricksy_Treetor
 P -2271, -812, 0, 255, 0, 0, 2, War_Priestess_T`zan
+
+P 1099.9457, -1428.9575, -52.8951, 150, 0, 200, 3, to_West_Commonlands

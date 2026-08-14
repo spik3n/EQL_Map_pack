@@ -48,3 +48,8 @@ P 475, 524, 0, 255, 255, 0, 2, large_bloodvein_mosquito
 P 536, 175, 0, 255, 255, 0, 2, lesser_charbone_skeleton
 P 119, 247, 0, 255, 255, 0, 2, lesser_icebone_skeleton
 P -1108, -2611, 0, 255, 255, 0, 2, man_eating_creeper
+
+P -2947.0000, -2421.0000, 40.3447,  0, 0, 0,  3,  Roshin_(Merchant)
+P -2907.0000, -2461.0000, 40.3447,  0, 0, 0,  3,  Migo_(Merchant)
+P -2723.0000, -2641.0000, 39.0010,  0, 0, 0,  3,  Gokrok_(Armor)
+P -2812.0000, -2706.0000, 40.3135,  0, 0, 0,  3,  Bygle_(Weapons)

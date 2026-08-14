@@ -73,3 +73,7 @@ P 454, 286, 0, 255, 255, 0, 2, Zenita_D`Rin
 P 218, 65, 0, 255, 255, 0, 2, Zhem_Xecia
 P 952, 82, 0, 255, 255, 0, 2, water_lily
 P 1034, 21, 0, 255, 255, 0, 2, Translocator_Setikan
+
+P 713.1904, 1235.6040, -56.7701,  150, 0, 200,  3,  to_The_Northern_Desert_of_Ro
+P 1036.2604, 15.5020, -56.7701,  150, 0, 200,  3,  to_Butcherblock/Ocean_of_Tears/Qeynos
+P 1204.7305, 419.1022, -51.9759,  150, 0, 200,  3,  portal_to_The_Plane_of_Sky_(click)

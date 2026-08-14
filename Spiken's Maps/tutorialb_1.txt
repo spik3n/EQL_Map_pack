@@ -24,3 +24,5 @@ P 221, 116, 0, 255, 255, 0, 2, Scribe_Farquard
 P 344, -789, 0, 255, 255, 0, 2, Slavemaster_Ruga
 P 541, 836, 0, 255, 255, 0, 2, Spider_Tamer_Gugan
 P 408, 974, 0, 255, 255, 0, 2, Venomfang
+
+P 55.8279, 188.8215, 12.1597,  127, 0, 0,  3,  Mushrooms

@@ -44,3 +44,7 @@ P -1683, 522, 0, 255, 255, 0, 2, orc_chief
 P -1647, 581, 0, 255, 255, 0, 2, orc_oracle
 P -1280, -885, 0, 255, 255, 0, 2, pained_unicorn
 P -22.0, 1.0, 0, 255, 255, 0, 2, tainted_brownie
+
+P -3361.0137, 1140.1586, -0.8014,  150, 0, 200,  3,  to_The_Castle_of_Mistmoore
+P 2154.6064, -967.0878, -5.5826,  150, 0, 200,  3,  to_The_Steamfont_Mountains
+P 1180.2231, -2144.5144, -0.8014,  150, 0, 200,  3,  to_The_Greater_Faydark

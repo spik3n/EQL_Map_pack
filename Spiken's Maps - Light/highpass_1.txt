@@ -47,3 +47,5 @@ P -118, -479, 0, 255, 255, 0, 2, Volunteer_Renlor
 P -224.0, 854.9, 0, 255, 255, 0, 2, Vopuk_Shralok
 P 230, -384, 0, 255, 255, 0, 2, Vranol_Blackguard
 P 205, -427, 0, 255, 255, 0, 2, Wres_Corber
+
+P -92.4035, 974.9752, -0.8014,  150, 0, 200,  3,  to_Kithicor_Forest

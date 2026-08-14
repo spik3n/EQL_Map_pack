@@ -17,3 +17,5 @@ P 691, 64, 0, 255, 255, 0, 2, Tolkar_Parlone
 P 328, -11, 0, 255, 255, 0, 2, Tynkale
 P 435, -13, 0, 255, 255, 0, 2, Yeolarn_Bronzeleaf
 P 198, -55, 0, 255, 255, 0, 2, Galrun_Starforge
+
+P -197.2637, -40.8508, -0.8014, 150, 0, 200, 3, to_The_Greater_Faydark

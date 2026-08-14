@@ -37,3 +37,6 @@ P -155, -2788, 0, 255, 255, 0, 2, tainted_aquagoblin
 P 650, -2470, 0, 255, 255, 0, 2, Egonis
 P -1532, -67, 0, 255, 255, 0, 2, Guja_Master_Therik
 P -2230, 943, 0, 255, 255, 0, 2, Kimm_McShannel
+
+P -1160.0498, -4339.0210, -0.8014, 150, 0, 200, 3, to_The_Southern_Plains_of_Karana
+P 2254.5151, -2555.2256, 0.9486, 150, 0, 200, 3, to_The_Rathe_Mountains

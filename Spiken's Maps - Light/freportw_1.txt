@@ -60,3 +60,7 @@ P -26, 267, 0, 255, 255, 0, 2, Vun_Winstone
 P 389, -1295, 0, 255, 255, 0, 2, Yovik_Splegle
 P 730, 193, 0, 255, 255, 0, 2, peasant_woman
 P 346, 283, 0, 255, 255, 0, 2, Malloy_the_Songbird
+
+P -760.9199, 23.2347, -28.8014,  150, 0, 200,  3,  to_East_Commonlands
+P 655.8976, -97.2854, -41.7701,  150, 0, 200,  3,  portal_to_Tower
+P 715.9178, -158.2242, -12.8014,  150, 0, 200,  3,  portal_back_to_yard

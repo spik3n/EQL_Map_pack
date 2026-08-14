@@ -43,3 +43,6 @@ P -1039, -3489, 0, 255, 255, 0, 2, erudite_traveler
 P -734, -4954, 0, 255, 255, 0, 2, Apprentice_of_Saxuus
 P -87, -5181, 0, 255, 255, 0, 2, JPEApprenticeCounter
 P -754, -4610, 0, 255, 255, 0, 2, Utility_Listener
+
+P -278.0000, -1381.0000, 4.6919,  0, 0, 0,  3,  Marton_(Smith)
+P -307.0000, -1404.0000, 4.6919,  0, 0, 0,  3,  Mira_(Smith)

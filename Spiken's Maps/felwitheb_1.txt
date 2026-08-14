@@ -6,3 +6,8 @@ P 599, -795, 0, 255, 128, 0, 2, Niola_Impholder
 P 409, -507, 0, 255, 255, 0, 2, Tarker_Blazetoss
 P 814, -360, 0, 255, 255, 0, 2, Thwinose_Vilgarn
 P 601, -462, 0, 255, 255, 0, 2, Yuin_Starchaser
+
+P 619.1793, -435.7907, 30.1986, 150, 0, 200, 3, to_Enchanter_Guild
+P 601.4756, -457.9738, 30.1986, 150, 0, 200, 3, to_Magician_Guild
+P 584.8321, -435.2731, 30.1986, 150, 0, 200, 3, to_Wizard_Guild
+P 338.8209, -504.2612, 3.1986, 150, 0, 200, 3, back_to_entrance

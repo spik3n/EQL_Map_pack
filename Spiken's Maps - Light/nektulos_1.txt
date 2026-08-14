@@ -38,3 +38,7 @@ P 865, -1976, 0, 255, 255, 0, 2, Vol_T`Vke
 P 966, 1463, 0, 255, 255, 0, 2, Coldwind_Blackfoot
 P 817, -597, 0, 255, 255, 0, 2, First_Fragment_of_Igok
 P 950, -1820, 0, 255, 255, 0, 2, checkpoint_ten
+
+P 560.0470, 2690.4004, -22.3326,  150, 0, 200,  3,  to_East_Commonlands
+P -311.7049, -3057.6770, -20.2956,  150, 0, 200,  3,  to_The_Lavastorm_Mountains
+P 1108.6158, -2276.3184, -0.8014,  150, 0, 200,  3,  to_Neriak_-_Foreign_Quarter

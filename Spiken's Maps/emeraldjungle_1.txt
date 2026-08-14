@@ -9,3 +9,6 @@ P -2787, -1901, 0, 255, 255, 0, 2, engorged_soulsipper
 P -2881, -1474, 0, 255, 255, 0, 2, greater_charbone
 P -2836, -3930, 0, 255, 255, 0, 2, spurbone_skeleton
 P -2959, -1952, 0, 255, 255, 0, 2, tainted_gorilla
+
+P -3504.0000, 1259.0000, -345.9310,  0, 0, 0,  3,  Wizard_Portal
+P -3500.0000, 3100.0000, -344.4677,  0, 0, 0,  3,  Druid_Portal

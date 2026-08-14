@@ -44,3 +44,6 @@ P 2377, -4147, 0, 255, 255, 0, 2, Plinkletop_Cogstopper
 P 1217, -2065, 0, 255, 255, 0, 2, Saeko_L`Vinec
 P 2067, -3889, 0, 255, 255, 0, 2, Tacots_Silentblade
 P 2501, -4184, 0, 255, 255, 0, 2, Translocator_Tradil
+
+P 342.0000, 596.0000, 143.1473,  0, 0, 240,  2,  Innothule_Swamp
+P 800.1066, -5215.9082, 148.3223,  0, 0, 240,  2,  North_Desert_of_Ro

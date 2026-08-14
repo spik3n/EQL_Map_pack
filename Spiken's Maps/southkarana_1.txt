@@ -36,3 +36,6 @@ P 3319, 6076, 0, 255, 255, 0, 2, Rendolf_Deathbringer
 P -705, 7311, 0, 255, 255, 0, 2, Sentry_Alechin
 P -2140, -138, 0, 255, 255, 0, 2, Sir_Telian_Mottsworth
 P 3292, 6028, 0, 255, 255, 0, 2, Tehana_Elsent
+
+P -1071.6101, 6588.4785, 160.8135,  0, 0, 0,  3,  Krak_(Merchant)
+P 2176.9985, -123.8311, -3.7802,  0, 0, 0,  3,  Ulan_(Fletcher)

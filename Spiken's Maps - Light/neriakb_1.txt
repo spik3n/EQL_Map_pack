@@ -31,3 +31,6 @@ P 1135.0, 9.3, 0, 255, 255, 0, 2, Trizam_N`Tan
 P 912, -169, 0, 255, 255, 0, 2, Utvex_D`Jerna
 P 986, 154, 0, 255, 255, 0, 2, Vorshar_the_Despised
 P 1217, 51, 0, 255, 255, 0, 2, Yegek_B`Larin
+
+P 854.1664, -194.6659, -42.7701,  150, 0, 200,  3,  to_Neriak_-_Third_Gate
+P 389.3075, -85.3788, -14.8014,  150, 0, 200,  3,  to_Neriak_-_Foreign_Quarter

@@ -45,3 +45,6 @@ P 2371.8, 985.1, 0, 255, 255, 0, 2, Yahg_Mucktail
 P 1976, -801, 0, 255, 255, 0, 2, twisted_ajrah_treant
 P -238, 522, 0, 255, 255, 0, 2, Izera_N`Kar
 P 1590, 3036, 0, 255, 255, 0, 2, Sir_Gregon_Sulltor
+
+P -1222.7438, -8.8590, -38.1447, 150, 0, 200, 3, to_The_Northern_Plains_of_Karana
+P 8333.5811, 3079.1519, 691.4274, 150, 0, 200, 3, to_Highpass_Hold

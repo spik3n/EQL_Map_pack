@@ -16,3 +16,5 @@ P -3326, 1197, 0, 255, 255, 0, 2, Zombie_Sailor
 P -1988, 131, 0, 255, 255, 0, 2, undead_erudite_sailor
 P -1918, 131, 0, 255, 255, 0, 2, undead_troll_sailor
 P -663, 1768, 0, 255, 255, 0, 2, Translocator_Jempar
+
+P -666.4189, 1773.2859, -0.7701, 150, 0, 200, 3, to_Erudin_or_South_Qeynos_(boat_or_translocator)

@@ -2,6 +2,11 @@
 
 ## v1.1
 
+- **Added EQL's own map labels** — 760 labels across 81 zones (portals, zone-ins, points of
+  interest, vendor / NPC names) that the classic community packs never included. They ride the
+  toggleable label layer, so they show by default and hide with everything else via layer `1`.
+  Especially handy in **Plane of Sky** (island portals + keys), **Plane of Knowledge**, and the
+  cities.
 - **Toggleable labels** — every zone's spawn labels (named / rare / boss / GuildMaster / NPC
   markers) are now on map **layer 1**, so you can hide them in one click when a zone is busy.
   In the map window: **Layers: Visible → `1`**. Zone lines, landmarks and the footer stay

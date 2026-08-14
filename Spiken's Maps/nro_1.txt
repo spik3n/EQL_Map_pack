@@ -16,3 +16,7 @@ P -1313, -2763, 0, 255, 255, 0, 2, trees_need_no_money
 P 1149, -1846, 0, 255, 255, 0, 2, #_5
 P 889, -787, 0, 255, 255, 0, 2, Translocator_Ionie
 P 480, 813, 0, 255, 255, 0, 2, Verrell_Cogswin
+
+P 796.0165, -2419.8538, 2.1793,  150, 0, 200,  3,  to_New_Sebilis_Expedition_(click)
+P -276.6894, 1747.5410, 30.8244,  150, 0, 200,  3,  to_Oasis_of_Marr
+P -2812.0027, -2607.6160, -0.8014,  150, 0, 200,  3,  to_East_Commonlands

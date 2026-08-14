@@ -26,3 +26,7 @@ P 2023, -1237, 0, 255, 255, 0, 2, Zahal_the_Vile
 P 1070, -1209, 0, 255, 255, 0, 2, withered_treant
 P 1400, 520, 0, 255, 255, 0, 2, Sir_Gerwin_Thunderblade
 P 1932, -1377, 0, 255, 255, 0, 2, Tal_Stoutheart
+
+P -3157.6912, 1416.7402, -4.7389,  150, 0, 200,  3,  to_The_Western_Plains_of_Karana
+P 3060.4275, -1.4579, -38.1451,  150, 0, 200,  3,  to_The_Eastern_Plains_of_Karana
+P -1205.2698, 4464.4009, -35.2076,  150, 0, 200,  3,  to_The_Southern_Plains_of_Karana

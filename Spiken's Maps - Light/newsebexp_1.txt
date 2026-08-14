@@ -23,3 +23,5 @@ P 84, -204, 0, 0, 0, 0, 2, Ranger_Spells
 P 140, -182, 0, 0, 0, 0, 2, Banker
 P 164, -132, 0, 0, 0, 0, 2, Druid_Spells
 P 133, -278, 0, 0, 0, 0, 2, Paladin_Spells
+
+P 143.9682, -646.3381, -23.9360,  150, 0, 200,  3,  to_The_Northern_Desert_of_Ro_(click)

@@ -15,3 +15,9 @@ P 46, -620, 0, 255, 255, 0, 2, Standard_Guild_Hall
 P 92, -596, 0, 255, 255, 0, 2, Tavid_Dennant
 P 197, -621, 0, 255, 255, 0, 2, augment_aura
 P -26, -174, 0, 255, 255, 0, 2, Kesiri_Dawnlark
+
+P 48.9354, -619.8550, -1.9980,  20, 20, 20,  2,  Guild_Hall
+P -18.7610, 50.7947, 1.7540,  20, 20, 20,  3,  Plane_of_Knowledge
+P 204.3057, -214.2421, -0.3024,  20, 20, 20,  2,  Guild_Message_Center
+P 244.5858, -415.1656, -1.9980,  20, 20, 20,  2,  Corpse_Summoning_Altar
+P -293.2010, -981.6038, -1.4078,  20, 20, 20,  2,  Gate_to_Neighborhoods

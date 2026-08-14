@@ -58,3 +58,8 @@ P 401.0, 1123.5, 0, 255, 255, 0, 2, Zure_Bavuior
 P -14, -244, 0, 255, 255, 0, 2, Jordin_Sretin
 P 168, 979, 0, 255, 255, 0, 2, Senina_Jolik
 P 361, -96, 0, 255, 255, 0, 2, Translocator_Eniela
+
+P 277.5882, 644.6471, 64.5946,  150, 0, 200,  3,  to_Erudin_Docks_(in_zone)
+P 7.0634, 328.6423, 27.1259,  150, 0, 200,  3,  to_Erudin_City_(in_zone)
+P 335.6836, -50.1157, 19.6363,  150, 0, 200,  3,  to_Erud's_Crossing_(ferry_to_ship)
+P 353.9587, -106.5309, 21.5227,  150, 0, 200,  3,  to_Erud's_Crossing_(translocator)

@@ -9,3 +9,5 @@ P -219, -358, 0, 255, 255, 0, 2, Trazdon
 P 119, 154, 0, 255, 255, 0, 2, Rathyl
 P 222, 35, 0, 255, 255, 0, 2, The_Fabled_Drelzna
 P -105, -353, 0, 255, 255, 0, 2, The_Fabled_Najena
+
+P -856.2097, 17.6164, -0.8014, 150, 0, 200, 3, to_The_Lavastorm_Mountains

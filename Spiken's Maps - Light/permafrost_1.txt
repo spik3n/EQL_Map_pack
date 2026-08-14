@@ -4,3 +4,5 @@ P 281, -680, 0, 255, 255, 0, 2, King_Thex`Ka_IV
 P 262, -857, 0, 255, 0, 0, 2, Lady_Vox
 P 25, 233, 0, 255, 128, 0, 2, Scout_Janomin
 P 37, 197, 0, 255, 255, 0, 2, Several_roars
+
+P -79.9035, 61.6732, -0.8014,  150, 0, 200,  3,  to_Everfrost_Peaks

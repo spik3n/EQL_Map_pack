@@ -63,3 +63,7 @@ P 2827.0, 951.9, 0, 255, 255, 0, 2, orc_runner
 P -2995, -2185, 0, 255, 255, 0, 2, Kanthuk_Ogrebane
 P -3256, -1350, 0, 255, 255, 0, 2, Translocator_Fithop
 P -3181, -852, 0, 255, 255, 0, 2, Translocator_Gethia
+
+P 3061.0000, 1316.0000, 0.0000,  150, 0, 200,  3,  to_The_Greater_Faydark
+P 181.0000, -3117.0000, 0.0000,  150, 0, 200,  3,  to_South_Kaladim
+P -3256.0000, -1354.0000, 9.0000,  150, 0, 200,  3,  to_The_Ocean_of_Tears_(boat_or_translocator)

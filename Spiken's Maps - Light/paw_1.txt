@@ -20,3 +20,5 @@ P 308, -538, 0, 255, 255, 0, 2, Vrek_Hillsmasher
 P -127, -1148, 0, 255, 255, 0, 2, Water_Elemental_Officer
 P 167, -443, 0, 255, 255, 0, 2, Water_Elemental_Overseer
 P -237, -767, 0, 255, 255, 0, 2, Windspirit_Glorn
+
+P -66.7632, 122.4353, -0.8014,  150, 0, 200,  3,  to_The_Southern_Plains_of_Karana

@@ -48,3 +48,8 @@ P 313, -3028, 0, 255, 255, 0, 2, Talontar
 P 238, -1038, 0, 255, 255, 0, 2, Talya_Darkfall
 P -487, -3654, 0, 255, 255, 0, 2, Tatsujiro_the_Serene
 P 286, -3073, 0, 255, 255, 0, 2, Xeib_Darkskies
+
+P 158.8578, 2058.0703, -20.3904, 150, 0, 200, 3, to_Nektulos_Forest
+P -226.5863, -795.8779, 126.2610, 150, 0, 200, 3, to_Solusek's_Eye_(SolA)
+P -484.9126, -915.3683, 50.8861, 150, 0, 200, 3, to_Nagafen's_Lair_(SolB)
+P -327.8787, -1339.0608, 144.8860, 150, 0, 200, 3, to_The_Temple_of_Solusek_Ro
