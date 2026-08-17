@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.5
+
+- **Resized zones** — 18 of the offset zones EQL didn't just shift but *resized* (Nektulos,
+  Freeport, North Karana, Oasis, Lavastorm and others), which a shift can't correct. Those
+  now use **EQL's exact geometry**, so your player lands dead-on. Their POI markers ride along
+  and can sit a touch off near a zone's edges, but the map itself is accurate.
+
 ## v1.4
 
 - **Fixed offset zones** — EQL re-coordinated about 20 zones (Nektulos Forest, Lavastorm,
@@ -8,10 +15,6 @@
   dot sat off the map. Each pack's map is now shifted onto **EQL's coordinates** (geometry
   and labels moved together, so each pack keeps its own style), and your player lands on the
   map. Applied to all four packs.
-- **Resized zones** — 18 of those zones EQL didn't just shift but *resized* (Nektulos,
-  Freeport, North Karana, Oasis, Lavastorm and others), which a shift can't correct. Those
-  now use **EQL's exact geometry**, so your player lands dead-on. Their POI markers ride along
-  and can sit a touch off near a zone's edges, but the map itself is accurate.
 
 ## v1.3
 
