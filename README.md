@@ -187,9 +187,11 @@ The installer is a Windows **PowerShell** script, and PowerShell ships with Wind
    and keeps your target ring) or install the overlay straight into an existing skin (e.g. Sparxx).
 
 Packs install to `EverQuest Legends\maps\<pack>\` (your existing maps are untouched — pick the
-pack from the in-game map dropdown). The overlay installs into a skin you choose (or ALL skins),
-backing up that skin's `EQUI_MapViewWnd.xml` as `EQUI_MapViewWnd.xml.bak` first. To undo the
-overlay later, run the installer again and choose **Revert**.
+pack from the in-game map dropdown). The **Patch-safe Modified skin** option creates **Modified
+Default / Modified Modern** in `uifiles\` (overlay applied, target ring kept, LaunchPad-proof) —
+in game do **`/loadskin "Modified Default"`** and **`/indicator on`** for the ring. If you instead
+install the overlay into an existing skin, it backs that skin's `EQUI_MapViewWnd.xml` up as
+`EQUI_MapViewWnd.xml.bak` first. To undo the overlay later, run the installer again → **Revert**.
 
 > If Windows blocks the script, right-click **`Install.ps1`** → **Run with PowerShell**, or run
 > `powershell -ExecutionPolicy Bypass -File Install.ps1`.
@@ -208,7 +210,10 @@ Everything can be installed by hand — it's just copying files.
 You can copy the whole folder or just its `.txt` files. Multiple packs coexist — switch between
 them from the map's **top-left dropdown** in game.
 
-**Overlay** —
+**Overlay** — use a **classic-UI skin**. A Sparxx skin works as-is; on EQL's `default` /
+`default_modern` the overlay won't render until you also **delete that skin's `EQLSUI*.xml` files**
+(that drops it to the classic map — see *Patch days* below, or just let the installer build a
+**Modified** skin for you).
 
 1. Back it up: in `EverQuest Legends\uifiles\<your skin>\`, copy `EQUI_MapViewWnd.xml` to
    `EQUI_MapViewWnd.xml.bak`.
@@ -216,7 +221,7 @@ them from the map's **top-left dropdown** in game.
 3. Open the copied file and set the `MVW_MapRenderArea` block's `<CX>`/`<CY>` to **2× your game
    resolution** (see the table in [See-through overlay](#see-through-overlay-optional) — e.g.
    1920×1080 → 3840×2160).
-4. In game: `/loadskin <your skin>` (or relog).
+4. In game: `/loadskin <your skin>` (or relog), and `/indicator on` for the target ring.
 
 To restore your original UI, delete the copied file and rename `EQUI_MapViewWnd.xml.bak` back to
 `EQUI_MapViewWnd.xml`.
