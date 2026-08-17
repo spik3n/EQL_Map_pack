@@ -117,19 +117,16 @@ own labelling and colours are preserved.
 > 2. **It needs a classic-UI skin.** EQL's **Default / Modern** UI uses a web-based (Gameface) map
 >    the overlay can't control. **The installer solves this for you:** choose **"Patch-safe Modified
 >    skin"** and it makes a classic-UI copy of your `default` / `default_modern` skin — **Modified
->    Default / Modified Modern** — where the overlay works, your **target ring is kept**, and
->    **LaunchPad won't overwrite it** on patch day. (A **Sparxx** classic skin also works if you
->    already use one.)
+>    Default / Modified Modern** — where the overlay works and **LaunchPad won't overwrite it** on
+>    patch day. (A **Sparxx** classic skin also works if you already use one.)
 
 ### 🛡️ Patch-safe skins (recommended)
 
-EQL's LaunchPad rewrites the `default` / `default_modern` skins on patch, so anything you put in
-them — the overlay, a custom **target ring** — gets wiped. The installer's **"Patch-safe Modified
-skin"** option fixes that: it copies your `default` / `default_modern` skin to **Modified Default**
-/ **Modified Modern** (a custom name LaunchPad leaves alone), strips EQL's Gameface web-UI layer so
-the classic map + overlay render, and keeps your target ring. Pick **Overlay + target ring** or
-**Target ring only**, then in game **`/loadskin "Modified Default"`** (or Modern) and enable the
-ring with **`/indicator on`**.
+EQL's LaunchPad rewrites the `default` / `default_modern` skins on patch, so an overlay you drop
+into them gets wiped. The installer's **"Patch-safe Modified skin"** option fixes that: it copies
+your `default` / `default_modern` skin to **Modified Default** / **Modified Modern** (a custom name
+LaunchPad leaves alone), strips EQL's Gameface web-UI layer so the classic map + overlay render, and
+applies the overlay. In game just **`/loadskin "Modified Default"`** (or Modern).
 
 An optional see-through map overlay: it's just an EQ UI file (`UI Overlay\Overlay\EQUI_MapViewWnd.xml`)
 — no MacroQuest, no external program. It makes the native map render into a big **transparent
@@ -182,16 +179,16 @@ The installer is a Windows **PowerShell** script, and PowerShell ships with Wind
 1. Download **`Spikens-EQL-Map-Pack.zip`** from the latest release and extract it.
 2. Double-click **`Install.bat`** (it just launches `Install.ps1`).
 3. Point it at your EverQuest Legends folder (the one with `eqgame.exe`).
-4. Choose **Install**, pick a map pack (or ALL), then for the UI pick **Patch-safe Modified skin**
-   (recommended — makes a **Modified Default / Modified Modern** classic skin that survives patches
-   and keeps your target ring) or install the overlay straight into an existing skin (e.g. Sparxx).
+4. Choose **Install**, pick a map pack (or ALL), then for the overlay pick **Patch-safe Modified
+   skin** (recommended — makes a **Modified Default / Modified Modern** classic skin that survives
+   patches) or install the overlay straight into an existing skin (e.g. Sparxx).
 
 Packs install to `EverQuest Legends\maps\<pack>\` (your existing maps are untouched — pick the
 pack from the in-game map dropdown). The **Patch-safe Modified skin** option creates **Modified
-Default / Modified Modern** in `uifiles\` (overlay applied, target ring kept, LaunchPad-proof) —
-in game do **`/loadskin "Modified Default"`** and **`/indicator on`** for the ring. If you instead
-install the overlay into an existing skin, it backs that skin's `EQUI_MapViewWnd.xml` up as
-`EQUI_MapViewWnd.xml.bak` first. To undo the overlay later, run the installer again → **Revert**.
+Default / Modified Modern** in `uifiles\` (overlay applied, LaunchPad-proof) — in game just
+**`/loadskin "Modified Default"`**. If you instead install the overlay into an existing skin, it
+backs that skin's `EQUI_MapViewWnd.xml` up as `EQUI_MapViewWnd.xml.bak` first. To undo the overlay
+later, run the installer again → **Revert**.
 
 > If Windows blocks the script, right-click **`Install.ps1`** → **Run with PowerShell**, or run
 > `powershell -ExecutionPolicy Bypass -File Install.ps1`.
@@ -221,19 +218,19 @@ them from the map's **top-left dropdown** in game.
 3. Open the copied file and set the `MVW_MapRenderArea` block's `<CX>`/`<CY>` to **2× your game
    resolution** (see the table in [See-through overlay](#see-through-overlay-optional) — e.g.
    1920×1080 → 3840×2160).
-4. In game: `/loadskin <your skin>` (or relog), and `/indicator on` for the target ring.
+4. In game: `/loadskin <your skin>` (or relog).
 
 To restore your original UI, delete the copied file and rename `EQUI_MapViewWnd.xml.bak` back to
 `EQUI_MapViewWnd.xml`.
 
 > **Patch days:** EQL's patcher (LaunchPad) can rewrite the `maps` folder **and the
-> `default` / `default_modern` UI skins** on patch, wiping the overlay and any custom target ring.
-> The fix is a **custom-named skin** the patcher leaves alone. Easiest is the installer's
-> **Patch-safe Modified skin** option, which builds **Modified Default / Modified Modern** for you
-> (a classic-UI copy of your skin — overlay works, target ring kept). To do it by hand: copy
-> `uifiles\default_modern` to a new name of your own, **delete its `EQLSUI*.xml` files** (that
-> drops it to the classic map so the overlay renders), drop the overlay `EQUI_MapViewWnd.xml` in,
-> and `/loadskin` it. After a patch, re-copy your maps or just re-run the installer.
+> `default` / `default_modern` UI skins** on patch, wiping the overlay you dropped in. The fix is a
+> **custom-named skin** the patcher leaves alone. Easiest is the installer's **Patch-safe Modified
+> skin** option, which builds **Modified Default / Modified Modern** for you (a classic-UI copy of
+> your skin where the overlay works). To do it by hand: copy `uifiles\default_modern` to a new name
+> of your own, **delete its `EQLSUI*.xml` files** (that drops it to the classic map so the overlay
+> renders), drop the overlay `EQUI_MapViewWnd.xml` in, and `/loadskin` it. After a patch, re-copy
+> your maps or just re-run the installer.
 
 ### Prefer Python?
 

@@ -100,18 +100,17 @@ function Choose-Skins {
 
 function New-ModifiedSkin {
     # Copy default / default_modern to a custom name LaunchPad won't touch (it only
-    # rewrites default / default_modern), so your target ring and UI survive patches.
-    # Then strip the Gameface (EQLSUI*) files: a skin that has them uses EQL's web map,
-    # which the overlay can't control - stripping them drops the skin to the classic
-    # map, exactly like Sparxx, so the overlay renders. The target ring lives in EQUI/
-    # .tga files, so it is NOT affected by the strip and rides along in the copy.
+    # rewrites default / default_modern), so the skin survives patches. Then strip the
+    # Gameface (EQLSUI*) files: a skin that has them uses EQL's web map, which the overlay
+    # can't control - stripping them drops the skin to the classic map, exactly like Sparxx,
+    # so the overlay renders. Anything else in the skin rides along unchanged in the copy.
     param([string]$Root, [string]$Base, [string]$NewName)
     $uidir = Join-Path $Root 'uifiles'
     $src = Join-Path $uidir $Base
     $dst = Join-Path $uidir $NewName
     if (-not (Test-Path $src)) { Write-Host ("  ! '{0}' skin not found - can't create '{1}'." -f $Base, $NewName) -ForegroundColor Yellow; return $null }
     if (Test-Path $dst) { Remove-Item -Recurse -Force $dst }
-    Write-Host ("  Copying '{0}' -> '{1}' (patch-safe skin, keeps your target ring)..." -f $Base, $NewName)
+    Write-Host ("  Copying '{0}' -> '{1}' (patch-safe classic-UI skin)..." -f $Base, $NewName)
     Copy-Item -Recurse -Force $src $dst
     $eqlsui = @(Get-ChildItem (Join-Path $dst 'EQLSUI*.xml') -ErrorAction SilentlyContinue)
     if ($eqlsui.Count -gt 0) {
@@ -205,8 +204,8 @@ function Show-OverlaySize {
 }
 
 Write-Host ""
-$uiChoice = (Read-Menu "Install the see-through overlay and/or a patch-safe target-ring skin?" @(
-        "Patch-safe 'Modified' skin(s) - RECOMMENDED (survives LaunchPad, keeps your target ring, overlay works)",
+$uiChoice = (Read-Menu "Install the see-through overlay?" @(
+        "Patch-safe 'Modified' skin(s) - RECOMMENDED (survives LaunchPad patches, overlay works)",
         "Overlay into an existing skin (e.g. a Sparxx classic skin)",
         "No thanks - maps only"
     ))[0]
@@ -214,9 +213,9 @@ $uiChoice = (Read-Menu "Install the see-through overlay and/or a patch-safe targ
 if ($uiChoice -eq 0) {
     # ---- patch-safe Modified skin(s): copy default/default_modern, strip Gameface, add overlay ----
     Write-Host ""
-    Write-Host "  Patch-safe skins are copies of your default / default_modern skin under a custom name,"
-    Write-Host "  so LaunchPad can't overwrite them. Your TARGET RING rides along, and the Gameface web-UI"
-    Write-Host "  layer is stripped so the classic map + see-through overlay render (just like Sparxx)."
+    Write-Host "  Patch-safe skins are classic-UI copies of your default / default_modern skin under a"
+    Write-Host "  custom name LaunchPad won't overwrite. The Gameface web-UI layer is stripped so the"
+    Write-Host "  classic map + see-through overlay render (just like Sparxx), and it survives patches."
 
     $baseSel = Read-Menu "Which patch-safe skin(s)?" @(
         "Modified Default  (from your 'default' skin)",
@@ -226,30 +225,20 @@ if ($uiChoice -eq 0) {
     if ($baseSel -contains 0) { $pairs += , @('default', 'Modified Default') }
     if ($baseSel -contains 1) { $pairs += , @('default_modern', 'Modified Modern') }
 
-    $incl = (Read-Menu "What to include?" @(
-            "Overlay + target ring  (recommended)",
-            "Target ring only  (no map overlay)"
-        ))[0]
-    $withOverlay = ($incl -eq 0)
-
-    $size = $null
-    if ($withOverlay) { $size = Get-EqResolution $root; Show-OverlaySize $size }
+    $size = Get-EqResolution $root
+    Show-OverlaySize $size
 
     Write-Host ""
     $made = @()
     foreach ($p in $pairs) {
         $skin = New-ModifiedSkin $root $p[0] $p[1]
-        if ($skin) {
-            if ($withOverlay) { Apply-Overlay $root @($skin) $size }
-            $made += $skin
-        }
+        if ($skin) { Apply-Overlay $root @($skin) $size; $made += $skin }
     }
 
     if ($made.Count -gt 0) {
         Write-Host ""
-        Write-Host "  TARGET RING: turn it on in game with   /indicator on" -ForegroundColor Cyan
-        if ($withOverlay) { Write-Host "  OVERLAY: use the 'Spiken's Maps - Light' pack so the lines show over the dark world." }
-        foreach ($m in $made) { Write-Host ("  Then load the skin:  /loadskin `"{0}`"   (or relog)" -f $m) -ForegroundColor Green }
+        Write-Host "  Use the 'Spiken's Maps - Light' pack so the lines show over the dark world."
+        foreach ($m in $made) { Write-Host ("  Load the skin:  /loadskin `"{0}`"   (or relog)" -f $m) -ForegroundColor Green }
     }
 }
 elseif ($uiChoice -eq 1) {
