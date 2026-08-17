@@ -1,41 +1,49 @@
-# Fullscreen Map Overlay (for EQL)
+# See-through Map Overlay (for EQL)
 
-Makes the **native EQL map** a **fullscreen, see-through overlay** - like the RueUI fullscreen
-maps - using EQ's own UI files. No add-ons, no external programs. Live position, zoom and
-panning all work as normal because it's still the native map.
+Turns the **native EQL map** into a big **transparent map that sits in the lower-right of your
+screen** while you play — using EQ's own UI file (`Overlay\EQUI_MapViewWnd.xml`). No add-ons, no
+external programs; live position, zoom and panning all work because it's still the native map.
 
-This is the **only** map-window tweak in this pack, because EQL's map already does the rest:
+> You do **not** need a separate "dark background" or "minimap" file — EQL's native map already
+> has those (right-click the map → **Display Types**). This overlay is the one extra piece.
 
-> **You do NOT need a "dark background" or "minimap" file.** EQL's native map already has them.
-> Right-click the map -> **Display Types** and pick e.g. *Dark Background*, *No Background*
-> (transparent), or the *Compact* / *Minimal* (minimap) layouts. Right-click -> **Window ->
-> Lock** to lock it in place.
+## How it works (read this)
+
+- The overlay resizes the map's render area to **200% of your screen resolution**. That oversized,
+  transparent render area is the **see-through map you see in the lower-right corner**. It's
+  anchored to the screen (that's what fills the corner), so you don't drag the overlay itself.
+- The normal little **"Map" window** (search box, layer buttons, zoom, etc.) is still there and
+  still works. You **move it by its title bar** and **minimize** it with the normal EQ window
+  controls. **Minimizing the small Map window hides the controls but leaves the see-through
+  overlay map up.** (That drag/minimize behavior is the EQL client's, not this file's.)
+- Use it with the **`Spiken's Maps - Light`** pack — light lines show over the dark world; dark
+  lines don't.
 
 ## Install
 
-Easiest: run **`Install.bat`** in the repo root, choose **Install**, and pick the **Overlay**
-UI mode (and a skin, or ALL skins).
+**Easiest:** run **`Install.bat`** in the repo root (no Python needed — it's PowerShell), choose
+**Install**, answer *yes* to the overlay, and pick a skin (or ALL skins).
 
-Manual: copy `Overlay\EQUI_MapViewWnd.xml` into your active `uifiles\<skin>` folder (back up
-the existing one first), then `/loadskin <skin>` (or relog).
+**Manual:**
+1. In `EverQuest Legends\uifiles\<your skin>\`, back up `EQUI_MapViewWnd.xml` as
+   `EQUI_MapViewWnd.xml.bak`.
+2. Copy `Overlay\EQUI_MapViewWnd.xml` into that same `uifiles\<your skin>\` folder.
+3. Set the render size (below), then `/loadskin <your skin>` (or relog).
 
-Use it with the **`Spiken's Maps - Light`** pack - over a see-through/dark map, light lines
-show up; dark lines don't.
+## Resolution — set `<CX>`/`<CY>` to 2× your screen
 
-## Using it
+The installer reads your resolution from `eqclient.ini` and sets this automatically. Installing
+by hand, edit the `MVW_MapRenderArea` block's `<CX>`/`<CY>` to **twice** your game resolution:
 
-The overlay is a big, see-through map that sits in the **lower-right corner** of your screen.
-To hide the controls, **minimize the little "Map" window** - the overlay map stays up.
-
-## Resolution (auto)
-
-The installer sizes the overlay to **200% of your EQ resolution**, read from `eqclient.ini`
-(fullscreen `Width/Height` or windowed `WindowedWidth/Height`). EQL positions the map's centre
-relative to the render area, so a 2x render area lands the visible map in the lower-right
-corner, on-screen - and it scales to **1080p, 1440p, 4K and ultrawide**. If you install
-manually, edit the `MVW_MapRenderArea` block's `<CX>`/`<CY>` to twice your screen size.
+| Game resolution | Overlay `<CX>` × `<CY>` (2×) |
+|---|---|
+| 1920 × 1080 | 3840 × 2160 |
+| 2560 × 1440 | 5120 × 2880 |
+| 3440 × 1440 (21:9 ultrawide) | 6880 × 2880 |
+| 3840 × 2160 (4K) | 7680 × 4320 |
+| 5120 × 1440 (32:9 super-ultrawide) | 10240 × 2880 |
 
 ## Undo
 
-Run the installer again and choose **Revert** (restores your skin's original map), or delete
-the `EQUI_MapViewWnd.xml` you copied in / restore the `.bak`.
+Run the installer and choose **Revert**, or delete the copied `EQUI_MapViewWnd.xml` and rename
+`EQUI_MapViewWnd.xml.bak` back to `EQUI_MapViewWnd.xml`.

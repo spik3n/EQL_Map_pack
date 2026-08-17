@@ -1,4 +1,5 @@
 @echo off
-REM Runs the Spiken's EQL Map Pack installer with a console window.
-python "%~dp0install.py"
+REM Spiken's EQL Map Pack installer.
+REM Uses Windows PowerShell (built into Windows) - no Python required.
+powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0Install.ps1"
 if errorlevel 1 pause

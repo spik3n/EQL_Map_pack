@@ -1,5 +1,17 @@
 # Changelog
 
+## v1.3
+
+- **No-Python installer** — the installer is now a native **Windows PowerShell** script
+  (`Install.ps1`, launched by `Install.bat`), so there's nothing extra to install. It still
+  copies packs, detects your resolution, sizes the overlay, backs up your UI, and reverts.
+  (`install.py` is kept for anyone who prefers Python, but it's no longer required.)
+- **Docs** — added a full **manual-install** section (maps + overlay, no installer), documented
+  exactly how the overlay behaves (the small Map window is what you drag/minimize; the
+  see-through map is anchored to the lower-right), where it installs
+  (`uifiles\<skin>\EQUI_MapViewWnd.xml`) and its `EQUI_MapViewWnd.xml.bak` backup, plus a
+  resolution table including 21:9 and 32:9 ultrawide.
+
 ## v1.2
 
 - **Added EQL's own map labels** — 760 labels across 81 zones (portals, zone-ins, points of

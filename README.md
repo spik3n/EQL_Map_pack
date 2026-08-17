@@ -7,8 +7,10 @@ Every pack is **updated for EQL**: the geometry matches the current EQL client, 
 ~20 custom / instanced Legends zones the community packs never had (e.g. `lakenerius`,
 `arena2`, the Plane-of-Hate revamp interiors) are included.
 
-> **Quick install:** download a release, run **`Install.bat`**, pick a pack + (optional)
-> UI mode, and point it at your EQL folder. Details below.
+> **Quick install:** download **`Spikens-EQL-Map-Pack.zip`** from the latest release, run
+> **`Install.bat`** (**no Python needed** — it uses built-in Windows PowerShell), pick a pack +
+> (optional) overlay, and point it at your EQL folder. Prefer to copy files by hand? See
+> **[Manual install](#manual-install-no-installer)**. Details below.
 
 ---
 
@@ -104,20 +106,42 @@ own labelling and colours are preserved.
 
 ---
 
-## Fullscreen overlay (optional)
+## See-through overlay (optional)
 
-EQL's **native map already has dark / transparent backgrounds and compact "minimap"
-layouts** built in - just right-click the map → **Display Types** (and **Window → Lock** to
-lock it). So the only extra piece here is a **fullscreen, see-through overlay** (RueUI-style),
-in `UI Overlay\Overlay\` - it makes the native map fill the screen so you can play with the
-map over the world.
+An optional see-through map overlay: it's just an EQ UI file (`UI Overlay\Overlay\EQUI_MapViewWnd.xml`)
+— no MacroQuest, no external program. It makes the native map render into a big **transparent
+map that sits in the lower-right of your screen** while you play.
 
-- Install it via **`Install.bat`** (pick the **Overlay** UI mode), or copy
-  `UI Overlay\Overlay\EQUI_MapViewWnd.xml` into your `uifiles\<skin>` folder.
-- Use it with **Spiken's Maps - Light** (light lines show over the world).
-- The map sits **see-through in the lower-right corner**; **minimize** the little "Map" window to hide the controls (the map stays).
-- The installer **sizes it to 200% of your screen** (reads `eqclient.ini` — fits 1080p / 1440p / 4K / ultrawide).
-- Undo any time with the installer's **Revert** option.
+**How it actually works** (this is the part that trips people up):
+
+- The overlay sizes the map's render area to **200% of your screen resolution**. That oversized,
+  transparent render area is what you see as the **see-through map in the lower-right corner**.
+  It is *anchored to the screen* — that's what makes it fill the corner, so you don't drag the
+  overlay itself around.
+- The **small "Map" window** (search box, layer buttons, zoom, etc.) is still there and still
+  works normally. **You move that little window by its title bar and minimize it** using the
+  normal EQ window controls. **Minimizing the small Map window hides the controls but leaves the
+  see-through overlay map up.** (All of that drag/minimize behavior comes from the EQL client's
+  native Map window, not from this file.)
+- Use it with the **Spiken's Maps - Light** pack so the light lines show over the dark world.
+
+**Where it installs:** `uifiles\<skin>\EQUI_MapViewWnd.xml`. The installer first backs up any
+existing file as **`EQUI_MapViewWnd.xml.bak`**, so you can always restore your original.
+
+**Resolution** — the render area must be **twice your game's render resolution**. The installer
+reads this from `eqclient.ini` and sets it automatically. If you install by hand, set the
+`MVW_MapRenderArea` block's `<CX>`/`<CY>` to 2×:
+
+| Game resolution | Overlay `<CX>` × `<CY>` (2×) |
+|---|---|
+| 1920 × 1080 | 3840 × 2160 |
+| 2560 × 1440 | 5120 × 2880 |
+| 3440 × 1440 (21:9 ultrawide) | 6880 × 2880 |
+| 3840 × 2160 (4K) | 7680 × 4320 |
+| 5120 × 1440 (32:9 super-ultrawide) | 10240 × 2880 |
+
+**To remove it:** run the installer → **Revert**, or delete the copied file and rename
+`EQUI_MapViewWnd.xml.bak` back to `EQUI_MapViewWnd.xml`.
 
 [![Spiken's Overlay](Screenshots/spikens_overlay.gif)](Screenshots/spikens_overlay_full.gif)
 
@@ -127,27 +151,58 @@ map over the world.
 
 ## Install
 
-### Easy way (installer)
+### Easy way (installer — no Python needed)
 
-1. Download and extract a release.
-2. Run **`Install.bat`**.
-3. Choose **Install**, pick a map pack (or ALL), then optionally a UI mode.
-4. Browse to your EverQuest Legends folder (the one with `eqgame.exe`).
+The installer is a Windows **PowerShell** script, and PowerShell ships with Windows — so there's
+**nothing extra to install**.
 
-Packs install to `EverQuest Legends\maps\<pack>\` (your existing maps are untouched — pick
-the pack from the in-game map dropdown). A UI mode installs into a skin you choose (or **ALL
-skins**), backing up the skin's original map first.
+1. Download **`Spikens-EQL-Map-Pack.zip`** from the latest release and extract it.
+2. Double-click **`Install.bat`** (it just launches `Install.ps1`).
+3. Point it at your EverQuest Legends folder (the one with `eqgame.exe`).
+4. Choose **Install**, pick a map pack (or ALL), and optionally the see-through overlay.
 
-To undo a UI mode later, run the installer again and choose **Revert**.
+Packs install to `EverQuest Legends\maps\<pack>\` (your existing maps are untouched — pick the
+pack from the in-game map dropdown). The overlay installs into a skin you choose (or ALL skins),
+backing up that skin's `EQUI_MapViewWnd.xml` as `EQUI_MapViewWnd.xml.bak` first. To undo the
+overlay later, run the installer again and choose **Revert**.
 
-### Manual way
+> If Windows blocks the script, right-click **`Install.ps1`** → **Run with PowerShell**, or run
+> `powershell -ExecutionPolicy Bypass -File Install.ps1`.
 
-- **Maps:** copy a pack folder (or just its `.txt` files) into `EverQuest Legends\maps`.
-- **UI mode:** copy `UI Overlay\<mode>\EQUI_MapViewWnd.xml` into your active
-  `uifiles\<skin>` folder, then `/loadskin <skin>` (or relog).
+### Manual install (no installer)
 
-> **Patch days:** EQL's patcher rewrites the `maps` folder on patch days (not every launch).
-> After an EQL patch, re-run the installer to restore your maps.
+Everything can be installed by hand — it's just copying files.
+
+**Maps** — copy the pack folder(s) you want into your **`EverQuest Legends\maps`** folder:
+
+- `Spiken's Maps\`
+- `Spiken's Maps - Light\`
+- `Spiken's Brewall\`
+- `Spiken's Good's Maps\`
+
+You can copy the whole folder or just its `.txt` files. Multiple packs coexist — switch between
+them from the map's **top-left dropdown** in game.
+
+**Overlay** —
+
+1. Back it up: in `EverQuest Legends\uifiles\<your skin>\`, copy `EQUI_MapViewWnd.xml` to
+   `EQUI_MapViewWnd.xml.bak`.
+2. Copy `UI Overlay\Overlay\EQUI_MapViewWnd.xml` into that same `uifiles\<your skin>\` folder.
+3. Open the copied file and set the `MVW_MapRenderArea` block's `<CX>`/`<CY>` to **2× your game
+   resolution** (see the table in [See-through overlay](#see-through-overlay-optional) — e.g.
+   1920×1080 → 3840×2160).
+4. In game: `/loadskin <your skin>` (or relog).
+
+To restore your original UI, delete the copied file and rename `EQUI_MapViewWnd.xml.bak` back to
+`EQUI_MapViewWnd.xml`.
+
+> **Patch days:** EQL's patcher can rewrite the `maps` folder on patch days. After an EQL patch,
+> re-copy your maps (or re-run the installer).
+
+### Prefer Python?
+
+An equivalent Python installer (`install.py`) is included for anyone who already uses Python —
+but it is **not required**; `Install.bat` uses PowerShell.
 
 ---
 
