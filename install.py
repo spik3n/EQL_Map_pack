@@ -201,9 +201,11 @@ def main():
 
     ans = input("\nAlso install the fullscreen map overlay (RueUI-style)? [y/N]: ").strip().lower()
     if ans.startswith("y"):
-        print("\n  * The Overlay makes the native map a big, see-through map you can DRAG anywhere.")
-        print("    - Drag it where you want; keep the whole map on-screen (EQ clips it at the edge).")
-        print("    - Minimize the little 'Map' window to hide the controls - the overlay map stays.")
+        print("\n  * The Overlay makes the native map a big, see-through map in the lower-right corner.")
+        print("    - It appears AUTOMATICALLY once loaded (no dragging); minimize the little 'Map'")
+        print("      window to hide the controls - the overlay map stays. Use 'Spiken's Maps - Light'.")
+        print("    - IMPORTANT: needs a CLASSIC-UI skin (e.g. a Sparxx skin); it will NOT show on")
+        print("      EQL's Default/Modern UI, which uses a different (web-based) map.")
         print("    Use the 'Spiken's Maps - Light' pack so lines show over the world, and EQL's")
         print("    own right-click > Display Types for dark / no background. Undo with Revert.")
         size = eq_resolution(root)

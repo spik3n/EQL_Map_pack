@@ -108,6 +108,18 @@ own labelling and colours are preserved.
 
 ## See-through overlay (optional)
 
+> ⚠️ **The two things everyone gets stuck on:**
+>
+> 1. **It's automatic — there is no "drag the map out of the frame" gesture.** Once the overlay
+>    is installed into your active skin and you `/loadskin` (or relog), the see-through map just
+>    **appears in the lower-right on its own**. Dragging the map body only *pans* it (that's normal
+>    EQ); nothing you grab will "pull it out." Only the small **"Map" control window** can be
+>    moved (by its title bar) or minimized.
+> 2. **It needs a classic-UI skin** — e.g. the **Sparxx** skins. EQL's built-in **Default / Modern**
+>    UI uses a different (web-based) map that this file can't control, so the overlay **will not
+>    appear on Default/Modern**. Load a Sparxx (or any classic-style) skin, install the overlay
+>    into *that* skin, and `/loadskin` it.
+
 An optional see-through map overlay: it's just an EQ UI file (`UI Overlay\Overlay\EQUI_MapViewWnd.xml`)
 — no MacroQuest, no external program. It makes the native map render into a big **transparent
 map that sits in the lower-right of your screen** while you play.

@@ -6,6 +6,10 @@
   Freeport, North Karana, Oasis, Lavastorm and others), which a shift can't correct. Those
   now use **EQL's exact geometry**, so your player lands dead-on. Their POI markers ride along
   and can sit a touch off near a zone's edges, but the map itself is accurate.
+- **Overlay docs** — clarified that the overlay appears **automatically** (there is no "drag it
+  out of the frame" gesture — dragging the map just pans it) and that it needs a **classic-UI
+  skin** (e.g. Sparxx); it does **not** work on EQL's Default/Modern web-based UI. The installer
+  now says the same.
 
 ## v1.4
 

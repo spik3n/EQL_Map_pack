@@ -177,8 +177,10 @@ $ans = (Read-Host "Also install the see-through overlay? [y/N]").Trim().ToLower(
 if ($ans.StartsWith('y')) {
     Write-Host ""
     Write-Host "  * The overlay makes the native map a big see-through map in the lower-right of the screen."
-    Write-Host "    Minimize the little 'Map' window to hide the controls - the overlay map stays."
-    Write-Host "    Use it with the 'Spiken's Maps - Light' pack so lines show over the world."
+    Write-Host "    It appears AUTOMATICALLY once loaded (no dragging) - minimize the little 'Map' window"
+    Write-Host "    to hide the controls; the overlay map stays. Use the 'Spiken's Maps - Light' pack."
+    Write-Host "    IMPORTANT: the overlay needs a CLASSIC-UI skin (e.g. a Sparxx skin). It will NOT show" -ForegroundColor Yellow
+    Write-Host "    on EQL's Default/Modern UI, which uses a different (web-based) map." -ForegroundColor Yellow
     $size = Get-EqResolution $root
     if ($size) {
         Write-Host ("`n    Detected your EQ resolution: {0}x{1} - sizing the overlay to 200% ({2}x{3})." -f $size[0], $size[1], ($size[0] * 2), ($size[1] * 2)) -ForegroundColor Green
