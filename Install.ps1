@@ -98,6 +98,29 @@ function Choose-Skins {
     }
 }
 
+function New-ModifiedSkin {
+    # Copy default / default_modern to a custom name LaunchPad won't touch (it only
+    # rewrites default / default_modern), so your target ring and UI survive patches.
+    # Then strip the Gameface (EQLSUI*) files: a skin that has them uses EQL's web map,
+    # which the overlay can't control - stripping them drops the skin to the classic
+    # map, exactly like Sparxx, so the overlay renders. The target ring lives in EQUI/
+    # .tga files, so it is NOT affected by the strip and rides along in the copy.
+    param([string]$Root, [string]$Base, [string]$NewName)
+    $uidir = Join-Path $Root 'uifiles'
+    $src = Join-Path $uidir $Base
+    $dst = Join-Path $uidir $NewName
+    if (-not (Test-Path $src)) { Write-Host ("  ! '{0}' skin not found - can't create '{1}'." -f $Base, $NewName) -ForegroundColor Yellow; return $null }
+    if (Test-Path $dst) { Remove-Item -Recurse -Force $dst }
+    Write-Host ("  Copying '{0}' -> '{1}' (patch-safe skin, keeps your target ring)..." -f $Base, $NewName)
+    Copy-Item -Recurse -Force $src $dst
+    $eqlsui = @(Get-ChildItem (Join-Path $dst 'EQLSUI*.xml') -ErrorAction SilentlyContinue)
+    if ($eqlsui.Count -gt 0) {
+        $eqlsui | Remove-Item -Force
+        Write-Host ("    stripped {0} Gameface (EQLSUI) files -> classic UI, so the overlay renders." -f $eqlsui.Count)
+    }
+    return $NewName
+}
+
 $Latin1 = [System.Text.Encoding]::GetEncoding('iso-8859-1')
 
 function Apply-Overlay {
@@ -172,24 +195,76 @@ foreach ($i in $sel) {
     Write-Host ("  + {0}: {1} maps -> maps\{0}" -f $name, $n) -ForegroundColor Green
 }
 
+function Show-OverlaySize {
+    param($Size)
+    if ($Size) {
+        Write-Host ("`n    Detected your EQ resolution: {0}x{1} - sizing the overlay to 200% ({2}x{3})." -f $Size[0], $Size[1], ($Size[0] * 2), ($Size[1] * 2)) -ForegroundColor Green
+    } else {
+        Write-Host "`n    (Couldn't read eqclient.ini - overlay stays at its default size; edit <CX>/<CY> if needed.)" -ForegroundColor Yellow
+    }
+}
+
 Write-Host ""
-$ans = (Read-Host "Also install the see-through overlay? [y/N]").Trim().ToLower()
-if ($ans.StartsWith('y')) {
+$uiChoice = (Read-Menu "Install the see-through overlay and/or a patch-safe target-ring skin?" @(
+        "Patch-safe 'Modified' skin(s) - RECOMMENDED (survives LaunchPad, keeps your target ring, overlay works)",
+        "Overlay into an existing skin (e.g. a Sparxx classic skin)",
+        "No thanks - maps only"
+    ))[0]
+
+if ($uiChoice -eq 0) {
+    # ---- patch-safe Modified skin(s): copy default/default_modern, strip Gameface, add overlay ----
+    Write-Host ""
+    Write-Host "  Patch-safe skins are copies of your default / default_modern skin under a custom name,"
+    Write-Host "  so LaunchPad can't overwrite them. Your TARGET RING rides along, and the Gameface web-UI"
+    Write-Host "  layer is stripped so the classic map + see-through overlay render (just like Sparxx)."
+
+    $baseSel = Read-Menu "Which patch-safe skin(s)?" @(
+        "Modified Default  (from your 'default' skin)",
+        "Modified Modern   (from your 'default_modern' skin)"
+    ) -AllowAll
+    $pairs = @()
+    if ($baseSel -contains 0) { $pairs += , @('default', 'Modified Default') }
+    if ($baseSel -contains 1) { $pairs += , @('default_modern', 'Modified Modern') }
+
+    $incl = (Read-Menu "What to include?" @(
+            "Overlay + target ring  (recommended)",
+            "Target ring only  (no map overlay)"
+        ))[0]
+    $withOverlay = ($incl -eq 0)
+
+    $size = $null
+    if ($withOverlay) { $size = Get-EqResolution $root; Show-OverlaySize $size }
+
+    Write-Host ""
+    $made = @()
+    foreach ($p in $pairs) {
+        $skin = New-ModifiedSkin $root $p[0] $p[1]
+        if ($skin) {
+            if ($withOverlay) { Apply-Overlay $root @($skin) $size }
+            $made += $skin
+        }
+    }
+
+    if ($made.Count -gt 0) {
+        Write-Host ""
+        Write-Host "  TARGET RING: turn it on in game with   /indicator on" -ForegroundColor Cyan
+        if ($withOverlay) { Write-Host "  OVERLAY: use the 'Spiken's Maps - Light' pack so the lines show over the dark world." }
+        foreach ($m in $made) { Write-Host ("  Then load the skin:  /loadskin `"{0}`"   (or relog)" -f $m) -ForegroundColor Green }
+    }
+}
+elseif ($uiChoice -eq 1) {
+    # ---- overlay into an existing skin ----
     Write-Host ""
     Write-Host "  * The overlay makes the native map a big see-through map in the lower-right of the screen."
     Write-Host "    It appears AUTOMATICALLY once loaded (no dragging) - minimize the little 'Map' window"
     Write-Host "    to hide the controls; the overlay map stays. Use the 'Spiken's Maps - Light' pack."
     Write-Host "    IMPORTANT: the overlay needs a CLASSIC-UI skin (e.g. a Sparxx skin). It will NOT show" -ForegroundColor Yellow
-    Write-Host "    on EQL's Default/Modern UI, which uses a different (web-based) map." -ForegroundColor Yellow
+    Write-Host "    on EQL's Default/Modern (Gameface) UI - use option 1 for a patch-safe classic skin." -ForegroundColor Yellow
     $size = Get-EqResolution $root
-    if ($size) {
-        Write-Host ("`n    Detected your EQ resolution: {0}x{1} - sizing the overlay to 200% ({2}x{3})." -f $size[0], $size[1], ($size[0] * 2), ($size[1] * 2)) -ForegroundColor Green
-    } else {
-        Write-Host "`n    (Couldn't read eqclient.ini - overlay stays at its default size; edit <CX>/<CY> if needed.)" -ForegroundColor Yellow
-    }
+    Show-OverlaySize $size
     $skins = Choose-Skins $root
     Apply-Overlay $root $skins $size
-    Write-Host "    In game: /loadskin <yourskin> (or relog) to apply."
+    Write-Host ("    In game: /loadskin '{0}' (or relog) to apply." -f $skins[0])
 }
 
 Write-Host ""

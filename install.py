@@ -146,6 +146,30 @@ def apply_ui(root, ui, skins, size=None):
         print(f"  + UI '{ui}' -> uifiles\\{skin}")
 
 
+def make_modified_skin(root, base, new_name):
+    """Copy default / default_modern to a custom name LaunchPad won't overwrite (it only
+    rewrites default / default_modern), so the target ring and UI survive patches. Strip the
+    Gameface (EQLSUI*) files so the classic map + overlay render (like Sparxx); the target
+    ring lives in EQUI / .tga files, so it's unaffected and rides along in the copy.
+    Returns new_name, or None if the base skin is missing."""
+    uidir = os.path.join(root, "uifiles")
+    src = os.path.join(uidir, base)
+    dst = os.path.join(uidir, new_name)
+    if not os.path.isdir(src):
+        print(f"  ! '{base}' skin not found - can't create '{new_name}'.")
+        return None
+    if os.path.isdir(dst):
+        shutil.rmtree(dst)
+    print(f"  Copying '{base}' -> '{new_name}' (patch-safe skin, keeps your target ring)...")
+    shutil.copytree(src, dst)
+    stripped = glob.glob(os.path.join(dst, "EQLSUI*.xml"))
+    for f in stripped:
+        os.remove(f)
+    if stripped:
+        print(f"    stripped {len(stripped)} Gameface (EQLSUI) files -> classic UI, so the overlay renders.")
+    return new_name
+
+
 def revert_ui(root, skins):
     default_xml = os.path.join(root, "uifiles", "default", "EQUI_MapViewWnd.xml")
     for skin in skins:
@@ -199,21 +223,59 @@ def main():
             shutil.copy2(f, dst); n += 1
         print(f"  + {p}: {n} maps -> maps\\{p}")
 
-    ans = input("\nAlso install the fullscreen map overlay (RueUI-style)? [y/N]: ").strip().lower()
-    if ans.startswith("y"):
-        print("\n  * The Overlay makes the native map a big, see-through map in the lower-right corner.")
-        print("    - It appears AUTOMATICALLY once loaded (no dragging); minimize the little 'Map'")
-        print("      window to hide the controls - the overlay map stays. Use 'Spiken's Maps - Light'.")
-        print("    - IMPORTANT: needs a CLASSIC-UI skin (e.g. a Sparxx skin); it will NOT show on")
-        print("      EQL's Default/Modern UI, which uses a different (web-based) map.")
-        print("    Use the 'Spiken's Maps - Light' pack so lines show over the world, and EQL's")
-        print("    own right-click > Display Types for dark / no background. Undo with Revert.")
-        size = eq_resolution(root)
+    def show_overlay_size(size):
         if size:
             print(f"\n    Detected your EQ resolution: {size[0]}x{size[1]} - sizing the overlay to")
             print(f"    200% ({int(size[0]*2.0)}x{int(size[1]*2.0)}) so the map sits in the lower-right corner.")
         else:
-            print("\n    (Couldn't read eqclient.ini - overlay stays at its default size; edit <CX>/<CY> if needed.)")
+            print("\n    (Couldn't read eqclient.ini - overlay stays at its default size; edit <CX>/<CY>.)")
+
+    ui_choice = prompt("Install the see-through overlay and/or a patch-safe target-ring skin?", [
+        ("patchsafe", "Patch-safe 'Modified' skin(s) - RECOMMENDED (survives LaunchPad, keeps target ring, overlay works)"),
+        ("existing",  "Overlay into an existing skin (e.g. a Sparxx classic skin)"),
+        ("none",      "No thanks - maps only"),
+    ])[0]
+
+    if ui_choice == "patchsafe":
+        print("\n  Patch-safe skins are copies of your default / default_modern skin under a custom")
+        print("  name, so LaunchPad can't overwrite them. Your TARGET RING rides along, and the")
+        print("  Gameface web-UI layer is stripped so the classic map + overlay render (like Sparxx).")
+        pair_map = {"default": "Modified Default", "default_modern": "Modified Modern"}
+        bases = prompt("Which patch-safe skin(s)?", [
+            ("default",        "Modified Default  (from your 'default' skin)"),
+            ("default_modern", "Modified Modern   (from your 'default_modern' skin)"),
+        ], allow_all=True)
+        incl = prompt("What to include?", [
+            ("both", "Overlay + target ring  (recommended)"),
+            ("ring", "Target ring only  (no map overlay)"),
+        ])[0]
+        with_overlay = (incl == "both")
+        size = eq_resolution(root) if with_overlay else None
+        if with_overlay:
+            show_overlay_size(size)
+        print()
+        made = []
+        for base in bases:
+            skin = make_modified_skin(root, base, pair_map[base])
+            if skin:
+                if with_overlay:
+                    apply_ui(root, "Overlay", [skin], size=size)
+                made.append(skin)
+        if made:
+            print("\n  TARGET RING: turn it on in game with   /indicator on")
+            if with_overlay:
+                print("  OVERLAY: use the 'Spiken's Maps - Light' pack so lines show over the dark world.")
+            for m in made:
+                print(f'  Then load the skin:  /loadskin "{m}"   (or relog)')
+
+    elif ui_choice == "existing":
+        print("\n  * The Overlay makes the native map a big, see-through map in the lower-right corner.")
+        print("    - It appears AUTOMATICALLY once loaded (no dragging); minimize the little 'Map'")
+        print("      window to hide the controls - the overlay map stays. Use 'Spiken's Maps - Light'.")
+        print("    - IMPORTANT: needs a CLASSIC-UI skin (e.g. a Sparxx skin); it will NOT show on")
+        print("      EQL's Default/Modern (Gameface) UI - use option 1 for a patch-safe classic skin.")
+        size = eq_resolution(root)
+        show_overlay_size(size)
         skins = choose_skin(root)
         apply_ui(root, "Overlay", skins, size=size)
         print("    In game: /loadskin <yourskin> (or relog) to apply.")

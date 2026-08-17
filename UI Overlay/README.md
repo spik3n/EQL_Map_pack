@@ -7,11 +7,14 @@ external programs; live position, zoom and panning all work because it's still t
 > You do **not** need a separate "dark background" or "minimap" file — EQL's native map already
 > has those (right-click the map → **Display Types**). This overlay is the one extra piece.
 
-> ⚠️ **Requires a classic-UI skin** (like the **Sparxx** skins) — it will **not** work on EQL's
-> built-in **Default / Modern** UI, which uses a different (web-based) map this file can't control.
-> And it's **automatic**: once installed and `/loadskin`ed, the see-through map appears in the
-> lower-right by itself. There is **no "drag it out of the frame" gesture** — dragging the map body
-> just pans it; only the small "Map" control window moves/minimizes.
+> ⚠️ **Needs a classic-UI skin.** EQL's **Default / Modern** UI uses a web-based (Gameface) map this
+> file can't control. The installer's **"Patch-safe Modified skin"** option handles this: it makes a
+> classic-UI copy of your `default` / `default_modern` skin (**Modified Default / Modified Modern**)
+> where the overlay works, keeps your **target ring** (enable with `/indicator on`), and survives
+> LaunchPad patches. A **Sparxx** classic skin also works. Either way it's **automatic**: once
+> installed and `/loadskin`ed, the see-through map appears in the lower-right by itself — there is
+> **no "drag it out of the frame" gesture** (dragging the map body just pans it; only the small
+> "Map" control window moves/minimizes).
 
 ## How it works (read this)
 

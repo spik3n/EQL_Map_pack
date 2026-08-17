@@ -1,5 +1,19 @@
 # Changelog
 
+## v1.6
+
+- **Patch-safe "Modified" skins** — the installer can now build **Modified Default** / **Modified
+  Modern** skins: it copies your `default` / `default_modern` skin under a custom name LaunchPad
+  won't overwrite, **strips EQL's Gameface web-UI layer** so the classic map + see-through overlay
+  render (the same reason the overlay only worked on Sparxx), and **keeps your target ring**. So the
+  overlay + your target ring now **survive patch day** instead of being wiped. Pick *Overlay +
+  target ring* or *Target ring only*, `/loadskin "Modified Default"` (or Modern), and enable the
+  ring with **`/indicator on`** (the installer reminds you).
+- **Why the overlay never showed on Default/Modern** — those skins carry the `EQLSUI*` Gameface
+  files, which route the map through EQL's web UI that a classic `EQUI_MapViewWnd.xml` can't touch.
+  Removing those files drops the skin to the classic map, exactly like Sparxx — now documented and
+  automated.
+
 ## v1.5
 
 - **Resized zones** — 18 of the offset zones EQL didn't just shift but *resized* (Nektulos,
