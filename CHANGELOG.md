@@ -1,5 +1,14 @@
 # Changelog
 
+## v1.4
+
+- **Fixed offset zones** — EQL re-coordinated about 20 zones (Nektulos Forest, Lavastorm,
+  North Karana, Commons, Freeport and others), so the classic geometry these packs inherit
+  was shifted from where the game plots your character — the map looked "offset" and your
+  dot sat off the map. Each pack's map is now shifted onto **EQL's coordinates** (geometry
+  and labels moved together, so each pack keeps its own style), and your player lands on the
+  map. Applied to all four packs.
+
 ## v1.3
 
 - **No-Python installer** — the installer is now a native **Windows PowerShell** script

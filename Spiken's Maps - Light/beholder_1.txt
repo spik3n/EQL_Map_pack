@@ -1,8 +1,8 @@
-P 207, -673, 0, 255, 255, 0, 2, Brahhm
-P 545, -1262, 0, 255, 255, 0, 2, Diggs_Duggun
-P 604, -493, 0, 255, 255, 0, 2, Lord_Soptyvr
-P 638, -538, 0, 255, 255, 0, 2, Lord_Sviir
-P 562, -469, 0, 255, 255, 0, 2, Lord_Syrkl
+P 213.82, -429.337, 0, 255, 255, 0, 2, Brahhm
+P 551.82, -1018.337, 0, 255, 255, 0, 2, Diggs_Duggun
+P 610.82, -249.337, 0, 255, 255, 0, 2, Lord_Soptyvr
+P 644.82, -294.337, 0, 255, 255, 0, 2, Lord_Sviir
+P 568.82, -225.337, 0, 255, 255, 0, 2, Lord_Syrkl
 
-P 475, 1210, 31.2820, 150, 0, 200, 3, to_The_Eastern_Plains_of_Karana
-P 1837.0751, -902.7319, 1.6259, 150, 0, 200, 3, to_The_Liberated_Citadel_of_Runnyeye
+P 481.82, 1453.663, 31.2820, 150, 0, 200, 3, to_The_Eastern_Plains_of_Karana
+P 1843.895, -659.069, 1.6259, 150, 0, 200, 3, to_The_Liberated_Citadel_of_Runnyeye

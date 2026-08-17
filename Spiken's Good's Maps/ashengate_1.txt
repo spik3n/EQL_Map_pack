@@ -1,1 +1,1 @@
-P 96.4950, 276.5409, -6.2779,  0, 0, 240,  2,  Kalim`Kar_the_Gold(Rk.III)
+P 314.317, 427.861, -6.2779,  0, 0, 240,  2,  Kalim`Kar_the_Gold(Rk.III)

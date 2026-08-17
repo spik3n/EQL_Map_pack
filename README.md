@@ -196,8 +196,13 @@ them from the map's **top-left dropdown** in game.
 To restore your original UI, delete the copied file and rename `EQUI_MapViewWnd.xml.bak` back to
 `EQUI_MapViewWnd.xml`.
 
-> **Patch days:** EQL's patcher can rewrite the `maps` folder on patch days. After an EQL patch,
-> re-copy your maps (or re-run the installer).
+> **Patch days:** EQL's patcher (LaunchPad) can rewrite the `maps` folder **and the
+> `default` / `default_modern` UI skins** on patch. So install the **overlay into a *custom*
+> skin** — any skin that isn't `default`/`default_modern` (e.g. a Sparxx skin, or a copy of
+> `default_modern` renamed to something of your own) — and it will survive patches, since the
+> patcher leaves custom skins alone. (A custom skin falls back to `default` for anything it
+> doesn't contain, so it only needs the files you actually customize.) After a patch, re-copy
+> your maps or re-run the installer.
 
 ### Prefer Python?
 
