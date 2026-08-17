@@ -108,10 +108,15 @@ function New-ModifiedSkin {
     $uidir = Join-Path $Root 'uifiles'
     $src = Join-Path $uidir $Base
     $dst = Join-Path $uidir $NewName
-    if (-not (Test-Path $src)) { Write-Host ("  ! '{0}' skin not found - can't create '{1}'." -f $Base, $NewName) -ForegroundColor Yellow; return $null }
-    if (Test-Path $dst) { Remove-Item -Recurse -Force $dst }
-    Write-Host ("  Copying '{0}' -> '{1}' (patch-safe classic-UI skin)..." -f $Base, $NewName)
-    Copy-Item -Recurse -Force $src $dst
+    if (Test-Path $dst) {
+        # reuse an existing Modified skin (e.g. one the SparxxUI installer already made for the
+        # target ring) so we add the overlay without wiping the ring - the two accumulate.
+        Write-Host ("  '{0}' already exists - adding to it." -f $NewName)
+    } else {
+        if (-not (Test-Path $src)) { Write-Host ("  ! '{0}' skin not found - can't create '{1}'." -f $Base, $NewName) -ForegroundColor Yellow; return $null }
+        Write-Host ("  Copying '{0}' -> '{1}' (patch-safe classic-UI skin)..." -f $Base, $NewName)
+        Copy-Item -Recurse -Force $src $dst
+    }
     $eqlsui = @(Get-ChildItem (Join-Path $dst 'EQLSUI*.xml') -ErrorAction SilentlyContinue)
     if ($eqlsui.Count -gt 0) {
         $eqlsui | Remove-Item -Force
