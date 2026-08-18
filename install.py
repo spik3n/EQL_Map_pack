@@ -152,16 +152,15 @@ def make_modified_skin(root, base, new_name):
     uidir = os.path.join(root, "uifiles")
     src = os.path.join(uidir, base)
     dst = os.path.join(uidir, new_name)
+    if not os.path.isdir(src):
+        print(f"  ! '{base}' skin not found - can't create '{new_name}'.")
+        return None
     if os.path.isdir(dst):
-        # reuse an existing Modified skin (e.g. one the SparxxUI installer already made for the
-        # target ring) so we add the overlay without wiping the ring - the two accumulate.
-        print(f"  '{new_name}' already exists - adding to it.")
+        print(f"  Refreshing '{new_name}' from '{base}' (picks up patch changes)...")
+        shutil.rmtree(dst)      # regenerate fresh so a re-run after a patch picks up the new UI
     else:
-        if not os.path.isdir(src):
-            print(f"  ! '{base}' skin not found - can't create '{new_name}'.")
-            return None
         print(f"  Copying '{base}' -> '{new_name}' (patch-safe classic-UI skin)...")
-        shutil.copytree(src, dst)
+    shutil.copytree(src, dst)
     stripped = glob.glob(os.path.join(dst, "EQLSUI*.xml"))
     for f in stripped:
         os.remove(f)

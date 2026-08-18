@@ -101,24 +101,22 @@ function Choose-Skins {
 }
 
 function New-ModifiedSkin {
-    # Copy default / default_modern to a custom name LaunchPad won't touch (it only
-    # rewrites default / default_modern), so the skin survives patches. Then strip the
-    # Gameface (EQLSUI*) files: a skin that has them uses EQL's web map, which the overlay
-    # can't control - stripping them drops the skin to the classic map, exactly like Sparxx,
-    # so the overlay renders. Anything else in the skin rides along unchanged in the copy.
+    # Regenerate a patch-safe classic-UI copy of default / default_modern under a custom name
+    # LaunchPad won't touch. DELETE any old copy first so a re-run after a patch picks up the new
+    # UI, then strip the Gameface (EQLSUI*) files so the classic map + overlay render (like Sparxx).
+    # The overlay itself is applied afterward by Apply-Overlay (which replaces EQUI_MapViewWnd.xml).
     param([string]$Root, [string]$Base, [string]$NewName)
     $uidir = Join-Path $Root 'uifiles'
     $src = Join-Path $uidir $Base
     $dst = Join-Path $uidir $NewName
+    if (-not (Test-Path $src)) { Write-Host ("  ! '{0}' skin not found - can't create '{1}'." -f $Base, $NewName) -ForegroundColor Yellow; return $null }
     if (Test-Path $dst) {
-        # reuse an existing Modified skin (e.g. one the SparxxUI installer already made for the
-        # target ring) so we add the overlay without wiping the ring - the two accumulate.
-        Write-Host ("  '{0}' already exists - adding to it." -f $NewName)
+        Write-Host ("  Refreshing '{0}' from '{1}' (picks up patch changes)..." -f $NewName, $Base)
+        Remove-Item -Recurse -Force $dst
     } else {
-        if (-not (Test-Path $src)) { Write-Host ("  ! '{0}' skin not found - can't create '{1}'." -f $Base, $NewName) -ForegroundColor Yellow; return $null }
         Write-Host ("  Copying '{0}' -> '{1}' (patch-safe classic-UI skin)..." -f $Base, $NewName)
-        Copy-Item -Recurse -Force $src $dst
     }
+    Copy-Item -Recurse -Force $src $dst
     $eqlsui = @(Get-ChildItem (Join-Path $dst 'EQLSUI*.xml') -ErrorAction SilentlyContinue)
     if ($eqlsui.Count -gt 0) {
         $eqlsui | Remove-Item -Force

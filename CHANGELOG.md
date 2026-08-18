@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.8
+
+- **Modified skins rebuild from the current UI** — the installer's "Patch-safe Modified skin"
+  option now **regenerates** Modified Default / Modified Modern from your live `default` /
+  `default_modern` each run (it deletes the old copy first), so **re-running after a game patch
+  picks up the new UI files**. They stay classic-style (Gameface stripped) so the overlay renders.
+
 ## v1.7
 
 - **Overlay reworked — centered and works at every zoom.** The see-through overlay now sizes the
