@@ -223,12 +223,12 @@ if ($uiChoice -eq 0) {
     Write-Host "  classic map + see-through overlay render (just like Sparxx), and it survives patches."
 
     $baseSel = Read-Menu "Which patch-safe skin(s)?" @(
-        "Modified Default  (from your 'default' skin)",
-        "Modified Modern   (from your 'default_modern' skin)"
+        "Modified_Default  (from your 'default' skin)",
+        "Modified_Modern   (from your 'default_modern' skin)"
     ) -AllowAll
     $pairs = @()
-    if ($baseSel -contains 0) { $pairs += , @('default', 'Modified Default') }
-    if ($baseSel -contains 1) { $pairs += , @('default_modern', 'Modified Modern') }
+    if ($baseSel -contains 0) { $pairs += , @('default', 'Modified_Default') }
+    if ($baseSel -contains 1) { $pairs += , @('default_modern', 'Modified_Modern') }
 
     $size = Get-EqResolution $root
     Show-OverlaySize $size

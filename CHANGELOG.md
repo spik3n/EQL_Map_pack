@@ -1,9 +1,17 @@
 # Changelog
 
+## v1.9
+
+- **Patch-safe skin names no longer contain spaces** — they are now `Modified_Default` /
+  `Modified_Modern` (underscore). `/loadskin` reads the skin name as a single space-delimited
+  token, so the old spaced names never loaded: the game silently fell back to `default`, which
+  is also why the overlay looked like it didn't work on them. Re-run the installer's patch-safe
+  option to rebuild the skins under the new names, then `/loadskin Modified_Modern`.
+
 ## v1.8
 
 - **Modified skins rebuild from the current UI** — the installer's "Patch-safe Modified skin"
-  option now **regenerates** Modified Default / Modified Modern from your live `default` /
+  option now **regenerates** Modified_Default / Modified_Modern from your live `default` /
   `default_modern` each run (it deletes the old copy first), so **re-running after a game patch
   picks up the new UI files**. They stay classic-style (Gameface stripped) so the overlay renders.
 
@@ -20,11 +28,11 @@
 
 ## v1.6
 
-- **Patch-safe "Modified" skins** — the installer can now build **Modified Default** / **Modified
+- **Patch-safe "Modified" skins** — the installer can now build **Modified_Default** / **Modified
   Modern** skins: it copies your `default` / `default_modern` skin under a custom name LaunchPad
   won't overwrite, **strips EQL's Gameface web-UI layer** so the classic map + see-through overlay
   render (the same reason the overlay only worked on Sparxx), and applies the overlay. So the
-  overlay now **survives patch day** instead of being wiped — just `/loadskin "Modified Default"`
+  overlay now **survives patch day** instead of being wiped — just `/loadskin Modified_Default`
   (or Modern) in game.
 - **Why the overlay never showed on Default/Modern** — those skins carry the `EQLSUI*` Gameface
   files, which route the map through EQL's web UI that a classic `EQUI_MapViewWnd.xml` can't touch.

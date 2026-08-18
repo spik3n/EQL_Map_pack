@@ -239,10 +239,10 @@ def main():
         print("\n  Patch-safe skins are classic-UI copies of your default / default_modern skin under a")
         print("  custom name LaunchPad won't overwrite. The Gameface web-UI layer is stripped so the")
         print("  classic map + overlay render (like Sparxx), and it survives patches.")
-        pair_map = {"default": "Modified Default", "default_modern": "Modified Modern"}
+        pair_map = {"default": "Modified_Default", "default_modern": "Modified_Modern"}
         bases = prompt("Which patch-safe skin(s)?", [
-            ("default",        "Modified Default  (from your 'default' skin)"),
-            ("default_modern", "Modified Modern   (from your 'default_modern' skin)"),
+            ("default",        "Modified_Default  (from your 'default' skin)"),
+            ("default_modern", "Modified_Modern   (from your 'default_modern' skin)"),
         ], allow_all=True)
         size = eq_resolution(root)
         show_overlay_size(size)
@@ -256,7 +256,7 @@ def main():
         if made:
             print("\n  Use the 'Spiken's Maps - Light' pack so lines show over the dark world.")
             for m in made:
-                print(f'  Load the skin:  /loadskin "{m}"   (or relog)')
+                print(f'  Load the skin:  /loadskin {m}   (or relog)')
 
     elif ui_choice == "existing":
         print("\n  * The Overlay makes the native map a big, see-through map centered on screen,")
