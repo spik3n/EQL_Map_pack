@@ -447,8 +447,8 @@
 			<Y>0</Y>
 		</Location>
 		<Size>
-			<CX>1344</CX>
-			<CY>756</CY>
+			<CX>1920</CX>
+			<CY>1080</CY>
 		</Size>
 		<Pieces>Label:MRA_LocYLabel</Pieces>
 		<Pieces>Label:MRA_LocYCoords</Pieces>

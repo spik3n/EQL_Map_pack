@@ -105,23 +105,20 @@ def eq_resolution(root):
         except ValueError:
             return None
 
-    windowed = vals.get("fullscreen", "1").strip() in ("0", "false", "no", "")
-    if windowed:
-        w, h = geti("windowedwidth"), geti("windowedheight")
-        if not (w and h):                       # windowed size missing -> fall back
-            w, h = geti("width"), geti("height")
-    else:
-        w, h = geti("width"), geti("height")
-    return (w, h) if (w and h and w > 0 and h > 0) else None
+    # Use the LARGER of windowed / fullscreen so a stale small windowed value can't shrink
+    # the overlay (AutoStretch adapts to the real window regardless).
+    ww, wh = geti("windowedwidth") or 0, geti("windowedheight") or 0
+    fw, fh = geti("width") or 0, geti("height") or 0
+    w, h = max(ww, fw), max(wh, fh)
+    return (w, h) if (w > 0 and h > 0) else None
 
 
 def _fit_overlay(content, size):
-    """Size the screen-anchored map to 200% of the screen. EQL positions the map's centre
-    relative to the render area, so a 2x render area lands the visible map in the lower-right
-    corner, fully on-screen. Scales to ANY resolution (1080p / 1440p / 4K / ultrawide)."""
+    """Size the screen-anchored render area to 1x the screen. With AutoStretch=true the map
+    stays centered and works at every zoom level, and adapts to any window size."""
     if not size:
         return content
-    w, h = int(size[0] * 2.0), int(size[1] * 2.0)
+    w, h = int(size[0]), int(size[1])
 
     def repl(m):
         b = re.sub(r"(<CX>)\d+(</CX>)", rf"\g<1>{w}\g<2>", m.group(0))
@@ -228,8 +225,8 @@ def main():
 
     def show_overlay_size(size):
         if size:
-            print(f"\n    Detected your EQ resolution: {size[0]}x{size[1]} - sizing the overlay to")
-            print(f"    200% ({int(size[0]*2.0)}x{int(size[1]*2.0)}) so the map sits in the lower-right corner.")
+            print(f"\n    Detected your EQ resolution: {size[0]}x{size[1]} - sizing the overlay to match")
+            print("    (centered see-through map, works at every zoom).")
         else:
             print("\n    (Couldn't read eqclient.ini - overlay stays at its default size; edit <CX>/<CY>.)")
 
@@ -263,9 +260,9 @@ def main():
                 print(f'  Load the skin:  /loadskin "{m}"   (or relog)')
 
     elif ui_choice == "existing":
-        print("\n  * The Overlay makes the native map a big, see-through map in the lower-right corner.")
-        print("    - It appears AUTOMATICALLY once loaded (no dragging); minimize the little 'Map'")
-        print("      window to hide the controls - the overlay map stays. Use 'Spiken's Maps - Light'.")
+        print("\n  * The Overlay makes the native map a big, see-through map centered on screen,")
+        print("    working at every zoom level. Minimize the little 'Map' window to hide the")
+        print("    controls - the overlay map stays. Use the 'Spiken's Maps - Light' pack.")
         print("    - IMPORTANT: needs a CLASSIC-UI skin (e.g. a Sparxx skin); it will NOT show on")
         print("      EQL's Default/Modern (Gameface) UI - use option 1 for a patch-safe classic skin.")
         size = eq_resolution(root)

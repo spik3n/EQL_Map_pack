@@ -1,8 +1,8 @@
 # See-through Map Overlay (for EQL)
 
-Turns the **native EQL map** into a big **transparent map that sits in the lower-right of your
-screen** while you play — using EQ's own UI file (`Overlay\EQUI_MapViewWnd.xml`). No add-ons, no
-external programs; live position, zoom and panning all work because it's still the native map.
+Turns the **native EQL map** into a big **transparent map centered on your screen** while you
+play — using EQ's own UI file (`Overlay\EQUI_MapViewWnd.xml`). No add-ons, no external programs;
+live position, zoom and panning all work because it's still the native map.
 
 > You do **not** need a separate "dark background" or "minimap" file — EQL's native map already
 > has those (right-click the map → **Display Types**). This overlay is the one extra piece.
@@ -11,15 +11,15 @@ external programs; live position, zoom and panning all work because it's still t
 > file can't control. The installer's **"Patch-safe Modified skin"** option handles this: it makes a
 > classic-UI copy of your `default` / `default_modern` skin (**Modified Default / Modified Modern**)
 > where the overlay works and which survives LaunchPad patches. A **Sparxx** classic skin also works.
-> Either way it's **automatic**: once installed and `/loadskin`ed, the see-through map appears in the
-> lower-right by itself — there is **no "drag it out of the frame" gesture** (dragging the map body
-> just pans it; only the small "Map" control window moves/minimizes).
+> Either way it's **automatic**: once installed and `/loadskin`ed, the see-through map appears
+> **centered on screen** by itself — there is **no "drag it out of the frame" gesture** (dragging
+> the map body just pans it; only the small "Map" control window moves/minimizes).
 
 ## How it works (read this)
 
-- The overlay resizes the map's render area to **200% of your screen resolution**. That oversized,
-  transparent render area is the **see-through map you see in the lower-right corner**. It's
-  anchored to the screen (that's what fills the corner), so you don't drag the overlay itself.
+- The overlay sizes the map's render area to your **screen resolution** with auto-stretch on, so the
+  transparent map is **centered on screen and works at every zoom level** (including full zoom-out).
+  It's anchored to the screen, so you don't drag the overlay itself.
 - The normal little **"Map" window** (search box, layer buttons, zoom, etc.) is still there and
   still works. You **move it by its title bar** and **minimize** it with the normal EQ window
   controls. **Minimizing the small Map window hides the controls but leaves the see-through
@@ -38,18 +38,12 @@ external programs; live position, zoom and panning all work because it's still t
 2. Copy `Overlay\EQUI_MapViewWnd.xml` into that same `uifiles\<your skin>\` folder.
 3. Set the render size (below), then `/loadskin <your skin>` (or relog).
 
-## Resolution — set `<CX>`/`<CY>` to 2× your screen
+## Resolution — set `<CX>`/`<CY>` to your screen size
 
-The installer reads your resolution from `eqclient.ini` and sets this automatically. Installing
-by hand, edit the `MVW_MapRenderArea` block's `<CX>`/`<CY>` to **twice** your game resolution:
-
-| Game resolution | Overlay `<CX>` × `<CY>` (2×) |
-|---|---|
-| 1920 × 1080 | 3840 × 2160 |
-| 2560 × 1440 | 5120 × 2880 |
-| 3440 × 1440 (21:9 ultrawide) | 6880 × 2880 |
-| 3840 × 2160 (4K) | 7680 × 4320 |
-| 5120 × 1440 (32:9 super-ultrawide) | 10240 × 2880 |
+The installer reads your resolution from `eqclient.ini` and sets this automatically. Installing by
+hand, edit the `MVW_MapRenderArea` block's `<CX>`/`<CY>` to **your game resolution** (e.g. `3440` ×
+`1440`) and leave `<AutoStretch>true</AutoStretch>` — it centers and adapts to your window from
+there, so the exact number isn't critical.
 
 ## Undo
 

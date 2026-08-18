@@ -69,10 +69,12 @@ function Get-EqResolution {
     foreach ($line in Get-Content $ini) {
         if ($line -match '^\s*([^=;]+?)\s*=\s*(.*)$') { $v[$matches[1].Trim().ToLower()] = $matches[2].Trim() }
     }
-    $windowed = @('0', 'false', 'no', '') -contains ("" + $v['fullscreen'])
-    $w = 0; $h = 0
-    if ($windowed) { [void][int]::TryParse($v['windowedwidth'], [ref]$w); [void][int]::TryParse($v['windowedheight'], [ref]$h) }
-    if (-not ($w -gt 0 -and $h -gt 0)) { [void][int]::TryParse($v['width'], [ref]$w); [void][int]::TryParse($v['height'], [ref]$h) }
+    # Use the LARGER of windowed / fullscreen so a stale small windowed value can't
+    # shrink the overlay (AutoStretch adapts to the real window regardless).
+    $ww = 0; $wh = 0; $fw = 0; $fh = 0
+    [void][int]::TryParse($v['windowedwidth'], [ref]$ww); [void][int]::TryParse($v['windowedheight'], [ref]$wh)
+    [void][int]::TryParse($v['width'], [ref]$fw); [void][int]::TryParse($v['height'], [ref]$fh)
+    $w = [Math]::Max($ww, $fw); $h = [Math]::Max($wh, $fh)
     if ($w -gt 0 -and $h -gt 0) { return @($w, $h) }
     return $null
 }
@@ -132,7 +134,7 @@ function Apply-Overlay {
     $src = Join-Path $Here 'UI Overlay\Overlay\EQUI_MapViewWnd.xml'
     $content = [System.IO.File]::ReadAllText($src, $Latin1)
     if ($Size) {
-        $w = [int]$Size[0] * 2; $h = [int]$Size[1] * 2   # overlay = 200% of the screen (fills the lower-right)
+        $w = [int]$Size[0]; $h = [int]$Size[1]   # render area = 1x screen (AutoStretch=true -> centered, all zooms)
         $content = [regex]::Replace($content, '(?s)(<Screen item="MVW_MapRenderArea">.*?<Size>\s*<CX>)\d+(</CX>\s*<CY>)\d+(</CY>)', ('${1}' + $w + '${2}' + $h + '${3}'))
     }
     foreach ($skin in $Skins) {
@@ -202,7 +204,7 @@ foreach ($i in $sel) {
 function Show-OverlaySize {
     param($Size)
     if ($Size) {
-        Write-Host ("`n    Detected your EQ resolution: {0}x{1} - sizing the overlay to 200% ({2}x{3})." -f $Size[0], $Size[1], ($Size[0] * 2), ($Size[1] * 2)) -ForegroundColor Green
+        Write-Host ("`n    Detected your EQ resolution: {0}x{1} - sizing the overlay to match (centered, all zooms)." -f $Size[0], $Size[1]) -ForegroundColor Green
     } else {
         Write-Host "`n    (Couldn't read eqclient.ini - overlay stays at its default size; edit <CX>/<CY> if needed.)" -ForegroundColor Yellow
     }
@@ -249,9 +251,9 @@ if ($uiChoice -eq 0) {
 elseif ($uiChoice -eq 1) {
     # ---- overlay into an existing skin ----
     Write-Host ""
-    Write-Host "  * The overlay makes the native map a big see-through map in the lower-right of the screen."
-    Write-Host "    It appears AUTOMATICALLY once loaded (no dragging) - minimize the little 'Map' window"
-    Write-Host "    to hide the controls; the overlay map stays. Use the 'Spiken's Maps - Light' pack."
+    Write-Host "  * The overlay makes the native map a big see-through map centered on screen, working"
+    Write-Host "    at every zoom. Minimize the little 'Map' window to hide the controls - the overlay"
+    Write-Host "    map stays. Use the 'Spiken's Maps - Light' pack."
     Write-Host "    IMPORTANT: the overlay needs a CLASSIC-UI skin (e.g. a Sparxx skin). It will NOT show" -ForegroundColor Yellow
     Write-Host "    on EQL's Default/Modern (Gameface) UI - use option 1 for a patch-safe classic skin." -ForegroundColor Yellow
     $size = Get-EqResolution $root

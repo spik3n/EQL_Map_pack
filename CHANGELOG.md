@@ -1,5 +1,16 @@
 # Changelog
 
+## v1.7
+
+- **Overlay reworked — centered and works at every zoom.** The see-through overlay now sizes the
+  map's render area to **1× your screen** (was 2×) with auto-stretch on, so the map renders
+  **centered on screen and stays visible at every zoom level, including full zoom-out**. The old 2×
+  version pushed the map into the lower-right and blanked out when zoomed all the way out. It also
+  **adapts to any window size** and no longer slides around as you move.
+- **Installer fixes** — the installer + Modified skins produce the new centered overlay, and
+  resolution detection now uses the **larger of your windowed/fullscreen** size, so a stale
+  windowed value in `eqclient.ini` can't mis-size it.
+
 ## v1.6
 
 - **Patch-safe "Modified" skins** — the installer can now build **Modified Default** / **Modified
