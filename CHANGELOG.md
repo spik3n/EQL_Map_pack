@@ -1,5 +1,14 @@
 # Changelog
 
+## v1.10
+
+- **Modified skins are additive, not recreated.** If `Modified_Default` / `Modified_Modern`
+  already exists (e.g. it already carries the SparxxUI target ring), the installer now **adds
+  the overlay into the existing skin** instead of deleting and rebuilding it — so the ring and
+  the map overlay coexist in one skin. (Reverses v1.8's regenerate behavior, which wiped the
+  other pack's changes.) To refresh a skin from a game patch's UI, delete the skin folder and
+  re-run.
+
 ## v1.9
 
 - **Patch-safe skin names no longer contain spaces** — they are now `Modified_Default` /

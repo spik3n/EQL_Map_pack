@@ -101,21 +101,22 @@ function Choose-Skins {
 }
 
 function New-ModifiedSkin {
-    # Regenerate a patch-safe classic-UI copy of default / default_modern under a custom name
-    # LaunchPad won't touch. DELETE any old copy first so a re-run after a patch picks up the new
-    # UI, then strip the Gameface (EQLSUI*) files so the classic map + overlay render (like Sparxx).
+    # Make (or REUSE) a patch-safe classic-UI copy of default / default_modern under a custom name
+    # LaunchPad won't touch. If the skin already exists it is LEFT IN PLACE and the caller just
+    # applies the overlay into it - so a skin already carrying the Sparxx ring (or anything else)
+    # keeps it. Only a brand-new skin is copied from the base and Gameface-stripped so the classic
+    # map + overlay render. To pull in a game patch's UI, delete the skin folder and re-run.
     # The overlay itself is applied afterward by Apply-Overlay (which replaces EQUI_MapViewWnd.xml).
     param([string]$Root, [string]$Base, [string]$NewName)
     $uidir = Join-Path $Root 'uifiles'
     $src = Join-Path $uidir $Base
     $dst = Join-Path $uidir $NewName
-    if (-not (Test-Path $src)) { Write-Host ("  ! '{0}' skin not found - can't create '{1}'." -f $Base, $NewName) -ForegroundColor Yellow; return $null }
     if (Test-Path $dst) {
-        Write-Host ("  Refreshing '{0}' from '{1}' (picks up patch changes)..." -f $NewName, $Base)
-        Remove-Item -Recurse -Force $dst
-    } else {
-        Write-Host ("  Copying '{0}' -> '{1}' (patch-safe classic-UI skin)..." -f $Base, $NewName)
+        Write-Host ("  '{0}' already exists - adding to it (keeping any other changes)." -f $NewName)
+        return $NewName
     }
+    if (-not (Test-Path $src)) { Write-Host ("  ! '{0}' skin not found - can't create '{1}'." -f $Base, $NewName) -ForegroundColor Yellow; return $null }
+    Write-Host ("  Copying '{0}' -> '{1}' (patch-safe classic-UI skin)..." -f $Base, $NewName)
     Copy-Item -Recurse -Force $src $dst
     $eqlsui = @(Get-ChildItem (Join-Path $dst 'EQLSUI*.xml') -ErrorAction SilentlyContinue)
     if ($eqlsui.Count -gt 0) {

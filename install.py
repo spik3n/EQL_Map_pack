@@ -144,22 +144,22 @@ def apply_ui(root, ui, skins, size=None):
 
 
 def make_modified_skin(root, base, new_name):
-    """Copy default / default_modern to a custom name LaunchPad won't overwrite (it only
-    rewrites default / default_modern), so the skin survives patches. Strip the Gameface
-    (EQLSUI*) files so the classic map + overlay render (like Sparxx) - a skin with them uses
-    EQL's web map, which the overlay can't control. Anything else in the skin rides along
-    unchanged. Returns new_name, or None if the base skin is missing."""
+    """Make (or REUSE) a patch-safe classic-UI copy of default / default_modern under a custom name
+    LaunchPad won't overwrite. If the skin already exists it is LEFT IN PLACE and the caller just
+    applies the overlay into it - so a skin already carrying the Sparxx ring (or anything else)
+    keeps it. Only a brand-new skin is copied from the base and Gameface-stripped so the classic
+    map + overlay render. To pull in a game patch's UI, delete the skin folder and re-run.
+    Returns new_name, or None if the base skin is missing."""
     uidir = os.path.join(root, "uifiles")
     src = os.path.join(uidir, base)
     dst = os.path.join(uidir, new_name)
+    if os.path.isdir(dst):
+        print(f"  '{new_name}' already exists - adding to it (keeping any other changes).")
+        return new_name
     if not os.path.isdir(src):
         print(f"  ! '{base}' skin not found - can't create '{new_name}'.")
         return None
-    if os.path.isdir(dst):
-        print(f"  Refreshing '{new_name}' from '{base}' (picks up patch changes)...")
-        shutil.rmtree(dst)      # regenerate fresh so a re-run after a patch picks up the new UI
-    else:
-        print(f"  Copying '{base}' -> '{new_name}' (patch-safe classic-UI skin)...")
+    print(f"  Copying '{base}' -> '{new_name}' (patch-safe classic-UI skin)...")
     shutil.copytree(src, dst)
     stripped = glob.glob(os.path.join(dst, "EQLSUI*.xml"))
     for f in stripped:
